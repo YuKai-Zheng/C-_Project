@@ -1,0 +1,167 @@
+
+dl_chaifen_renwu.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chouma
+  rotate: true
+  xy: 552, 515
+  size: 493, 554
+  orig: 493, 554
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: true
+  xy: 138, 17
+  size: 23, 43
+  orig: 23, 43
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 183, 294
+  size: 137, 163
+  orig: 137, 163
+  offset: 0, 0
+  index: -1
+poke01
+  rotate: false
+  xy: 1782, 646
+  size: 76, 62
+  orig: 76, 62
+  offset: 0, 0
+  index: -1
+poke02
+  rotate: false
+  xy: 322, 348
+  size: 55, 38
+  orig: 55, 38
+  offset: 0, 0
+  index: -1
+poke03
+  rotate: false
+  xy: 1782, 832
+  size: 251, 176
+  orig: 251, 176
+  offset: 0, 0
+  index: -1
+qugan
+  rotate: true
+  xy: 1108, 634
+  size: 374, 672
+  orig: 374, 672
+  offset: 0, 0
+  index: -1
+toufa01
+  rotate: true
+  xy: 552, 473
+  size: 40, 149
+  orig: 40, 149
+  offset: 0, 0
+  index: -1
+toufa02
+  rotate: false
+  xy: 1898, 725
+  size: 31, 105
+  orig: 31, 105
+  offset: 0, 0
+  index: -1
+toufa03
+  rotate: true
+  xy: 2, 2
+  size: 38, 134
+  orig: 38, 134
+  offset: 0, 0
+  index: -1
+toufa04
+  rotate: true
+  xy: 1108, 559
+  size: 73, 236
+  orig: 73, 236
+  offset: 0, 0
+  index: -1
+toufa05
+  rotate: true
+  xy: 1108, 518
+  size: 39, 128
+  orig: 39, 128
+  offset: 0, 0
+  index: -1
+toufa06
+  rotate: true
+  xy: 703, 475
+  size: 38, 78
+  orig: 38, 78
+  offset: 0, 0
+  index: -1
+toufa07
+  rotate: true
+  xy: 1238, 533
+  size: 24, 87
+  orig: 24, 87
+  offset: 0, 0
+  index: -1
+toufa08
+  rotate: true
+  xy: 1346, 574
+  size: 58, 106
+  orig: 58, 106
+  offset: 0, 0
+  index: -1
+toufa10
+  rotate: false
+  xy: 183, 122
+  size: 40, 62
+  orig: 40, 62
+  offset: 0, 0
+  index: -1
+toufa11
+  rotate: false
+  xy: 183, 186
+  size: 57, 106
+  orig: 57, 106
+  offset: 0, 0
+  index: -1
+toufa12
+  rotate: false
+  xy: 2, 42
+  size: 179, 415
+  orig: 179, 415
+  offset: 0, 0
+  index: -1
+touifa09
+  rotate: false
+  xy: 242, 257
+  size: 59, 35
+  orig: 59, 35
+  offset: 0, 0
+  index: -1
+xiuzi
+  rotate: false
+  xy: 322, 388
+  size: 90, 69
+  orig: 90, 69
+  offset: 0, 0
+  index: -1
+xiuzi2
+  rotate: false
+  xy: 1782, 710
+  size: 114, 120
+  orig: 114, 120
+  offset: 0, 0
+  index: -1
+xiuzi3
+  rotate: false
+  xy: 1454, 590
+  size: 68, 42
+  orig: 68, 42
+  offset: 0, 0
+  index: -1
+yizi
+  rotate: false
+  xy: 2, 459
+  size: 548, 549
+  orig: 548, 549
+  offset: 0, 0
+  index: -1

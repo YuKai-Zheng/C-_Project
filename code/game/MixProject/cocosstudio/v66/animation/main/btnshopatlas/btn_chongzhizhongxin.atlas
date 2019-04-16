@@ -1,0 +1,251 @@
+
+btn_chongzhizhongxin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 474, 341
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 946, 794
+  size: 191, 66
+  orig: 191, 66
+  offset: 0, 0
+  index: -1
+bklight003_1
+  rotate: false
+  xy: 2, 855
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_10
+  rotate: false
+  xy: 710, 855
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_11
+  rotate: false
+  xy: 2, 327
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_12
+  rotate: false
+  xy: 238, 459
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_13
+  rotate: false
+  xy: 474, 591
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_14
+  rotate: false
+  xy: 710, 723
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_15
+  rotate: false
+  xy: 2, 195
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_16
+  rotate: false
+  xy: 238, 327
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_17
+  rotate: false
+  xy: 474, 459
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_18
+  rotate: false
+  xy: 710, 591
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_19
+  rotate: false
+  xy: 2, 63
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_2
+  rotate: false
+  xy: 2, 723
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_3
+  rotate: false
+  xy: 238, 855
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_4
+  rotate: false
+  xy: 2, 591
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_5
+  rotate: false
+  xy: 238, 723
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_6
+  rotate: false
+  xy: 474, 855
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_7
+  rotate: false
+  xy: 2, 459
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_8
+  rotate: false
+  xy: 238, 591
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+bklight003_9
+  rotate: false
+  xy: 474, 723
+  size: 234, 130
+  orig: 234, 130
+  offset: 0, 0
+  index: -1
+jinbishansuo (1)
+  rotate: false
+  xy: 474, 398
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (14)
+  rotate: false
+  xy: 474, 398
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (10)
+  rotate: false
+  xy: 710, 530
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (11)
+  rotate: false
+  xy: 710, 530
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (12)
+  rotate: false
+  xy: 2, 2
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (13)
+  rotate: false
+  xy: 2, 2
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (2)
+  rotate: false
+  xy: 946, 733
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (3)
+  rotate: false
+  xy: 946, 733
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (4)
+  rotate: false
+  xy: 238, 205
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (5)
+  rotate: false
+  xy: 238, 205
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (6)
+  rotate: false
+  xy: 297, 266
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (7)
+  rotate: false
+  xy: 297, 266
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (9)
+  rotate: false
+  xy: 238, 266
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+jinbishansuo (8)
+  rotate: false
+  xy: 238, 266
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1

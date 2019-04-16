@@ -1,0 +1,41 @@
+
+cs_jinyu.png
+size: 411,178
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: true
+  xy: 2, 3
+  size: 173, 170
+  orig: 173, 170
+  offset: 0, 0
+  index: -1
+p1
+  rotate: false
+  xy: 341, 100
+  size: 68, 76
+  orig: 68, 76
+  offset: 0, 0
+  index: -1
+p2
+  rotate: false
+  xy: 341, 2
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+qi
+  rotate: false
+  xy: 341, 50
+  size: 55, 48
+  orig: 55, 48
+  offset: 0, 0
+  index: -1
+yu
+  rotate: true
+  xy: 174, 8
+  size: 168, 165
+  orig: 168, 165
+  offset: 0, 0
+  index: -1

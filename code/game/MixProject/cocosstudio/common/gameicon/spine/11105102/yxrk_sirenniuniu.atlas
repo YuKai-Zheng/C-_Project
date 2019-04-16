@@ -1,0 +1,167 @@
+
+yxrk_sirenniuniu.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FOUR COWS
+  rotate: false
+  xy: 1210, 1735
+  size: 183, 85
+  orig: 183, 85
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 908, 1162
+  size: 245, 462
+  orig: 245, 462
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: false
+  xy: 819, 752
+  size: 10, 28
+  orig: 10, 28
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 606, 348
+  size: 211, 432
+  orig: 211, 432
+  offset: 0, 0
+  index: -1
+shengsheng-(1)
+  rotate: false
+  xy: 2, 1204
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(10)
+  rotate: false
+  xy: 304, 1626
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(11)
+  rotate: false
+  xy: 2, 782
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(12)
+  rotate: false
+  xy: 304, 1204
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(13)
+  rotate: false
+  xy: 606, 1626
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(2)
+  rotate: false
+  xy: 2, 360
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(3)
+  rotate: false
+  xy: 304, 782
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(4)
+  rotate: false
+  xy: 606, 1204
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(5)
+  rotate: false
+  xy: 908, 1626
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(6)
+  rotate: false
+  xy: 304, 360
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(7)
+  rotate: true
+  xy: 2, 58
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(8)
+  rotate: false
+  xy: 606, 782
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shengsheng-(9)
+  rotate: false
+  xy: 2, 1626
+  size: 300, 420
+  orig: 300, 420
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 1210, 1822
+  size: 224, 460
+  orig: 224, 460
+  offset: 0, 0
+  index: -1
+shoubi
+  rotate: false
+  xy: 908, 841
+  size: 118, 319
+  orig: 118, 319
+  offset: 0, 0
+  index: -1
+toufa01
+  rotate: false
+  xy: 1155, 1527
+  size: 33, 97
+  orig: 33, 97
+  offset: 0, 0
+  index: -1
+toufa02
+  rotate: false
+  xy: 1672, 1924
+  size: 60, 122
+  orig: 60, 122
+  offset: 0, 0
+  index: -1
+toufa03
+  rotate: false
+  xy: 424, 283
+  size: 53, 75
+  orig: 53, 75
+  offset: 0, 0
+  index: -1
+toufa04
+  rotate: true
+  xy: 2, 2
+  size: 54, 132
+  orig: 54, 132
+  offset: 0, 0
+  index: -1

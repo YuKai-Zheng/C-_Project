@@ -1,0 +1,160 @@
+
+yxrk_shuiguolaba.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ONE PIECE
+  rotate: false
+  xy: 462, 416
+  size: 171, 84
+  orig: 171, 84
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 38
+  size: 245, 462
+  orig: 245, 462
+  offset: 0, 0
+  index: -1
+gundong (1)
+  rotate: false
+  xy: 635, 440
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (2)
+  rotate: false
+  xy: 635, 440
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (3)
+  rotate: false
+  xy: 635, 440
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (10)
+  rotate: false
+  xy: 462, 292
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (11)
+  rotate: false
+  xy: 462, 292
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (12)
+  rotate: false
+  xy: 462, 292
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (13)
+  rotate: false
+  xy: 529, 354
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (14)
+  rotate: false
+  xy: 529, 354
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (15)
+  rotate: false
+  xy: 529, 354
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (16)
+  rotate: false
+  xy: 702, 440
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (17)
+  rotate: false
+  xy: 702, 440
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (18)
+  rotate: false
+  xy: 702, 440
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (4)
+  rotate: false
+  xy: 462, 230
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (5)
+  rotate: false
+  xy: 462, 230
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (6)
+  rotate: false
+  xy: 462, 230
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (9)
+  rotate: false
+  xy: 462, 354
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (7)
+  rotate: false
+  xy: 462, 354
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+gundong (8)
+  rotate: false
+  xy: 462, 354
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 249, 68
+  size: 211, 432
+  orig: 211, 432
+  offset: 0, 0
+  index: -1
+yaogan
+  rotate: true
+  xy: 2, 2
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1

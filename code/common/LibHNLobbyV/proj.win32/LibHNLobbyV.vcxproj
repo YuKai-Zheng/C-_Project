@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v100\GameInitialV100.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v100\GameMenuV100.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v100\InitialCompositeV100.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\BottomMenuCompositeV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameListCompositeV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameListsV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameMenuV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GamePlatformV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameTypeCompositeV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\PlatformResV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\RoomListCompositeV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\TopMenuCompositeV3.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\BindPhone.hpp" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\BottomMenuCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\BreakLineLogin.hpp" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\DeskListComposite.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\ExchangeManager.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\ExtraReward.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\FindPwCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameAutographV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameBankEnsureV66.hpp" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameBankV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameGiftV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameLandCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameListCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameLogOnCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameMenuCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameMenuV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameMusiceEffectV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GamePlatformV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameRankV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameRegisterCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameSetLayerV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameShopV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameTypeCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameUserHeadV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameUserV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\IGameLoadingUI.hpp" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\IGameTableUI.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\InitialCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\InvitedCodeLayerV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\NoticeLayerV66.hpp" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PlatformResV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeOfMy.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignArticle.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignLayer.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignManager.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignResult.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignSecret.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\RechargeManager.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\RoomListCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\TopMenuCompositeV66.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\WelfareManager.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\BottomMenuCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\FindPwCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameAutographV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameBankV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameLandCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameListCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameLogOnCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameMenuCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameMenuV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameMusiceEffectV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GamePlatformV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameRankV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameRegisterCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameSetLayerV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameShopV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameUserHeadV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameUserV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\InitialCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\InvitedCodeLayerV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\PlatformResV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\RoomListCompositeV88.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\TopMenuCompositeV88.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v100\GameInitialV100.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v100\GameMenuV100.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v100\InitialCompositeV100.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\BottomMenuCompositeV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameListCompositeV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameListsV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameMenuV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GamePlatformV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameTypeCompositeV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\RoomListCompositeV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\TopMenuCompositeV3.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\BindPhone.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\BottomMenuCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\BreakLineLogin.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\DeskListComposite.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\ExchangeManager.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\FindPwCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameAutographV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameBankEnsureV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameBankV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameGiftV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameLandCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameListCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameLogOnCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameMenuCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameMenuV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameMusiceEffectV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GamePlatformV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameRankV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameRegisterCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameSetLayerV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameShopV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameTypeCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameUserHeadV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameUserV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\IGameLoadingUI.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\IGameTableUI.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\InitialCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\InvitedCodeLayerV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\NoticeLayerV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeOfMy.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignArticle.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignLayer.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignManager.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignResult.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignSecret.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\RechargeManager.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\RoomListCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\TopMenuCompositeV66.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\WelfareManager.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\BottomMenuCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\FindPwCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameAutographV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameBankV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameLandCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameListCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameLogOnCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameMenuCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameMenuV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameMusiceEffectV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GamePlatformV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameRankV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameRegisterCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameSetLayerV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameShopV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameUserHeadV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameUserV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\InitialCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\InvitedCodeLayerV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\RoomListCompositeV88.cpp" />
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\TopMenuCompositeV88.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E72B8363-C6E1-4B29-B704-122DB0798383}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectName>LibHNLobbyV</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\LibHNMarket;..\..\LibHNNet;..\..\LibHNUI;..\..\LibHNLobby;..\..\LibHNLogic;..\..\LibHNOpen;..\..\..\game\MixProject\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4819;4244</DisableSpecificWarnings>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\LibHNMarket;..\..\LibHNNet;..\..\LibHNUI;..\..\LibHNLobby;..\..\LibHNLogic;..\..\LibHNOpen;..\..\..\game\MixProject\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

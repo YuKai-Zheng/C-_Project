@@ -1,0 +1,13 @@
+一、检查项目冗余资源【目前只支持图片资源】
+0.收集游戏资源信息文件
+	要先在Win下运行游戏，把所有的功能的都跑一遍,尽可能多地收集游戏中用到的资源。之后会在Resources下
+	生成一个texture_info.txt。这在我们后面会用到的游戏资源信息文件。	
+1.配置CheckResource.bat
+	Local_Dir:可能存在冗余资源的目录，即Resources所在的目录
+	MODE：调试模式（Debug/Release）
+	Game_Res_Info_File:texture_info所在的目录
+2.运行CheckResource.bat后，会生成redundantRes.txt。里面就是项目中冗余的资源。
+BTW:
+1.仅在Win平台下使用
+2.所有的目录都要使用绝对路径
+====================================================================================================

@@ -1,0 +1,13 @@
+
+effect_youche_light.png
+size: 64,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangxiao
+  rotate: false
+  xy: 2, 2
+  size: 44, 219
+  orig: 44, 219
+  offset: 0, 0
+  index: -1

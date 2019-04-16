@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\FruitSlot\Classes\GameMessage\FruitSlotMessageHead.h" />
+    <ClInclude Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableLogic.h" />
+    <ClInclude Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableUI.h" />
+    <ClInclude Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableUICallback.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadEnums.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadMessageHead.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadVersion.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameAudio.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameFishObject.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameMathAide.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameSceneFishTrace.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameTableLogic.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameTableUICallback.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameBulletV88.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameFishManagerV88.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameLoadingV88.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGamePlayerV88.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameTableUIV88.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameToolbarV88.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameMessage\NewYearInGameMessageHead.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameMessage\NewYearMessageHead.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearActivityOne.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearActivityTwo.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableLogic.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableUI.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableUICallback.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NSAnimationTool.h" />
+    <ClInclude Include="..\..\NewYearActivity\Classes\v88\TurnTablreGameTableUIV88.h" />
+    <ClInclude Include="..\..\NN\Classes\GameMessage\NNCommonDef.h" />
+    <ClInclude Include="..\..\NN\Classes\GameTable\NNGameTableLogic.h" />
+    <ClInclude Include="..\..\NN\Classes\GameTable\NNGameTableUICallback.h" />
+    <ClInclude Include="..\..\NN\Classes\v88\NNGameTableUIv88.h" />
+    <ClInclude Include="..\..\NN\Classes\v88\NNPlayerHeadv88.h" />
+    <ClInclude Include="..\..\NN\Classes\v88\NNPokerCardv88.h" />
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameMessage\OnePieceSlotMessageHead.h" />
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableLogic.h" />
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableUI.h" />
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableUICallback.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameMessage\ThirteenZhangMessageHead.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameLogic.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameTableLogic.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameTableUICallback.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangSoundHelper.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardBoardv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardFrameWrapperv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardSpritev88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangGameTableUIv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangHandCardWrapperv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangPlayerWrapperv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangResourceMgrv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangScoreWrapperv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangSettlementLayerv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangTimerWrapperv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangWrapperv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\TZhangCardControlv88.h" />
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\TZhangCardTypeCellv88.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableLogic.cpp" />
+    <ClCompile Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableUI.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadVersion.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameAudio.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameFishObject.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameMathAide.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameSceneFishTrace.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameTableLogic.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameBulletV88.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameFishManagerV88.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameLoadingV88.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGamePlayerV88.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameToolbarV88.cpp" />
+    <ClCompile Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableLogic.cpp" />
+    <ClCompile Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableUI.cpp" />
+    <ClCompile Include="..\..\NewYearActivity\Classes\GameTable\NSAnimationTool.cpp" />
+    <ClCompile Include="..\..\NewYearActivity\Classes\v88\TurnTablreGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\NN\Classes\GameTable\NNGameTableLogic.cpp" />
+    <ClCompile Include="..\..\NN\Classes\v88\NNGameTableUIv88.cpp" />
+    <ClCompile Include="..\..\NN\Classes\v88\NNPlayerHeadv88.cpp" />
+    <ClCompile Include="..\..\NN\Classes\v88\NNPokerCardv88.cpp" />
+    <ClCompile Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableLogic.cpp" />
+    <ClCompile Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableUI.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameLogic.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameTableLogic.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangSoundHelper.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardBoardv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardFrameWrapperv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardSpritev88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangGameTableUIv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangHandCardWrapperv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangPlayerWrapperv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangResourceMgrv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangScoreWrapperv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangSettlementLayerv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangTimerWrapperv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangWrapperv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\TZhangCardControlv88.cpp" />
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\TZhangCardTypeCellv88.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99791085-A48B-4E60-96D0-5FC1CCF1CA97}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectName>LibHNGame3</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNUI;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLogic;..\..\..\common\LibHNOpen;..\..\BJL\Classes\GameTable;..\..\BJL\Classes\GameMessage;..\..\TTNN\Classes\GameTable;..\..\TTNN\Classes\GameMessage;..\..\BRXJ\Classes\GameTable;..\..\BRXJ\Classes\GameMessage;..\..\GoldenToad\Classes\GameTable;..\..\GoldenToad\Classes\GameMessage;..\..\NewYearActivity\Classes\GameMessage;..\..\NewYearActivity\Classes\GameTable;..\..\ThirteenZhang\Classes\GameTable;..\..\ThirteenZhang\Classes\GameMessage;..\..\Stud\Classes\GameMessage;..\..\Stud\Classes\GameTable;..\..\LuckyEnvelope\Classes\GameMessage;..\..\LuckyEnvelope\Classes\GameTable;..\..\21D\Classes\GameMessage;..\..\21D\Classes\GameTable;..\..\BB\Classes\GameMessage;..\..\BB\Classes\GameTable;..\..\NN\Classes\GameMessage;..\..\NN\Classes\GameTable;..\..\HappyGoldenFlower\Classes\GameMessage;..\..\HappyGoldenFlower\Classes\GameTable;..\..\FruitSlot\Classes\GameMessage;..\..\FruitSlot\Classes\GameTable;..\..\OnePieceSlot\Classes\GameMessage;..\..\OnePieceSlot\Classes\GameTable;..\..\MixProject\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4819;4244</DisableSpecificWarnings>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNUI;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLogic;..\..\..\common\LibHNOpen;..\..\BJL\Classes\GameTable;..\..\BJL\Classes\GameMessage;..\..\TTNN\Classes\GameTable;..\..\TTNN\Classes\GameMessage;..\..\BRXJ\Classes\GameTable;..\..\BRXJ\Classes\GameMessage;..\..\GoldenToad\Classes\GameTable;..\..\GoldenToad\Classes\GameMessage;..\..\NewYearActivity\Classes\GameMessage;..\..\NewYearActivity\Classes\GameTable;..\..\ThirteenZhang\Classes\GameTable;..\..\ThirteenZhang\Classes\GameMessage;..\..\Stud\Classes\GameMessage;..\..\Stud\Classes\GameTable;..\..\LuckyEnvelope\Classes\GameMessage;..\..\LuckyEnvelope\Classes\GameTable;..\..\21D\Classes\GameMessage;..\..\21D\Classes\GameTable;..\..\BB\Classes\GameMessage;..\..\BB\Classes\GameTable;..\..\NN\Classes\GameMessage;..\..\NN\Classes\GameTable;..\..\HappyGoldenFlower\Classes\GameMessage;..\..\HappyGoldenFlower\Classes\GameTable;..\..\FruitSlot\Classes\GameMessage;..\..\FruitSlot\Classes\GameTable;..\..\OnePieceSlot\Classes\GameMessage;..\..\OnePieceSlot\Classes\GameTable;..\..\MixProject\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

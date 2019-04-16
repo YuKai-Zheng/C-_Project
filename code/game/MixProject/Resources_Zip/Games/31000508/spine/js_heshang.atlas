@@ -1,0 +1,97 @@
+
+js_heshang.png
+size: 859,186
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 182, 7
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 178, 182
+  orig: 178, 182
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 802, 33
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+f2
+  rotate: true
+  xy: 802, 33
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 760, 82
+  size: 97, 102
+  orig: 97, 102
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 510, 75
+  size: 109, 103
+  orig: 109, 103
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 585, 23
+  size: 50, 82
+  orig: 50, 82
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 669, 5
+  size: 72, 104
+  orig: 72, 104
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 361, 5
+  size: 78, 179
+  orig: 78, 179
+  offset: 0, 0
+  index: -1
+x1
+  rotate: true
+  xy: 510, 14
+  size: 59, 73
+  orig: 59, 73
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 743, 11
+  size: 57, 69
+  orig: 57, 69
+  offset: 0, 0
+  index: -1
+z
+  rotate: true
+  xy: 615, 111
+  size: 73, 143
+  orig: 73, 143
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 441, 15
+  size: 169, 67
+  orig: 169, 67
+  offset: 0, 0
+  index: -1

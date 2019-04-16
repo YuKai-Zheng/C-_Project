@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>atlas_white.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{544,40}</string>
+                <key>spriteSourceSize</key>
+                <string>{544,40}</string>
+                <key>textureRect</key>
+                <string>{{0,0},{544,40}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>atlas_white.pvr.ccz</string>
+            <key>size</key>
+            <string>{544,40}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:170e5eec963391e4290f35d8775fd975:1d109213458ad9a7668de76592ae9ff5:963e6590db3e8edaddd8f29750c72d3f$</string>
+            <key>textureFileName</key>
+            <string>atlas_white.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

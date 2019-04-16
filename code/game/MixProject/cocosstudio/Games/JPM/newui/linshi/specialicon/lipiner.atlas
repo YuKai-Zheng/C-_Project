@@ -1,0 +1,160 @@
+
+lipiner.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dibuyoupiaodai
+  rotate: true
+  xy: 423, 413
+  size: 188, 233
+  orig: 188, 233
+  offset: 0, 0
+  index: -1
+dibuzhongpiaodai
+  rotate: true
+  xy: 2, 28
+  size: 286, 209
+  orig: 286, 209
+  offset: 0, 0
+  index: -1
+dibuzuopiaodai2
+  rotate: false
+  xy: 436, 764
+  size: 295, 226
+  orig: 295, 226
+  offset: 0, 0
+  index: -1
+dibuzuopiaodaio
+  rotate: false
+  xy: 213, 174
+  size: 171, 144
+  orig: 171, 144
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: false
+  xy: 691, 741
+  size: 7, 21
+  orig: 7, 21
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 735, 492
+  size: 58, 77
+  orig: 58, 77
+  offset: 0, 0
+  index: -1
+maisui
+  rotate: true
+  xy: 298, 48
+  size: 124, 87
+  orig: 124, 87
+  offset: 0, 0
+  index: -1
+qugan
+  rotate: false
+  xy: 204, 676
+  size: 230, 314
+  orig: 230, 314
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: false
+  xy: 984, 723
+  size: 38, 98
+  orig: 38, 98
+  offset: 0, 0
+  index: -1
+youbianlingdang
+  rotate: true
+  xy: 2, 2
+  size: 24, 93
+  orig: 24, 93
+  offset: 0, 0
+  index: -1
+youbipiaodai1
+  rotate: false
+  xy: 204, 433
+  size: 217, 241
+  orig: 217, 241
+  offset: 0, 0
+  index: -1
+youbipiaodai2
+  rotate: false
+  xy: 658, 488
+  size: 75, 81
+  orig: 75, 81
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: true
+  xy: 2, 316
+  size: 327, 193
+  orig: 327, 193
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 386, 376
+  size: 55, 28
+  orig: 55, 28
+  offset: 0, 0
+  index: -1
+youtuii
+  rotate: false
+  xy: 733, 719
+  size: 249, 102
+  orig: 249, 102
+  offset: 0, 0
+  index: -1
+zhongbutoufa
+  rotate: true
+  xy: 197, 320
+  size: 111, 187
+  orig: 111, 187
+  offset: 0, 0
+  index: -1
+zuobi
+  rotate: false
+  xy: 213, 35
+  size: 83, 137
+  orig: 83, 137
+  offset: 0, 0
+  index: -1
+zuobianlingdang
+  rotate: false
+  xy: 942, 643
+  size: 36, 74
+  orig: 36, 74
+  offset: 0, 0
+  index: -1
+zuobipiaodai1
+  rotate: false
+  xy: 691, 571
+  size: 249, 146
+  orig: 249, 146
+  offset: 0, 0
+  index: -1
+zuobipiaodai2
+  rotate: false
+  xy: 733, 823
+  size: 289, 167
+  orig: 289, 167
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 2, 645
+  size: 200, 345
+  orig: 200, 345
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 436, 603
+  size: 253, 159
+  orig: 253, 159
+  offset: 0, 0
+  index: -1

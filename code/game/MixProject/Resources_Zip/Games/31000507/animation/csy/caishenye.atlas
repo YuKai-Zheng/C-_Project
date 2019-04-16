@@ -1,0 +1,83 @@
+
+caishenye.png
+size: 987,841
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongling
+  rotate: false
+  xy: 2, 312
+  size: 428, 527
+  orig: 428, 527
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 432, 327
+  size: 401, 512
+  orig: 401, 512
+  offset: 0, 0
+  index: -1
+qunbai
+  rotate: false
+  xy: 835, 330
+  size: 115, 87
+  orig: 115, 87
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 773, 88
+  size: 212, 237
+  orig: 212, 237
+  offset: 0, 0
+  index: -1
+xiezi
+  rotate: true
+  xy: 835, 634
+  size: 205, 141
+  orig: 205, 141
+  offset: 0, 0
+  index: -1
+yb
+  rotate: false
+  xy: 577, 2
+  size: 194, 323
+  orig: 194, 323
+  offset: 0, 0
+  index: -1
+yb2
+  rotate: false
+  xy: 773, 30
+  size: 110, 56
+  orig: 110, 56
+  offset: 0, 0
+  index: -1
+yb3
+  rotate: true
+  xy: 885, 6
+  size: 80, 52
+  orig: 80, 52
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: true
+  xy: 2, 29
+  size: 281, 573
+  orig: 281, 573
+  offset: 0, 0
+  index: -1
+yixiu
+  rotate: true
+  xy: 835, 419
+  size: 100, 135
+  orig: 100, 135
+  offset: 0, 0
+  index: -1
+yuruyi
+  rotate: false
+  xy: 835, 521
+  size: 142, 111
+  orig: 142, 111
+  offset: 0, 0
+  index: -1

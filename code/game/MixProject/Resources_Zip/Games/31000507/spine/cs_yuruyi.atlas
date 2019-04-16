@@ -1,0 +1,27 @@
+
+cs_yuruyi.png
+size: 400,178
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 2
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+x
+  rotate: true
+  xy: 318, 46
+  size: 130, 80
+  orig: 130, 80
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 178, 5
+  size: 138, 171
+  orig: 138, 171
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+cs_yuanbao.png
+size: 357,181
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: true
+  xy: 185, 2
+  size: 177, 170
+  orig: 177, 170
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 2, 53
+  size: 181, 126
+  orig: 181, 126
+  offset: 0, 0
+  index: -1

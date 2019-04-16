@@ -1,0 +1,83 @@
+
+yxrk_yingsanzhang.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FRIED GOLDEN FLOWER
+  rotate: false
+  xy: 282, 13
+  size: 211, 63
+  orig: 211, 63
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 2, 48
+  size: 462, 278
+  orig: 462, 278
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: true
+  xy: 282, 78
+  size: 432, 245
+  orig: 432, 245
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 529, 203
+  size: 307, 271
+  orig: 307, 271
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 584, 10
+  size: 98, 91
+  orig: 98, 91
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 668, 124
+  size: 47, 77
+  orig: 47, 77
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: true
+  xy: 495, 5
+  size: 71, 87
+  orig: 71, 87
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: true
+  xy: 529, 110
+  size: 91, 137
+  orig: 91, 137
+  offset: 0, 0
+  index: -1
+toufa4
+  rotate: true
+  xy: 132, 23
+  size: 23, 71
+  orig: 23, 71
+  offset: 0, 0
+  index: -1
+toufa5
+  rotate: false
+  xy: 2, 2
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+tuer
+  rotate: true
+  xy: 58, 20
+  size: 26, 72
+  orig: 26, 72
+  offset: 0, 0
+  index: -1

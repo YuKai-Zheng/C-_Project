@@ -1,0 +1,174 @@
+
+jiangshi_gs.png
+size: 940,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 728, 156
+  size: 70, 141
+  orig: 70, 141
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 2, 15
+  size: 80, 342
+  orig: 80, 342
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 524, 299
+  size: 78, 270
+  orig: 78, 270
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 859, 343
+  size: 77, 111
+  orig: 77, 111
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 506, 227
+  size: 70, 220
+  orig: 70, 220
+  offset: 0, 0
+  index: -1
+21
+  rotate: true
+  xy: 765, 91
+  size: 63, 78
+  orig: 63, 78
+  offset: 0, 0
+  index: -1
+22
+  rotate: true
+  xy: 798, 26
+  size: 63, 104
+  orig: 63, 104
+  offset: 0, 0
+  index: -1
+23
+  rotate: false
+  xy: 800, 187
+  size: 65, 131
+  orig: 65, 131
+  offset: 0, 0
+  index: -1
+24
+  rotate: true
+  xy: 608, 81
+  size: 69, 155
+  orig: 69, 155
+  offset: 0, 0
+  index: -1
+25
+  rotate: true
+  xy: 429, 79
+  size: 71, 177
+  orig: 71, 177
+  offset: 0, 0
+  index: -1
+26
+  rotate: true
+  xy: 487, 152
+  size: 73, 187
+  orig: 73, 187
+  offset: 0, 0
+  index: -1
+27
+  rotate: true
+  xy: 346, 2
+  size: 75, 172
+  orig: 75, 172
+  offset: 0, 0
+  index: -1
+28
+  rotate: true
+  xy: 658, 5
+  size: 74, 138
+  orig: 74, 138
+  offset: 0, 0
+  index: -1
+29
+  rotate: true
+  xy: 520, 2
+  size: 75, 136
+  orig: 75, 136
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 547, 379
+  size: 75, 310
+  orig: 75, 310
+  offset: 0, 0
+  index: -1
+30
+  rotate: false
+  xy: 867, 228
+  size: 68, 113
+  orig: 68, 113
+  offset: 0, 0
+  index: -1
+31
+  rotate: false
+  xy: 867, 116
+  size: 65, 110
+  orig: 65, 110
+  offset: 0, 0
+  index: -1
+32
+  rotate: false
+  xy: 796, 320
+  size: 59, 57
+  orig: 59, 57
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 547, 456
+  size: 78, 391
+  orig: 78, 391
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 2, 184
+  size: 82, 483
+  orig: 82, 483
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 2, 449
+  size: 85, 543
+  orig: 85, 543
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 2, 359
+  size: 88, 520
+  orig: 88, 520
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 2, 268
+  size: 89, 502
+  orig: 89, 502
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 2, 97
+  size: 85, 425
+  orig: 85, 425
+  offset: 0, 0
+  index: -1

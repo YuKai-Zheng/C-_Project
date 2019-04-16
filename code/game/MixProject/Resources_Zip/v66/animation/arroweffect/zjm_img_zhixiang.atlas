@@ -1,0 +1,20 @@
+
+zjm_img_zhixiang.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_zjm_zhixiang01
+  rotate: false
+  xy: 254, 2
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+effect_zjm_zhixiang02
+  rotate: false
+  xy: 2, 2
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1

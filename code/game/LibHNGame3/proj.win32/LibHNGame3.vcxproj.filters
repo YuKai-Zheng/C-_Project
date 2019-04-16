@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ThirteenZhang">
+      <UniqueIdentifier>{d6e671e4-e170-4aba-8557-694501370be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirteenZhang\GameMessage">
+      <UniqueIdentifier>{df8d0fb2-6b1f-42ba-95f5-55e88cfa21c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirteenZhang\GameTable">
+      <UniqueIdentifier>{f22ad7ac-54aa-4097-80ee-bf80b47bad82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoldenToad">
+      <UniqueIdentifier>{c4db084f-d581-467c-8769-526cd40ff828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoldenToad\GameMessage">
+      <UniqueIdentifier>{5ef90cc3-f4f4-4705-8a98-dfc08c6590cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoldenToad\GameTable">
+      <UniqueIdentifier>{ee41a474-9e6a-4d59-9b1c-f27a9f3ef369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NN">
+      <UniqueIdentifier>{34382f2a-1768-4c92-8cde-449418d44728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NN\GameMessage">
+      <UniqueIdentifier>{aab62350-f899-4e28-88c9-5898e773dbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NN\GameTable">
+      <UniqueIdentifier>{9abcb9ea-e8c0-478d-ad61-55e1af791007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewYearActivity">
+      <UniqueIdentifier>{525ff23c-5930-4504-919d-543986c3284a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewYearActivity\GameMassege">
+      <UniqueIdentifier>{0229f72c-3327-4d4b-bb8d-120bab8ff686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewYearActivity\GameTable">
+      <UniqueIdentifier>{4981c64e-0187-4335-80f6-120866efab3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnePieceSlot">
+      <UniqueIdentifier>{cc4f281a-ef8b-4b9d-a64a-333a2c52deb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnePieceSlot\GameMessage">
+      <UniqueIdentifier>{166cbfda-b378-458d-a911-120e32e90d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnePieceSlot\GameTable">
+      <UniqueIdentifier>{ac3c0dc6-9dec-48b2-bbf8-2202c7e92432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FruitSlot">
+      <UniqueIdentifier>{70579f34-8eea-4a5c-82f5-618a4e83d5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FruitSlot\GameMessage">
+      <UniqueIdentifier>{994d816a-2405-4716-99fe-52952cc5eec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FruitSlot\GameTable">
+      <UniqueIdentifier>{1e64d19c-80f8-45c7-80b7-8513b56272db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoldenToad\v88">
+      <UniqueIdentifier>{85e99395-8c2e-4d3c-bd4c-74de93975ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewYearActivity\v88">
+      <UniqueIdentifier>{9db5a7cd-2bfb-4dcd-a4cc-178565fd66b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NN\v88">
+      <UniqueIdentifier>{46e529ae-6619-42f0-98d3-9027bee5f37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirteenZhang\v88">
+      <UniqueIdentifier>{c11eaab3-10be-49a4-890a-d5f541275c0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadEnums.h">
+      <Filter>GoldenToad\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadMessageHead.h">
+      <Filter>GoldenToad\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadVersion.h">
+      <Filter>GoldenToad\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NN\Classes\GameMessage\NNCommonDef.h">
+      <Filter>NN\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NN\Classes\GameTable\NNGameTableLogic.h">
+      <Filter>NN\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NN\Classes\GameTable\NNGameTableUICallback.h">
+      <Filter>NN\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameMessage\ThirteenZhangMessageHead.h">
+      <Filter>ThirteenZhang\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameBulletV88.h">
+      <Filter>GoldenToad\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameFishManagerV88.h">
+      <Filter>GoldenToad\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameLoadingV88.h">
+      <Filter>GoldenToad\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGamePlayerV88.h">
+      <Filter>GoldenToad\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameTableUIV88.h">
+      <Filter>GoldenToad\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\v88\GoldenToadGameToolbarV88.h">
+      <Filter>GoldenToad\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FruitSlot\Classes\GameMessage\FruitSlotMessageHead.h">
+      <Filter>FruitSlot\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableLogic.h">
+      <Filter>FruitSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableUI.h">
+      <Filter>FruitSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableUICallback.h">
+      <Filter>FruitSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameMessage\OnePieceSlotMessageHead.h">
+      <Filter>OnePieceSlot\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableLogic.h">
+      <Filter>OnePieceSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableUI.h">
+      <Filter>OnePieceSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableUICallback.h">
+      <Filter>OnePieceSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameMessage\NewYearInGameMessageHead.h">
+      <Filter>NewYearActivity\GameMassege</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameMessage\NewYearMessageHead.h">
+      <Filter>NewYearActivity\GameMassege</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearActivityOne.h">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearActivityTwo.h">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableLogic.h">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableUI.h">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableUICallback.h">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\GameTable\NSAnimationTool.h">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NewYearActivity\Classes\v88\TurnTablreGameTableUIV88.h">
+      <Filter>NewYearActivity\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NN\Classes\v88\NNGameTableUIv88.h">
+      <Filter>NN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NN\Classes\v88\NNPlayerHeadv88.h">
+      <Filter>NN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NN\Classes\v88\NNPokerCardv88.h">
+      <Filter>NN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardBoardv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardFrameWrapperv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardSpritev88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangGameTableUIv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangHandCardWrapperv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangPlayerWrapperv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangResourceMgrv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangScoreWrapperv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangSettlementLayerv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangTimerWrapperv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangWrapperv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\TZhangCardControlv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\v88\TZhangCardTypeCellv88.h">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameAudio.h">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameFishObject.h">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameMathAide.h">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameSceneFishTrace.h">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameTableLogic.h">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameTableUICallback.h">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameLogic.h">
+      <Filter>ThirteenZhang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameTableLogic.h">
+      <Filter>ThirteenZhang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameTableUICallback.h">
+      <Filter>ThirteenZhang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangSoundHelper.h">
+      <Filter>ThirteenZhang\GameTable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\GoldenToad\Classes\GameMessage\GoldenToadVersion.cpp">
+      <Filter>GoldenToad\GameMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NN\Classes\GameTable\NNGameTableLogic.cpp">
+      <Filter>NN\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameBulletV88.cpp">
+      <Filter>GoldenToad\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameFishManagerV88.cpp">
+      <Filter>GoldenToad\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameLoadingV88.cpp">
+      <Filter>GoldenToad\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGamePlayerV88.cpp">
+      <Filter>GoldenToad\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameTableUIV88.cpp">
+      <Filter>GoldenToad\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\v88\GoldenToadGameToolbarV88.cpp">
+      <Filter>GoldenToad\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableLogic.cpp">
+      <Filter>FruitSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FruitSlot\Classes\GameTable\FruitSlotGameTableUI.cpp">
+      <Filter>FruitSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableLogic.cpp">
+      <Filter>OnePieceSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OnePieceSlot\Classes\GameTable\OnePieceSlotGameTableUI.cpp">
+      <Filter>OnePieceSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableLogic.cpp">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NewYearActivity\Classes\GameTable\NewYearGameTableUI.cpp">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NewYearActivity\Classes\GameTable\NSAnimationTool.cpp">
+      <Filter>NewYearActivity\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NewYearActivity\Classes\v88\TurnTablreGameTableUIV88.cpp">
+      <Filter>NewYearActivity\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NN\Classes\v88\NNGameTableUIv88.cpp">
+      <Filter>NN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NN\Classes\v88\NNPlayerHeadv88.cpp">
+      <Filter>NN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NN\Classes\v88\NNPokerCardv88.cpp">
+      <Filter>NN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardBoardv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardFrameWrapperv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangCardSpritev88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangGameTableUIv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangHandCardWrapperv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangPlayerWrapperv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangResourceMgrv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangScoreWrapperv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangSettlementLayerv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangTimerWrapperv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\ThirteenZhangWrapperv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\TZhangCardControlv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\v88\TZhangCardTypeCellv88.cpp">
+      <Filter>ThirteenZhang\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameAudio.cpp">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameFishObject.cpp">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameMathAide.cpp">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameSceneFishTrace.cpp">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoldenToad\Classes\GameTable\GoldenToadGameTableLogic.cpp">
+      <Filter>GoldenToad\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameLogic.cpp">
+      <Filter>ThirteenZhang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangGameTableLogic.cpp">
+      <Filter>ThirteenZhang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirteenZhang\Classes\GameTable\ThirteenZhangSoundHelper.cpp">
+      <Filter>ThirteenZhang\GameTable</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

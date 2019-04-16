@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\21D\Classes\GameMessage\D21MessageHead.h" />
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21BuyDialog.h" />
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameNotice.h" />
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GamePlayer.h" />
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameTableLogic.h" />
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameTableUICallback.h" />
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameUserMessageBox.h" />
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21PokerCard.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21BuyDialogV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameNoticeV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GamePlayerV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameTableUIV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21PokerCardV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21ResultV99.h" />
+    <ClInclude Include="..\..\BB\Classes\GameMessage\BBCommonDef.h" />
+    <ClInclude Include="..\..\BB\Classes\GameTable\BBGameTableLogic.h" />
+    <ClInclude Include="..\..\BB\Classes\GameTable\BBGameTableUICallback.h" />
+    <ClInclude Include="..\..\BB\Classes\v99\BBGameStateV99.h" />
+    <ClInclude Include="..\..\BB\Classes\v99\BBGameTableUIV99.h" />
+    <ClInclude Include="..\..\BB\Classes\v99\BBHelpLayerV99.h" />
+    <ClInclude Include="..\..\BB\Classes\v99\BBLoopSpriteCellV99.h" />
+    <ClInclude Include="..\..\BB\Classes\v99\BBNoteLabelCellV99.h" />
+    <ClInclude Include="..\..\BB\Classes\v99\BBPlayerHeadV99.h" />
+    <ClInclude Include="..\..\BB\Classes\v99\BBSettlementV99.h" />
+    <ClInclude Include="..\..\BJL\Classes\GameMessage\BJLMessageHead.h" />
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameLogic.h" />
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameTableLogic.h" />
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameTableUICallback.h" />
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameTableUIData.h" />
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLGameTableUIV88.h" />
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLNoticeV88.h" />
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLPokerCardV88.h" />
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLResultCardV88.h" />
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLResultDialogV88.h" />
+    <ClInclude Include="..\..\BRXJ\classes\GameMessage\BRXJMessageHead.h" />
+    <ClInclude Include="..\..\BRXJ\classes\GameTable\BRXJGameLogic.h" />
+    <ClInclude Include="..\..\BRXJ\classes\GameTable\BRXJGameTableUICallback.h" />
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJBetV88.h" />
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJGameTableUIV88.h" />
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJLuZhiUiV88.h" />
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJPockerV88.h" />
+    <ClInclude Include="..\..\CSLL\Classes\GameMessage\CSLLCommonDef.h" />
+    <ClInclude Include="..\..\CSLL\Classes\GameTable\CSLLGameTableLogic.h" />
+    <ClInclude Include="..\..\CSLL\Classes\GameTable\CSLLGameTableUICallback.h" />
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLGameTableUIV88.h" />
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLMary.hpp" />
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLScorePanelCellV88.h" />
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLSettlementV88.h" />
+    <ClInclude Include="..\..\EightSlot\Classes\GameMessage\EightSlotMessageHead.h" />
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightRule.hpp" />
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSet.hpp" />
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableLogic.h" />
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableUI.h" />
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableUICallback.h" />
+    <ClInclude Include="..\..\FQZS\Classes\GameMessage\FQZSCommonDef.h" />
+    <ClInclude Include="..\..\FQZS\Classes\GameTable\FQZSGameTableLogic.h" />
+    <ClInclude Include="..\..\FQZS\Classes\GameTable\FQZSGameTableUICallback.h" />
+    <ClInclude Include="..\..\FQZS\Classes\v99\FQZSGameTableUIV99.h" />
+    <ClInclude Include="..\..\Fruit\Classes\GameMessage\FruitCommonDef.h" />
+    <ClInclude Include="..\..\Fruit\Classes\GameTable\FruitGameTableLogic.h" />
+    <ClInclude Include="..\..\Fruit\Classes\GameTable\FruitGameTableUICallback.h" />
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitBetMoneyCellV88.h" />
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitGameStateV88.h" />
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitGameTableUIV88.h" />
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitLoopSpriteCellV88.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameMessage\GoldenFlowerMessageHead.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameMessage\GoldenFlowerResourceMgr.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameLogic.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameTableLogic.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameTableUICallback.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerDrawEllipseV88.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameCardTypeV88.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDashboardV88.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDealerUIV88.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGamePlayerV88.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameTableUIV88.h" />
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerPokerCardV88.h" />
+    <ClInclude Include="..\..\Honor\Classes\GameMessage\HonorCommonDef.h" />
+    <ClInclude Include="..\..\Honor\Classes\GameTable\HonorGameTableLogic.h" />
+    <ClInclude Include="..\..\Honor\Classes\GameTable\HonorGameTableUICallback.h" />
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorFinalModeReward.hpp" />
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorGameTableUIV88.h" />
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorScorePanelCellV88.h" />
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorSettlementV88.h" />
+    <ClInclude Include="..\..\JPM\Classes\GameMessage\JPMCommonDef.h" />
+    <ClInclude Include="..\..\JPM\Classes\GameTable\JPMGameTableLogic.h" />
+    <ClInclude Include="..\..\JPM\Classes\GameTable\JPMGameTableUICallback.h" />
+    <ClInclude Include="..\..\JPM\Classes\v88\JPMGameTableUIV88.h" />
+    <ClInclude Include="..\..\JPM\Classes\v88\JPMScorePanelCellV88.h" />
+    <ClInclude Include="..\..\JPM\Classes\v88\JPMSettlementV88.h" />
+    <ClInclude Include="..\..\JSXS\Classes\GameMessage\JSXSCommonDef.h" />
+    <ClInclude Include="..\..\JSXS\Classes\GameTable\JSXSGameTableLogic.h" />
+    <ClInclude Include="..\..\JSXS\Classes\GameTable\JSXSGameTableUICallback.h" />
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSGameTableUIV88.h" />
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSMary.hpp" />
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSScorePanelCellV88.h" />
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSSettlementV88.h" />
+    <ClInclude Include="..\..\Medusa\Classes\GameMessage\MedusaCommonDef.h" />
+    <ClInclude Include="..\..\Medusa\Classes\GameTable\MedusaGameTableLogic.h" />
+    <ClInclude Include="..\..\Medusa\Classes\GameTable\MedusaGameTableUICallback.h" />
+    <ClInclude Include="..\..\Medusa\Classes\v88\MedusaGameTableUIV88.h" />
+    <ClInclude Include="..\..\Medusa\Classes\v88\MedusaScorePanelCellV88.h" />
+    <ClInclude Include="..\..\Medusa\Classes\v88\MedusaSettlementV88.h" />
+    <ClInclude Include="..\..\NL\Classes\GameMessage\NLCommonDef.h" />
+    <ClInclude Include="..\..\NL\Classes\GameTable\NLGameTableLogic.h" />
+    <ClInclude Include="..\..\NL\Classes\GameTable\NLGameTableUICallback.h" />
+    <ClInclude Include="..\..\NL\Classes\v88\NLGameTableUIV88.h" />
+    <ClInclude Include="..\..\NL\Classes\v88\NLScorePanelCellV88.h" />
+    <ClInclude Include="..\..\NL\Classes\v88\NLSettlementV88.h" />
+    <ClInclude Include="..\..\Pubg\Classes\GameMessage\PubgCommonDef.h" />
+    <ClInclude Include="..\..\Pubg\Classes\GameTable\PubgGameTableLogic.h" />
+    <ClInclude Include="..\..\Pubg\Classes\GameTable\PubgGameTableUICallback.h" />
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgFinalModeReward.hpp" />
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgGameTableUIV88.h" />
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgScorePanelCellV88.h" />
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgSettlementV88.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameMessage\RedPacketCommonDef.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayerCellLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayersListLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGamePlayerCellLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableLogic.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableUI.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableUICallback.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordCellLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketMyUserInfo.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailCellLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailsLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenPacketLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketSendPacketLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketSetPacketBombLayer.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayerCellLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayersListLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketGamePlayerCellLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketGameTableUIV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordCellLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketMyUserInfoV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailCellLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailsLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketOpenPacketLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketSendPacketLayerV77.h" />
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketSetPacketBombLayerV77.h" />
+    <ClInclude Include="..\..\SHZ\Classes\GameMessage\SHZCommonDef.h" />
+    <ClInclude Include="..\..\SHZ\Classes\GameTable\SHZGameTableLogic.h" />
+    <ClInclude Include="..\..\SHZ\Classes\GameTable\SHZGameTableUICallback.h" />
+    <ClInclude Include="..\..\SHZ\Classes\v88\ScorePanelCellV88.h" />
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZGameTableUIV88.h" />
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZGuessSizeV88.h" />
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZMaryTableUIV88.h" />
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZResultCellV88.h" />
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZSettlementV88.h" />
+    <ClInclude Include="..\..\Stud\Classes\GameMessage\StudMessageHead.h" />
+    <ClInclude Include="..\..\Stud\Classes\GameTable\StudGameTableLogic.h" />
+    <ClInclude Include="..\..\Stud\Classes\GameTable\StudGameTableUICallback.h" />
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudGamePlayerV88.h" />
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudGameTableUIV88.h" />
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudGameUserMessageBoxV88.h" />
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudPokerCardV88.h" />
+    <ClInclude Include="..\..\Tiger\Classes\GameMessage\TigerCommonDef.h" />
+    <ClInclude Include="..\..\Tiger\Classes\GameTable\TigerGameTableLogic.h" />
+    <ClInclude Include="..\..\Tiger\Classes\GameTable\TigerGameTableUICallback.h" />
+    <ClInclude Include="..\..\Tiger\Classes\v88\TigerGameTableUIV88.h" />
+    <ClInclude Include="..\..\Tiger\Classes\v88\TigerScorePanelCellV88.h" />
+    <ClInclude Include="..\..\Tiger\Classes\v88\TigerSettlementV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\GameMessage\BaseMessage.h" />
+    <ClInclude Include="..\..\TTNN\Classes\GameMessage\BRNNMessageHead.h" />
+    <ClInclude Include="..\..\TTNN\Classes\GameTable\BRNNGameLogic.h" />
+    <ClInclude Include="..\..\TTNN\Classes\GameTable\BRNNGameTableLogic.h" />
+    <ClInclude Include="..\..\TTNN\Classes\GameTable\BRNNGameTableUICallback.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNActionsV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNBankerLayerV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNBetObjV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNBetV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNGameLogicV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNGameTableUIV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNGiveGiftV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNMakeBlackV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNMsgV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNOtherPlayerV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNPlayerSeatV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNPokerCardV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNResV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNSendFaceV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNSettlementLayerV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNTableViewV88.h" />
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNUionBankerLayerV88.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21BuyDialog.cpp" />
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GameNotice.cpp" />
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GamePlayer.cpp" />
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GameTableLogic.cpp" />
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GameUserMessageBox.cpp" />
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21PokerCard.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21BuyDialogV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameNoticeV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GamePlayerV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameTableUIV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21PokerCardV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21ResultV99.cpp" />
+    <ClCompile Include="..\..\BB\Classes\GameTable\BBGameTableLogic.cpp" />
+    <ClCompile Include="..\..\BB\Classes\v99\BBGameStateV99.cpp" />
+    <ClCompile Include="..\..\BB\Classes\v99\BBGameTableUIV99.cpp" />
+    <ClCompile Include="..\..\BB\Classes\v99\BBHelpLayerV99.cpp" />
+    <ClCompile Include="..\..\BB\Classes\v99\BBLoopSpriteCellV99.cpp" />
+    <ClCompile Include="..\..\BB\Classes\v99\BBNoteLabelCellV99.cpp" />
+    <ClCompile Include="..\..\BB\Classes\v99\BBPlayerHeadV99.cpp" />
+    <ClCompile Include="..\..\BB\Classes\v99\BBSettlementV99.cpp" />
+    <ClCompile Include="..\..\BJL\Classes\GameTable\BJLGameLogic.cpp" />
+    <ClCompile Include="..\..\BJL\Classes\GameTable\BJLGameTableLogic.cpp" />
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLNoticeV88.cpp" />
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLPokerCardV88.cpp" />
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLResultCardV88.cpp" />
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLResultDialogV88.cpp" />
+    <ClCompile Include="..\..\BRXJ\classes\GameTable\BRXJGameLogic.cpp" />
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJBetV88.cpp" />
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJLuZhiUiV88.cpp" />
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJPockerV88.cpp" />
+    <ClCompile Include="..\..\CSLL\Classes\GameTable\CSLLGameTableLogic.cpp" />
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLMary.cpp" />
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLSettlementV88.cpp" />
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightRule.cpp" />
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightSet.cpp" />
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableLogic.cpp" />
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableUI.cpp" />
+    <ClCompile Include="..\..\FQZS\Classes\GameTable\FQZSGameTableLogic.cpp" />
+    <ClCompile Include="..\..\FQZS\Classes\v99\FQZSGameTableUIV99.cpp" />
+    <ClCompile Include="..\..\Fruit\Classes\GameTable\FruitGameTableLogic.cpp" />
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitBetMoneyCellV88.cpp" />
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitGameStateV88.cpp" />
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitLoopSpriteCellV88.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameLogic.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameTableLogic.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerDrawEllipseV88.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameCardTypeV88.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDashboardV88.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDealerUIV88.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGamePlayerV88.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerPokerCardV88.cpp" />
+    <ClCompile Include="..\..\Honor\Classes\GameTable\HonorGameTableLogic.cpp" />
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorFinalModeReward.cpp" />
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorSettlementV88.cpp" />
+    <ClCompile Include="..\..\JPM\Classes\GameTable\JPMGameTableLogic.cpp" />
+    <ClCompile Include="..\..\JPM\Classes\v88\JPMGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\JPM\Classes\v88\JPMScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\JPM\Classes\v88\JPMSettlementV88.cpp" />
+    <ClCompile Include="..\..\JSXS\Classes\GameTable\JSXSGameTableLogic.cpp" />
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSMary.cpp" />
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSSettlementV88.cpp" />
+    <ClCompile Include="..\..\Medusa\Classes\GameTable\MedusaGameTableLogic.cpp" />
+    <ClCompile Include="..\..\Medusa\Classes\v88\MedusaGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\Medusa\Classes\v88\MedusaScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\Medusa\Classes\v88\MedusaSettlementV88.cpp" />
+    <ClCompile Include="..\..\NL\Classes\GameTable\NLGameTableLogic.cpp" />
+    <ClCompile Include="..\..\NL\Classes\v88\NLGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\NL\Classes\v88\NLScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\NL\Classes\v88\NLSettlementV88.cpp" />
+    <ClCompile Include="..\..\Pubg\Classes\GameTable\PubgGameTableLogic.cpp" />
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgFinalModeReward.cpp" />
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgSettlementV88.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayerCellLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayersListLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketGamePlayerCellLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableLogic.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableUI.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordCellLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketMyUserInfo.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailCellLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailsLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenPacketLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketSendPacketLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketSetPacketBombLayer.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayerCellLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayersListLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketGamePlayerCellLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketGameTableUIV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordCellLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketMyUserInfoV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailCellLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailsLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketOpenPacketLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketSendPacketLayerV77.cpp" />
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketSetPacketBombLayerV77.cpp" />
+    <ClCompile Include="..\..\SHZ\Classes\GameTable\SHZGameTableLogic.cpp" />
+    <ClCompile Include="..\..\SHZ\Classes\v88\ScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZGuessSizeV88.cpp" />
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZMaryTableUIV88.cpp" />
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZResultCellV88.cpp" />
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZSettlementV88.cpp" />
+    <ClCompile Include="..\..\Stud\Classes\GameTable\StudGameTableLogic.cpp" />
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudGamePlayerV88.cpp" />
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudGameUserMessageBoxV88.cpp" />
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudPokerCardV88.cpp" />
+    <ClCompile Include="..\..\Tiger\Classes\GameTable\TigerGameTableLogic.cpp" />
+    <ClCompile Include="..\..\Tiger\Classes\v88\TigerGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\Tiger\Classes\v88\TigerScorePanelCellV88.cpp" />
+    <ClCompile Include="..\..\Tiger\Classes\v88\TigerSettlementV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\GameTable\BRNNGameLogic.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\GameTable\BRNNGameTableLogic.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNActionsV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNBankerLayerV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNBetObjV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNBetV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNGameLogicV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNGameTableUIV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNGiveGiftV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNMakeBlackV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNMsgV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNOtherPlayerV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNPlayerSeatV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNPokerCardV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNSendFaceV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNSettlementLayerV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNTableViewV88.cpp" />
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNUionBankerLayerV88.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BA60C625-C807-4793-8918-308E68B638D2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectName>LibHNGame</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNUI;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLogic;..\..\..\common\LibHNOpen;..\..\BJL\Classes\GameTable;..\..\BJL\Classes\GameMessage;..\..\NN\Classes\GameTable;..\..\NN\Classes\GameMessage;..\..\TTNN\Classes\GameTable;..\..\TTNN\Classes\GameMessage;..\..\TTNN\Classes\v88;..\..\BRXJ\Classes\GameTable;..\..\BRXJ\Classes\GameMessage;..\..\GoldenToad\Classes\GameTable;..\..\GoldenToad\Classes\GameMessage;..\..\NewYearActivity\Classes\GameMessage;..\..\NewYearActivity\Classes\GameTable;..\..\ThirteenZhang\Classes\GameTable;..\..\ThirteenZhang\Classes\GameMessage;..\..\Stud\Classes\GameMessage;..\..\Stud\Classes\GameTable;..\..\LuckyEnvelope\Classes\GameMessage;..\..\LuckyEnvelope\Classes\GameTable;..\..\HappyGoldenFlower\Classes\GameMessage;..\..\HappyGoldenFlower\Classes\GameTable;..\..\BB\Classes\GameMessage;..\..\BB\Classes\GameTable;..\..\FQZS\Classes\GameMessage;..\..\FQZS\Classes\GameTable;..\..\Fruit\Classes\GameMessage;..\..\Fruit\Classes\GameTable;..\..\RedPacket\Classes\GameMessage;..\..\RedPacket\Classes\GameTable;..\..\SHZ\Classes\GameMessage;..\..\SHZ\Classes\GameTable;..\..\MixProject\Classes;..\..\CSLL\Classes\GameTable;..\..\CSLL\Classes\GameMessage;..\..\JSXS\Classes\GameTable;..\..\Medusa\Classes\GameTable;..\..\NL\Classes\GameTable;..\..\Tiger\Classes\GameTable;..\..\JSXS\Classes\GameMessage;..\..\Medusa\Classes\GameMessage;..\..\NL\Classes\GameMessage;..\..\Tiger\Classes\GameMessage;..\..\BRNN\Classes\GameMessage;..\..\BRNN\Classes\GameTable;..\..\EightSlot\Classes\GameTable;..\..\EightSlot\Classes\GameMessage;..\..\Pubg\Classes\GameMessage;..\..\Pubg\Classes\GameTable;..\..\Honor\Classes\GameMessage;..\..\Honor\Classes\GameTable;..\..\JPM\Classes\GameMessage;..\..\JPM\Classes\GameTable;..\..\RedPacke\Classes\GameMessage;..\..\RedPacke\Classes\GameTable;..\..\21D\Classes\GameMessage;..\..\21D\Classes\GameTable;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4819;4244</DisableSpecificWarnings>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNUI;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLogic;..\..\..\common\LibHNOpen;..\..\BJL\Classes\GameTable;..\..\BJL\Classes\GameMessage;..\..\NN\Classes\GameTable;..\..\NN\Classes\GameMessage;..\..\TTNN\Classes\GameTable;..\..\TTNN\Classes\GameMessage;..\..\TTNN\Classes\v88;..\..\BRXJ\Classes\GameTable;..\..\BRXJ\Classes\GameMessage;..\..\GoldenToad\Classes\GameTable;..\..\GoldenToad\Classes\GameMessage;..\..\NewYearActivity\Classes\GameMessage;..\..\NewYearActivity\Classes\GameTable;..\..\ThirteenZhang\Classes\GameTable;..\..\ThirteenZhang\Classes\GameMessage;..\..\Stud\Classes\GameMessage;..\..\Stud\Classes\GameTable;..\..\LuckyEnvelope\Classes\GameMessage;..\..\LuckyEnvelope\Classes\GameTable;..\..\HappyGoldenFlower\Classes\GameMessage;..\..\HappyGoldenFlower\Classes\GameTable;..\..\BB\Classes\GameMessage;..\..\BB\Classes\GameTable;..\..\FQZS\Classes\GameMessage;..\..\FQZS\Classes\GameTable;..\..\Fruit\Classes\GameMessage;..\..\Fruit\Classes\GameTable;..\..\RedPacket\Classes\GameMessage;..\..\RedPacket\Classes\GameTable;..\..\SHZ\Classes\GameMessage;..\..\SHZ\Classes\GameTable;..\..\MixProject\Classes;..\..\CSLL\Classes\GameTable;..\..\CSLL\Classes\GameMessage;..\..\JSXS\Classes\GameTable;..\..\Medusa\Classes\GameTable;..\..\NL\Classes\GameTable;..\..\Tiger\Classes\GameTable;..\..\JSXS\Classes\GameMessage;..\..\Medusa\Classes\GameMessage;..\..\NL\Classes\GameMessage;..\..\Tiger\Classes\GameMessage;..\..\BRNN\Classes\GameMessage;..\..\BRNN\Classes\GameTable;..\..\EightSlot\Classes\GameTable;..\..\EightSlot\Classes\GameMessage;..\..\Pubg\Classes\GameMessage;..\..\Pubg\Classes\GameTable;..\..\Honor\Classes\GameTable;..\..\Honor\Classes\GameMessage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

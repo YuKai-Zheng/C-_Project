@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibHNLogic", "LibHNLogic.vcxproj", "{7826EB45-75FA-40A3-A017-63FBCB6F87A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7826EB45-75FA-40A3-A017-63FBCB6F87A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{7826EB45-75FA-40A3-A017-63FBCB6F87A2}.Debug|x86.Build.0 = Debug|Win32
+		{7826EB45-75FA-40A3-A017-63FBCB6F87A2}.Release|x86.ActiveCfg = Release|Win32
+		{7826EB45-75FA-40A3-A017-63FBCB6F87A2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {151E2084-8691-4D8C-9E99-2BD1F89AEB10}
+	EndGlobalSection
+EndGlobal

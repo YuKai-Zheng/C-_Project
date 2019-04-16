@@ -1,0 +1,51 @@
+{
+    "width": 1280,
+    "height": 720,
+	
+	"//":"正式服: www.game1099.cn",
+	"//":"测试服: csf.game913.net",
+    "//":"iOS审核服186-1.0.0：csf.game1099.cn",
+    
+	"//":"登录服务器地址",
+    "PLATFORM_SERVER_ADDRESS":"testsh1.game5186.net",
+    
+	"//":"服务器地址（更新）",
+	"WEB_SERVER_URL":"testsh1.game5186.net",
+	
+	"//":"API接口地址（公告、支付）",
+	"API_SERVER_URL":"sh1.game5186.net",
+
+	"//":"更新资源地址",
+	"UPDATE_URL":"http://tsh1.game5186.net/public/appinfo.ashx",
+	
+	"//":"支付宝的回调逻辑",
+    "Alipay_notify_url":"http://sh1.game5186.net/Manage/Pay/Alipay/RSA/rsa_notify_url.aspx",
+    "//":"支付宝网页支付地址",
+    "Alipay_Web_url":"http://sh1.game5186.net/m_pay.aspx?userid=%d&paymoney=%d",
+    
+    "//":"不同地区销售类型",
+    "//":"1099：13",
+    "PAY_TYPE":"13",
+    
+    "//":"IAP关键参数配置",
+    "//":"1099游戏中心Apple ID：1291669196",
+    "//":"1099游戏中心共享秘钥：5ffd8094e3d14cbf92fce9f887648207",
+    
+    "APP_ID":"1323709858",
+    "APP_SHARE_KEY":"42798c91aae34281997c040adb2c2b64",
+    
+    "//":"1099WX_APPID: wx05eea01f8fe2ca94",
+    "//":"1099WX_SECRET_KEY: 7d123e735254c18e820afb6b8bc976ca",
+    
+    "WX_APPID":"wx1816398499b4ca25",
+    "WX_SECRET_KEY":"5137e6c764d64130600a60cf4624701c",
+    "WX_IMG_URL":"http://img.game5186.net/wximages/%s.jpg",
+    
+    "//":"是授信版本还是App Store上架版本",
+    "EXTEND_VERSION":false,
+    "//":"是否是1099体验包",
+    "ONLY_186_TRY":false,
+	
+    "//":"UI版本号:v1 =; v2 = 正常; v3 = 新春版; v88 = 天天版; v99 = 腾讯版; v100 = 特殊版本",
+	"UI_VERSION":"v66"
+}                                                  

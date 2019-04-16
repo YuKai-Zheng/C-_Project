@@ -1,0 +1,236 @@
+
+shuihuzhuan_sl.png
+size: 1284,982
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanglan_di
+  rotate: false
+  xy: 2, 850
+  size: 1280, 130
+  orig: 1280, 130
+  offset: 0, 0
+  index: -1
+y1
+  rotate: false
+  xy: 910, 744
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y10
+  rotate: false
+  xy: 910, 214
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y11
+  rotate: false
+  xy: 674, 108
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y12
+  rotate: false
+  xy: 674, 2
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y2
+  rotate: false
+  xy: 2, 108
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y3
+  rotate: false
+  xy: 910, 638
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y4
+  rotate: false
+  xy: 2, 2
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y5
+  rotate: false
+  xy: 338, 108
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y6
+  rotate: false
+  xy: 910, 532
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y7
+  rotate: false
+  xy: 338, 2
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y8
+  rotate: false
+  xy: 910, 426
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y9
+  rotate: false
+  xy: 910, 320
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+zz1
+  rotate: false
+  xy: 2, 744
+  size: 906, 104
+  orig: 906, 104
+  offset: 0, 0
+  index: -1
+zz2
+  rotate: false
+  xy: 2, 638
+  size: 906, 104
+  orig: 906, 104
+  offset: 0, 0
+  index: -1
+zz3
+  rotate: false
+  xy: 2, 532
+  size: 906, 104
+  orig: 906, 104
+  offset: 0, 0
+  index: -1
+zz4
+  rotate: false
+  xy: 2, 426
+  size: 906, 104
+  orig: 906, 104
+  offset: 0, 0
+  index: -1
+zz5
+  rotate: false
+  xy: 2, 320
+  size: 906, 104
+  orig: 906, 104
+  offset: 0, 0
+  index: -1
+zz6
+  rotate: false
+  xy: 2, 214
+  size: 906, 104
+  orig: 906, 104
+  offset: 0, 0
+  index: -1
+
+shuihuzhuan_sl2.png
+size: 1093,426
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+y13
+  rotate: false
+  xy: 2, 320
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y14
+  rotate: false
+  xy: 2, 214
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y15
+  rotate: false
+  xy: 338, 320
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y16
+  rotate: false
+  xy: 2, 108
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y17
+  rotate: false
+  xy: 338, 214
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y18
+  rotate: false
+  xy: 674, 320
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+y19
+  rotate: false
+  xy: 2, 2
+  size: 334, 104
+  orig: 334, 104
+  offset: 0, 0
+  index: -1
+z1
+  rotate: false
+  xy: 338, 108
+  size: 311, 104
+  orig: 311, 104
+  offset: 0, 0
+  index: -1
+z2
+  rotate: false
+  xy: 674, 214
+  size: 311, 104
+  orig: 311, 104
+  offset: 0, 0
+  index: -1
+z3
+  rotate: false
+  xy: 338, 2
+  size: 311, 104
+  orig: 311, 104
+  offset: 0, 0
+  index: -1
+z4
+  rotate: false
+  xy: 651, 108
+  size: 311, 104
+  orig: 311, 104
+  offset: 0, 0
+  index: -1
+z5
+  rotate: false
+  xy: 651, 2
+  size: 311, 104
+  orig: 311, 104
+  offset: 0, 0
+  index: -1
+z6
+  rotate: true
+  xy: 987, 7
+  size: 311, 104
+  orig: 311, 104
+  offset: 0, 0
+  index: -1

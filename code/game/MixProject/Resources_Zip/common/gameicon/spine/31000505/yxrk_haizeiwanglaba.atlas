@@ -1,0 +1,55 @@
+
+yxrk_haizeiwanglaba.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ONE PIECE
+  rotate: true
+  xy: 900, 298
+  size: 175, 62
+  orig: 175, 62
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 195
+  size: 462, 278
+  orig: 462, 278
+  offset: 0, 0
+  index: -1
+chuan
+  rotate: false
+  xy: 159, 109
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+chuanfan
+  rotate: false
+  xy: 2, 83
+  size: 155, 110
+  orig: 155, 110
+  offset: 0, 0
+  index: -1
+gan
+  rotate: false
+  xy: 2, 2
+  size: 139, 79
+  orig: 139, 79
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 466, 228
+  size: 432, 245
+  orig: 432, 245
+  offset: 0, 0
+  index: -1
+piao
+  rotate: false
+  xy: 466, 206
+  size: 28, 20
+  orig: 28, 20
+  offset: 0, 0
+  index: -1

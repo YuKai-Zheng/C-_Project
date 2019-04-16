@@ -1,0 +1,69 @@
+
+yxrk_bairenxiaojiu.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HUNDERD PEOPLE NINE
+  rotate: false
+  xy: 2, 110
+  size: 213, 61
+  orig: 213, 61
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 173
+  size: 462, 278
+  orig: 462, 278
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 466, 206
+  size: 432, 245
+  orig: 432, 245
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 900, 273
+  size: 67, 178
+  orig: 67, 178
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: true
+  xy: 969, 371
+  size: 80, 48
+  orig: 80, 48
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 104, 19
+  size: 73, 89
+  orig: 73, 89
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: true
+  xy: 900, 213
+  size: 58, 82
+  orig: 58, 82
+  offset: 0, 0
+  index: -1
+toufa4
+  rotate: true
+  xy: 217, 129
+  size: 42, 144
+  orig: 42, 144
+  offset: 0, 0
+  index: -1
+toufa5
+  rotate: false
+  xy: 2, 2
+  size: 100, 106
+  orig: 100, 106
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HNLobby">
+      <UniqueIdentifier>{e9c0b21d-741d-49bb-a48d-800cddddbb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\v100">
+      <UniqueIdentifier>{49dbf1f3-96b2-434f-b364-99082145fcc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\v3">
+      <UniqueIdentifier>{2bd4804c-d4d2-40f4-a95d-781522527f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\v88">
+      <UniqueIdentifier>{66858868-37bb-42c5-8d60-934f1ce275ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\v66">
+      <UniqueIdentifier>{b9c9cc29-9696-4842-b540-58230da77cc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\BottomMenuCompositeV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameListCompositeV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameListsV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameMenuV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GamePlatformV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\GameTypeCompositeV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\PlatformResV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\RoomListCompositeV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v3\TopMenuCompositeV3.h">
+      <Filter>HNLobby\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\BottomMenuCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\FindPwCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameAutographV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameBankV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameLandCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameListCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameMenuCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameMenuV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameMusiceEffectV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GamePlatformV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameRankV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameRegisterCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameSetLayerV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameShopV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameUserHeadV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameUserV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\InitialCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\PlatformResV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\RoomListCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\TopMenuCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v100\GameInitialV100.h">
+      <Filter>HNLobby\v100</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v100\GameMenuV100.h">
+      <Filter>HNLobby\v100</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v100\InitialCompositeV100.h">
+      <Filter>HNLobby\v100</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\GameLogOnCompositeV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v88\InvitedCodeLayerV88.h">
+      <Filter>HNLobby\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PlatformResV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\BottomMenuCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameAutographV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameBankV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameLandCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameListCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameLogOnCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameMenuCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameMenuV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameMusiceEffectV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GamePlatformV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameRankV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameRegisterCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameSetLayerV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameShopV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameUserHeadV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameUserV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\InitialCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\InvitedCodeLayerV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\RoomListCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\TopMenuCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\BindPhone.hpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\DeskListComposite.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\ExtraReward.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\FindPwCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameTypeCompositeV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\IGameTableUI.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\BreakLineLogin.hpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameBankEnsureV66.hpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\IGameLoadingUI.hpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\NoticeLayerV66.hpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\GameGiftV66.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeOfMy.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignArticle.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignLayer.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignManager.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignResult.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignSecret.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\WelfareManager.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\RechargeManager.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibHNLobby\HNLobby\v66\ExchangeManager.h">
+      <Filter>HNLobby\v66</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\BottomMenuCompositeV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameListCompositeV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameListsV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameMenuV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GamePlatformV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\GameTypeCompositeV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\RoomListCompositeV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v3\TopMenuCompositeV3.cpp">
+      <Filter>HNLobby\v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\BottomMenuCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\FindPwCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameAutographV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameBankV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameLandCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameListCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameMenuCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameMenuV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameMusiceEffectV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GamePlatformV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameRankV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameRegisterCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameSetLayerV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameShopV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameUserHeadV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameUserV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\InitialCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\RoomListCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\TopMenuCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v100\GameInitialV100.cpp">
+      <Filter>HNLobby\v100</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v100\GameMenuV100.cpp">
+      <Filter>HNLobby\v100</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v100\InitialCompositeV100.cpp">
+      <Filter>HNLobby\v100</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\GameLogOnCompositeV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v88\InvitedCodeLayerV88.cpp">
+      <Filter>HNLobby\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\BottomMenuCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameBankV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameLandCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameListCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameLogOnCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameMenuCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameMenuV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameMusiceEffectV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GamePlatformV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameRankV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameRegisterCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameSetLayerV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameShopV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameUserHeadV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameUserV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\InitialCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\InvitedCodeLayerV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\RoomListCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\TopMenuCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\BindPhone.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\DeskListComposite.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\FindPwCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameAutographV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameTypeCompositeV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\IGameTableUI.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\BreakLineLogin.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameBankEnsureV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\IGameLoadingUI.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\NoticeLayerV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\GameGiftV66.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeOfMy.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignArticle.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignLayer.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignManager.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignResult.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\PopularizeSignSecret.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\WelfareManager.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\RechargeManager.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibHNLobby\HNLobby\v66\ExchangeManager.cpp">
+      <Filter>HNLobby\v66</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

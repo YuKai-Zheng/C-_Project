@@ -1,0 +1,75 @@
+
+jiangshiwang.png
+size: 1019,963
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fu
+  rotate: false
+  xy: 865, 662
+  size: 119, 154
+  orig: 119, 154
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 2, 346
+  size: 564, 615
+  orig: 564, 615
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 568, 398
+  size: 232, 251
+  orig: 232, 251
+  offset: 0, 0
+  index: -1
+y_shou
+  rotate: false
+  xy: 865, 818
+  size: 152, 143
+  orig: 152, 143
+  offset: 0, 0
+  index: -1
+y_xiu
+  rotate: false
+  xy: 568, 651
+  size: 295, 310
+  orig: 295, 310
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 2, 2
+  size: 72, 47
+  orig: 72, 47
+  offset: 0, 0
+  index: -1
+z_shou
+  rotate: true
+  xy: 802, 422
+  size: 227, 213
+  orig: 227, 213
+  offset: 0, 0
+  index: -1
+z_xiu
+  rotate: true
+  xy: 2, 51
+  size: 293, 561
+  orig: 293, 561
+  offset: 0, 0
+  index: -1
+
+jiangshiwang2.png
+size: 556,469
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shipin
+  rotate: false
+  xy: 2, 2
+  size: 552, 465
+  orig: 552, 465
+  offset: 0, 0
+  index: -1

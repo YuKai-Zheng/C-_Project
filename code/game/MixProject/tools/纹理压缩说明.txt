@@ -1,0 +1,62 @@
+一 纹理压缩设计[针对png图片]
+1.使用压缩纹理减少包体大小.
+2.使用像素格式为RGBA4444减少内存大小,对于出现模糊失真的图片使用RGBA8888
+3.先把png转成pvr.ccz,最后打包时,删除所有png文件
+
+二 流程
+2.1 是否启用纹理压缩(true为打开)
+#define PRESSED_TEXTURE false
+BTW:pvr.ccz格式可以被所有平台解析.
+
+
+2.2,先把png转成pvr.ccz
+2.2.1 配置generatePVR
+配置文件路径:tools/generatePVR_cfg/config.json
+对config.json里的key值说明下:
+Mac_Resources_Path: Mac下Resources的绝对路径
+Mac_TexturePacker_Path: Mac下TexturePacker的绝对路径[该值如果是安装在application下的话,一般不需要修改]
+Win_Resources_Path: Windows下Resources的绝对路径
+Win_TexturePacker_Path: Windows下TexturePacker的绝对路径
+ExculdedDir: 排除某些目录不进行转换
+ExculdedFile: 某些png只转pvr.ccz,不生成plist文件.一般情况下,png转压缩纹理,会生成pvr.ccz和plist两个文件.
+InculdedDir: 某些目录下png全部转成32位深度
+InculdedFile: 某些文件需要转成32位深度
+
+2.2.2 如何使用
+Win下直接运行generatePVR.bat;Mac下命令行cd到tools目录下,运行如下命令行
+java -jar GeneratePVR.jar
+
+
+2.3 打包时,删除所有png文件
+2.3.1 配置removePNG
+配置文件路径:tools/removePNG_cfg/removePNG.xml
+在removePNG.xml里有如下代码:
+	<target name="checkWindows" if="isWindows">
+		<var name="directory_path" value="F:/HuangGuan/mobileClient/code/game/MixProject/Resources" />
+		<antcall target="delete_png" />
+	</target>
+
+	<target name="checkMac" if="isMac">
+		<echo>mac</echo>
+		<var name="directory_path" value="/Users/sunsongye/Documents/HuangGuan/mobile/mobileClient/code/game/MixProject/Resources" />
+		<antcall target="delete_png" />
+	</target>
+修改以上代码的directory_path的值,该值分别对应Windows和Mac平台下的Resources的绝对路径.
+
+另外,在target=delete_png的exclude语句,是排除不删除的文件类型.如果有新的类型出现,添加方式如下:
+<exclude name="**/*.类型后缀名" />
+
+2.3.2 如何使用
+Win下直接运行removePNG.bat;Mac下命令行cd到tools/removePNG_cfg目录下,运行如下命令行
+ant -buildfile removePNG.xml
+
+BTW:
+1.纹理图集导出时,直接使用pvr.ccz,不要用png
+2.对于粒子动画和骨骼动画,是使用pvr.ccz,不使用plist文件
+
+附录:
+对MixProject下的批处理文件的说明
+copyResource.bat:拷贝Resources目录下的文件到Debug.win32目录下,只针对Windows平台
+generateCCS.bat:生成最新的HuangGuangPro.ccs
+generatePVR.bat:批量把png转成pvr.ccz
+removePNG.bat:移除Resources目录下的所有png文件

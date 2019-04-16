@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="generate PVR" default="single" basedir=".">
+	<property name="ant-contrib.jar" location="${build.dir}/build/lib/ant-contrib-1.0b3.jar" />
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties"
+		classpath="${ant-contrib.jar}" />
+
+	<property name="TexturePacker_Path" value="" />
+	<property name="folder_path" value="" />
+	<property name="directory_path" value="" />
+
+	<property name="filename" value="" />
+	<property name="plist_name" value="" />
+	<property name="pvr_name" value="" />
+
+	<!--像素格式 -->
+	<property name="PixelFormat" value="" />
+	<property name="DitherMode" value="" />
+	<property name="Use_alpha" value="" />
+	
+	<target name="single">
+		<!--生成png对应的pvr.ccz文件 -->
+		<exec executable="${TexturePacker_Path}">
+			<arg
+				line="			  
+			--format cocos2d 
+			--data ${folder_path}/${plist_name}.plist
+			--texture-format pvr2ccz
+			--sheet ${folder_path}/${pvr_name}.pvr.ccz
+			--opt ${PixelFormat}
+			--dither-${DitherMode}
+			
+			--size-constraints AnySize
+			--algorithm Basic
+			--border-padding 0
+			--shape-padding 0			
+			--trim-mode None						
+								
+			--disable-rotation
+			${Use_alpha}
+			${folder_path}/${filename}.png
+			" />
+		</exec>
+	</target>
+
+	<taskdef name="Sample" classname="MyTask" classpath="MyTask.java" />
+
+	<target name="directory">
+		<!--生成目录下的pvr.ccz文件 -->
+		<Sample dir="${directory_path}">
+			<fileset dir="${directory_path}" casesensitive="yes">
+				<exclude name="**/*.pvr" />
+				<exclude name="**/*.pvr.ccz" />
+				<exclude name="**/*.plist" />
+				<exclude name="**/*.fsh" />
+				<exclude name="**/*.vsh" />
+				<exclude name="**/*.json" />
+				<exclude name="**/*.mp3" />
+				<exclude name="**/*.mp4" />
+				<exclude name="**/*.wav" />
+				<exclude name="**/*.ExportJson" />
+				<exclude name="**/*.ttf" />
+				<exclude name="**/*.csb" />
+				<exclude name="**/*.xml" />
+				<exclude name="**/*.jpg" />					
+			</fileset>
+		</Sample>
+	</target>
+
+	<property name="delete_filename" value="" />
+	<target name="delete_file">
+		<delete file="${delete_filename}" />
+	</target>
+
+	<target name="rename_file">
+		<rename src="${folder_path}/${filename}.plist" dest="${folder_path}/${filename}_tmp" />
+	</target>
+
+	<target name="recovery_file">
+		<rename src="${folder_path}/${filename}_tmp" dest="${folder_path}/${filename}.plist" />
+	</target>
+
+</project>

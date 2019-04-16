@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\Fruit\Classes\GameMessage\FruitCommonDef.h">
+      <Filter>Fruit\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\GameTable\FruitGameTableLogic.h">
+      <Filter>Fruit\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\GameTable\FruitGameTableUI.h">
+      <Filter>Fruit\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\GameTable\FruitGameTableUICallback.h">
+      <Filter>Fruit\GameTable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fruit">
+      <UniqueIdentifier>{54b70f73-6f68-4675-ad32-18421707e208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit\GameMessage">
+      <UniqueIdentifier>{a541da8d-7bea-4548-831d-098536c11c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit\GameTable">
+      <UniqueIdentifier>{f7f9de4c-271a-4b9d-965c-30ce3fdbad97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit\v88">
+      <UniqueIdentifier>{67588120-480a-4914-99e9-3a9d3e07d71b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Fruit\Classes\GameTable\FruitGameTableLogic.cpp">
+      <Filter>Fruit\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Fruit\Classes\GameTable\FruitGameTableUI.cpp">
+      <Filter>Fruit\GameTable</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

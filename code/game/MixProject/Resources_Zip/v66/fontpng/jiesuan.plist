@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>jiesuan.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{360,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{360,32}</string>
+                <key>textureRect</key>
+                <string>{{0,0},{360,32}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>jiesuan.pvr.ccz</string>
+            <key>size</key>
+            <string>{360,32}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:5ea1ea3d4cc0aad8fcf4db5328b6402d:de78dcf4322d1481b38c38ebb2d9da70:09f93f55db8b3aa632432da498737f40$</string>
+            <key>textureFileName</key>
+            <string>jiesuan.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

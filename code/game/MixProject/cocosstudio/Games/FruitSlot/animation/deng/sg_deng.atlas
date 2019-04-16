@@ -1,0 +1,144 @@
+
+sg_deng.png
+size: 1297,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+k13
+  rotate: true
+  xy: 310, 4
+  size: 561, 256
+  orig: 561, 256
+  offset: 0, 0
+  index: -1
+k2
+  rotate: false
+  xy: 568, 8
+  size: 620, 85
+  orig: 620, 85
+  offset: 0, 0
+  index: -1
+k4
+  rotate: true
+  xy: 1046, 446
+  size: 576, 249
+  orig: 576, 249
+  offset: 0, 0
+  index: -1
+k6
+  rotate: false
+  xy: 2, 567
+  size: 511, 455
+  orig: 511, 455
+  offset: 0, 0
+  index: -1
+k7
+  rotate: true
+  xy: 568, 95
+  size: 498, 460
+  orig: 498, 460
+  offset: 0, 0
+  index: -1
+k8
+  rotate: false
+  xy: 515, 595
+  size: 529, 427
+  orig: 529, 427
+  offset: 0, 0
+  index: -1
+k9
+  rotate: true
+  xy: 2, 2
+  size: 563, 306
+  orig: 563, 306
+  offset: 0, 0
+  index: -1
+
+sg_deng2.png
+size: 1292,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+k1
+  rotate: false
+  xy: 434, 2
+  size: 590, 197
+  orig: 590, 197
+  offset: 0, 0
+  index: -1
+k15
+  rotate: false
+  xy: 2, 565
+  size: 498, 454
+  orig: 498, 454
+  offset: 0, 0
+  index: -1
+k16
+  rotate: false
+  xy: 502, 561
+  size: 473, 458
+  orig: 473, 458
+  offset: 0, 0
+  index: -1
+k17
+  rotate: true
+  xy: 2, 52
+  size: 511, 430
+  orig: 511, 430
+  offset: 0, 0
+  index: -1
+k18
+  rotate: true
+  xy: 977, 475
+  size: 544, 313
+  orig: 544, 313
+  offset: 0, 0
+  index: -1
+k5
+  rotate: false
+  xy: 434, 201
+  size: 539, 358
+  orig: 539, 358
+  offset: 0, 0
+  index: -1
+
+sg_deng3.png
+size: 997,529
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+k10
+  rotate: false
+  xy: 2, 30
+  size: 604, 185
+  orig: 604, 185
+  offset: 0, 0
+  index: -1
+k11
+  rotate: false
+  xy: 2, 442
+  size: 613, 85
+  orig: 613, 85
+  offset: 0, 0
+  index: -1
+k12
+  rotate: false
+  xy: 2, 217
+  size: 617, 119
+  orig: 617, 119
+  offset: 0, 0
+  index: -1
+k14
+  rotate: true
+  xy: 632, 2
+  size: 525, 363
+  orig: 525, 363
+  offset: 0, 0
+  index: -1
+k3
+  rotate: false
+  xy: 2, 338
+  size: 628, 102
+  orig: 628, 102
+  offset: 0, 0
+  index: -1

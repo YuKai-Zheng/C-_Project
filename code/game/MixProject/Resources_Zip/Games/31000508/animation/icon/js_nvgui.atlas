@@ -1,0 +1,55 @@
+
+js_nvgui.png
+size: 494,176
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: true
+  xy: 2, 5
+  size: 169, 170
+  orig: 169, 170
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 174, 2
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 376, 2
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 310, 27
+  size: 64, 59
+  orig: 64, 59
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 431, 63
+  size: 61, 111
+  orig: 61, 111
+  offset: 0, 0
+  index: -1
+sp
+  rotate: false
+  xy: 174, 43
+  size: 134, 131
+  orig: 134, 131
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 310, 88
+  size: 86, 119
+  orig: 86, 119
+  offset: 0, 0
+  index: -1

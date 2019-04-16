@@ -1,0 +1,209 @@
+
+yxrk_suoha.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TEXAS HOLD`EM
+  rotate: true
+  xy: 941, 871
+  size: 143, 64
+  orig: 143, 64
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 832
+  size: 461, 182
+  orig: 461, 182
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 682
+  size: 432, 148
+  orig: 432, 148
+  offset: 0, 0
+  index: -1
+pai
+  rotate: false
+  xy: 446, 514
+  size: 77, 26
+  orig: 77, 26
+  offset: 0, 0
+  index: -1
+rewnwu
+  rotate: false
+  xy: 465, 840
+  size: 288, 174
+  orig: 288, 174
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 664, 575
+  size: 129, 85
+  orig: 129, 85
+  offset: 0, 0
+  index: -1
+shouwan
+  rotate: false
+  xy: 751, 598
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: -1
+shouwandai
+  rotate: false
+  xy: 875, 699
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+toufa01
+  rotate: true
+  xy: 688, 727
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1
+toufa02
+  rotate: false
+  xy: 792, 612
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+toufa03
+  rotate: false
+  xy: 831, 678
+  size: 42, 58
+  orig: 42, 58
+  offset: 0, 0
+  index: -1
+toufa04
+  rotate: true
+  xy: 556, 542
+  size: 24, 78
+  orig: 24, 78
+  offset: 0, 0
+  index: -1
+toufa05
+  rotate: false
+  xy: 688, 764
+  size: 59, 74
+  orig: 59, 74
+  offset: 0, 0
+  index: -1
+toufa06
+  rotate: false
+  xy: 751, 664
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (1)
+  rotate: false
+  xy: 446, 542
+  size: 108, 138
+  orig: 108, 138
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (10)
+  rotate: true
+  xy: 755, 862
+  size: 152, 184
+  orig: 152, 184
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (11)
+  rotate: false
+  xy: 2, 314
+  size: 144, 178
+  orig: 144, 178
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (12)
+  rotate: false
+  xy: 2, 140
+  size: 136, 172
+  orig: 136, 172
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (13)
+  rotate: false
+  xy: 328, 514
+  size: 116, 166
+  orig: 116, 166
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (14)
+  rotate: false
+  xy: 406, 352
+  size: 116, 160
+  orig: 116, 160
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (15)
+  rotate: false
+  xy: 436, 682
+  size: 114, 148
+  orig: 114, 148
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (2)
+  rotate: false
+  xy: 556, 568
+  size: 106, 136
+  orig: 106, 136
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (3)
+  rotate: false
+  xy: 552, 706
+  size: 134, 132
+  orig: 134, 132
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (4)
+  rotate: true
+  xy: 148, 318
+  size: 174, 128
+  orig: 174, 128
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (5)
+  rotate: true
+  xy: 278, 342
+  size: 170, 126
+  orig: 170, 126
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (6)
+  rotate: false
+  xy: 755, 738
+  size: 176, 122
+  orig: 176, 122
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (7)
+  rotate: false
+  xy: 2, 2
+  size: 170, 136
+  orig: 170, 136
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (8)
+  rotate: false
+  xy: 162, 516
+  size: 164, 164
+  orig: 164, 164
+  offset: 0, 0
+  index: -1
+xuanzhuanhuang (9)
+  rotate: false
+  xy: 2, 494
+  size: 158, 186
+  orig: 158, 186
+  offset: 0, 0
+  index: -1

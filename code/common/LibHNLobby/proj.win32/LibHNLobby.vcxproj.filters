@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HNLobby">
+      <UniqueIdentifier>{e9c0b21d-741d-49bb-a48d-800cddddbb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\ChildLayer">
+      <UniqueIdentifier>{b3719f05-5c6b-4f56-bdb4-cc3725b07565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\PersionalCenter">
+      <UniqueIdentifier>{eb36081b-8785-41cd-912f-a77f61ce9aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\Shop">
+      <UniqueIdentifier>{6aa76b65-cd43-4e34-95da-175f045f806e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\Popularise">
+      <UniqueIdentifier>{e8971526-e573-40a6-8c1e-957886c2f296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\component">
+      <UniqueIdentifier>{40a30d10-1e05-433b-b578-9e898fd91f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\state">
+      <UniqueIdentifier>{e64868d6-1407-4077-b709-8a38a50fee7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\command">
+      <UniqueIdentifier>{a77e4706-e312-4809-88a9-e0d994e96df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\component\delegate">
+      <UniqueIdentifier>{48970e94-f195-41d6-a9fe-0cb904e1a605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\component\logic">
+      <UniqueIdentifier>{d4e37d21-a149-44f8-8f9c-6519e76ce031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\v1">
+      <UniqueIdentifier>{a4786215-1be5-4cbe-b597-7ecb11eeb242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\res">
+      <UniqueIdentifier>{0870e950-6379-4181-b09b-f5be4eaf8489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern">
+      <UniqueIdentifier>{916e843d-7274-4603-80a8-e31a78a8df6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory">
+      <UniqueIdentifier>{7ccd296b-bc3e-4f50-90ab-13469d06c115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\background">
+      <UniqueIdentifier>{fbacc401-38aa-4f33-9e70-e350d7fe6934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\progressBar">
+      <UniqueIdentifier>{21820a71-88f9-46b6-ba1f-7110ab7680e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\roomList">
+      <UniqueIdentifier>{5dea1fba-759f-4215-b826-78b6c88be63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\deskList">
+      <UniqueIdentifier>{cdb783b9-d597-468f-a6d5-923b399e6b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameList">
+      <UniqueIdentifier>{5e9a09de-a74e-4516-a4c1-90a78d1cfc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\initial">
+      <UniqueIdentifier>{fadfa973-1e7a-4df7-81d2-7451d4ce7bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\menu">
+      <UniqueIdentifier>{173660f0-71b5-47f6-ac5a-c4ef58221b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameType">
+      <UniqueIdentifier>{6bc8e24e-d6f8-40b2-b150-1dc9487746da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\v2">
+      <UniqueIdentifier>{40147473-d380-46f8-a9e0-a677caa86952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\model">
+      <UniqueIdentifier>{ad402c09-5d4c-4bd1-ad77-dc85a8cfec63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\model\one">
+      <UniqueIdentifier>{fc210d2f-9957-4dfb-a202-586eb901d933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameMenu">
+      <UniqueIdentifier>{ac6bad39-7d02-428f-bcfb-36ef5e2a2b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\findPw">
+      <UniqueIdentifier>{ab15745f-387e-4049-b94e-d7786af7a424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameLand">
+      <UniqueIdentifier>{401cebcb-3f0e-45a7-850e-252818a5a83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameRegister">
+      <UniqueIdentifier>{234e26db-f177-415b-b21c-8826b99a2157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameSet">
+      <UniqueIdentifier>{a09a9247-199b-4e92-a39c-0b841bded5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameBank">
+      <UniqueIdentifier>{70884d65-1ec8-447e-8a8b-82d7895f29e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameShop">
+      <UniqueIdentifier>{6e8b6b4d-666d-4837-84bc-16dca2d0e67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameRank">
+      <UniqueIdentifier>{b44bdc50-bde8-4d42-a6d4-c2bce0fc1692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameUser">
+      <UniqueIdentifier>{4769e8ce-6561-4aaa-bcab-8478854c564d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameUserHead">
+      <UniqueIdentifier>{ff8f643b-f6ea-4b96-af91-8c3b9e2447e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameLogOn">
+      <UniqueIdentifier>{2407d137-580b-40e0-b303-ec9590ff24bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\vip">
+      <UniqueIdentifier>{ad3fcfe8-2110-4589-91a3-dc376c3656f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLobby\pattern\factory\gameGift">
+      <UniqueIdentifier>{f4c08e2a-0a3b-415e-ab6a-a31b3da9f914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameBankLayer.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameExitChangeLayer.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GamePayLayer.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameRankingList.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameSetLayer.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameStoreLayer.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\ServiceLayer.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\PersionalCenter\BindPhone.h">
+      <Filter>HNLobby\PersionalCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\PersionalCenter\GameUserDataLayer.h">
+      <Filter>HNLobby\PersionalCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\PersionalCenter\ModifyPassword.h">
+      <Filter>HNLobby\PersionalCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\Shop\ProductInfo.h">
+      <Filter>HNLobby\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\Shop\ShopManager.h">
+      <Filter>HNLobby\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\FontConfig.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameDesk.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameExitLayer.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameLists.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameMatch.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameNotice.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GamePlatform.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GamePrompt.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameRoom.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\LayerManger.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\PlatformConfig.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\PlatformDefine.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobbyExport.h" />
+    <ClInclude Include="..\HNLobby\ChildLayer\GameSignLayer.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameOnlineReward.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameRechargeRebate.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\HNUpdate.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\Popularise\SpreadEditLayer.h">
+      <Filter>HNLobby\Popularise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\NoticeList.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameGiftShop.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameAutograph.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameDeskUserInfoLayer.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameMusiceEffect.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\ChildLayer\GameHelpAndShenMing.h">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\BankGivePrompt.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameAutograph.h" />
+    <ClInclude Include="..\HNLobby\GameDeskUserInfoLayer.h" />
+    <ClInclude Include="..\HNLobby\GameMusiceEffect.h" />
+    <ClInclude Include="..\HNLobby\pattern\Composite.h">
+      <Filter>HNLobby\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\StateManager.h">
+      <Filter>HNLobby\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\state\InitialState.h">
+      <Filter>HNLobby\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\BaseState.h">
+      <Filter>HNLobby\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\state\MenuState.h">
+      <Filter>HNLobby\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\state\PlatformState.h">
+      <Filter>HNLobby\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\Command.h">
+      <Filter>HNLobby\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\CommandManager.h">
+      <Filter>HNLobby\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\command\CheckGiftCommand.h">
+      <Filter>HNLobby\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\PlatformMessage.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\command\GotoMenuState.h">
+      <Filter>HNLobby\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\command\RemoveLoaderCom.h">
+      <Filter>HNLobby\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\command\AddLoaderCom.h">
+      <Filter>HNLobby\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\RoomListDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\PlatformDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\state\GameState.h">
+      <Filter>HNLobby\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\logic\InitialLogic.h">
+      <Filter>HNLobby\component\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\InitialCompositeV1.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\HNLobby\component\delegate\LoginDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\RegisterDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\GameListDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\BaseDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\command\ShowGamePrompt.h">
+      <Filter>HNLobby\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\GameMenuV1.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\GamePlatformV1.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\CommonMacro.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\res\MenuRes.h">
+      <Filter>HNLobby\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\res\InitialRes.h">
+      <Filter>HNLobby\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\background\Background.h">
+      <Filter>HNLobby\pattern\factory\background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\background\BackgroundFactory.h">
+      <Filter>HNLobby\pattern\factory\background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\background\IBackground.h">
+      <Filter>HNLobby\pattern\factory\background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\progressBar\IProgressbar.h">
+      <Filter>HNLobby\pattern\factory\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\progressBar\ProgressBarFactory.h">
+      <Filter>HNLobby\pattern\factory\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\progressBar\ProgressBarLeaf.h">
+      <Filter>HNLobby\pattern\factory\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\deskList\IDeskList.h">
+      <Filter>HNLobby\pattern\factory\deskList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\DeskListDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameList\GameListFactory.h">
+      <Filter>HNLobby\pattern\factory\gameList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameList\IGameList.h">
+      <Filter>HNLobby\pattern\factory\gameList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\roomList\IRoomList.h">
+      <Filter>HNLobby\pattern\factory\roomList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\roomList\RoomListFactory.h">
+      <Filter>HNLobby\pattern\factory\roomList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\deskList\DeskListFactory.h">
+      <Filter>HNLobby\pattern\factory\deskList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\InitialDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\InitialCompositeDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\initial\IInitialComposite.h">
+      <Filter>HNLobby\pattern\factory\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\initial\InitialCompositeFactory.h">
+      <Filter>HNLobby\pattern\factory\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\BottomMenuComposite.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\DeskListComposite.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\GameListComposite.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\RoomListComposite.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v1\TopMenuComposite.h">
+      <Filter>HNLobby\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\globel.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\MenuDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\menu\BottomMenuFactory.h">
+      <Filter>HNLobby\pattern\factory\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\menu\IMenu.h">
+      <Filter>HNLobby\pattern\factory\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\menu\TopMenuFactory.h">
+      <Filter>HNLobby\pattern\factory\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameType\GameTypeFactory.h">
+      <Filter>HNLobby\pattern\factory\gameType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameType\IGameType.h">
+      <Filter>HNLobby\pattern\factory\gameType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\GameTypeDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\PlayerData.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\command\VertifyCodeCom.h">
+      <Filter>HNLobby\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameType.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\GameListCompositeV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\GameMenuV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\GamePlatformV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\GameTypeCompositeV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\RoomListCompositeV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\TopMenuCompositeV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameTypeV3.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\model\one\GameInitialOne.h">
+      <Filter>HNLobby\model\one</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\model\one\GameMenuOne.h">
+      <Filter>HNLobby\model\one</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\model\one\GamePlatformOne.h">
+      <Filter>HNLobby\model\one</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameMenu\GameMenuFactory.h">
+      <Filter>HNLobby\pattern\factory\gameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameMenu\IGameMenu.h">
+      <Filter>HNLobby\pattern\factory\gameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\GameMenuCompositeV1.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\FindPwCompositeV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\GameLandCompositeV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\v2\GameRegisterCompositeV2.h">
+      <Filter>HNLobby\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\findPw\FindPwFactory.h">
+      <Filter>HNLobby\pattern\factory\findPw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\findPw\IFindPw.h">
+      <Filter>HNLobby\pattern\factory\findPw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameLand\GameLandFactory.h">
+      <Filter>HNLobby\pattern\factory\gameLand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameLand\IGameLand.h">
+      <Filter>HNLobby\pattern\factory\gameLand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameRegister\GameRegisterFactory.h">
+      <Filter>HNLobby\pattern\factory\gameRegister</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameRegister\IGameRegister.h">
+      <Filter>HNLobby\pattern\factory\gameRegister</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameData.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\delegate\GameListRoomDelegate.h">
+      <Filter>HNLobby\component\delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameSet\GameSetFactory.h">
+      <Filter>HNLobby\pattern\factory\gameSet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameSet\IGameSet.h">
+      <Filter>HNLobby\pattern\factory\gameSet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\logic\GameSetLogic.h">
+      <Filter>HNLobby\component\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameBank\GameBankFactory.h">
+      <Filter>HNLobby\pattern\factory\gameBank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameBank\IGameBank.h">
+      <Filter>HNLobby\pattern\factory\gameBank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\component\logic\GameBankLogic.h">
+      <Filter>HNLobby\component\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameShop\GameShopFactory.h">
+      <Filter>HNLobby\pattern\factory\gameShop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameShop\IGameShop.h">
+      <Filter>HNLobby\pattern\factory\gameShop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameRank\GameRankFactory.h">
+      <Filter>HNLobby\pattern\factory\gameRank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameRank\IGameRank.h">
+      <Filter>HNLobby\pattern\factory\gameRank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameUser\GameUserFactory.h">
+      <Filter>HNLobby\pattern\factory\gameUser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameUser\IGameUser.h">
+      <Filter>HNLobby\pattern\factory\gameUser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameUserHead\GameUserHeadFactory.h">
+      <Filter>HNLobby\pattern\factory\gameUserHead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameUserHead\IGameUserHead.h">
+      <Filter>HNLobby\pattern\factory\gameUserHead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameHTTPRequestManager.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameLogOn\GameLogOnFactory.h">
+      <Filter>HNLobby\pattern\factory\gameLogOn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameLogOn\IGameLogOn.h">
+      <Filter>HNLobby\pattern\factory\gameLogOn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\vip\PlatformResVIP.h">
+      <Filter>HNLobby\vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameGift\GameGiftFactory.h">
+      <Filter>HNLobby\pattern\factory\gameGift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\pattern\factory\gameGift\IGameGift.h">
+      <Filter>HNLobby\pattern\factory\gameGift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLobby\GameADSpaceManager.h">
+      <Filter>HNLobby</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameBankLayer.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameExitChangeLayer.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GamePayLayer.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameRankingList.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameSetLayer.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameStoreLayer.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\ServiceLayer.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\PersionalCenter\BindPhone.cpp">
+      <Filter>HNLobby\PersionalCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\PersionalCenter\GameUserDataLayer.cpp">
+      <Filter>HNLobby\PersionalCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\PersionalCenter\ModifyPassword.cpp">
+      <Filter>HNLobby\PersionalCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\Shop\ProductInfo.cpp">
+      <Filter>HNLobby\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\Shop\ShopManager.cpp">
+      <Filter>HNLobby\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\FontConfig.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameDesk.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameExitLayer.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameLists.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameMatch.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameNotice.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GamePrompt.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameRoom.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\LayerManger.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\PlatformConfig.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameSignLayer.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameOnlineReward.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameRechargeRebate.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\HNUpdate.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\Popularise\SpreadEditLayer.cpp">
+      <Filter>HNLobby\Popularise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\NoticeList.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameGiftShop.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameAutograph.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameDeskUserInfoLayer.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameMusiceEffect.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\ChildLayer\GameHelpAndShenMing.cpp">
+      <Filter>HNLobby\ChildLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\BankGivePrompt.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameAutograph.cpp" />
+    <ClCompile Include="..\HNLobby\GameDeskUserInfoLayer.cpp" />
+    <ClCompile Include="..\HNLobby\GameMusiceEffect.cpp" />
+    <ClCompile Include="..\HNLobby\pattern\Composite.cpp">
+      <Filter>HNLobby\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\StateManager.cpp">
+      <Filter>HNLobby\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\state\InitialState.cpp">
+      <Filter>HNLobby\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\state\MenuState.cpp">
+      <Filter>HNLobby\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\state\PlatformState.cpp">
+      <Filter>HNLobby\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\CommandManager.cpp">
+      <Filter>HNLobby\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\command\CheckGiftCommand.cpp">
+      <Filter>HNLobby\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\command\GotoMenuState.cpp">
+      <Filter>HNLobby\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\command\RemoveLoaderCom.cpp">
+      <Filter>HNLobby\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\command\AddLoaderCom.cpp">
+      <Filter>HNLobby\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\state\GameState.cpp">
+      <Filter>HNLobby\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\component\logic\InitialLogic.cpp">
+      <Filter>HNLobby\component\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\InitialCompositeV1.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\command\ShowGamePrompt.cpp">
+      <Filter>HNLobby\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\GameMenuV1.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\GamePlatformV1.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\background\Background.cpp">
+      <Filter>HNLobby\pattern\factory\background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\background\BackgroundFactory.cpp">
+      <Filter>HNLobby\pattern\factory\background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\progressBar\ProgressBarFactory.cpp">
+      <Filter>HNLobby\pattern\factory\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\progressBar\ProgressBarLeaf.cpp">
+      <Filter>HNLobby\pattern\factory\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameList\GameListFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\roomList\RoomListFactory.cpp">
+      <Filter>HNLobby\pattern\factory\roomList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\deskList\DeskListFactory.cpp">
+      <Filter>HNLobby\pattern\factory\deskList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\initial\InitialCompositeFactory.cpp">
+      <Filter>HNLobby\pattern\factory\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\BottomMenuComposite.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\DeskListComposite.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\GameListComposite.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\RoomListComposite.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v1\TopMenuComposite.cpp">
+      <Filter>HNLobby\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\menu\BottomMenuFactory.cpp">
+      <Filter>HNLobby\pattern\factory\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\menu\TopMenuFactory.cpp">
+      <Filter>HNLobby\pattern\factory\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameType\GameTypeFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\command\VertifyCodeCom.cpp">
+      <Filter>HNLobby\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameType.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\GameListCompositeV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\GameMenuV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\GamePlatformV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\GameTypeCompositeV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\RoomListCompositeV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\TopMenuCompositeV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameTypeV3.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\model\one\GameInitialOne.cpp">
+      <Filter>HNLobby\model\one</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\model\one\GameMenuOne.cpp">
+      <Filter>HNLobby\model\one</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\model\one\GamePlatformOne.cpp">
+      <Filter>HNLobby\model\one</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameMenu\GameMenuFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\GameMenuCompositeV1.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GamePlatform.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\FindPwCompositeV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\GameLandCompositeV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\v2\GameRegisterCompositeV2.cpp">
+      <Filter>HNLobby\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\findPw\FindPwFactory.cpp">
+      <Filter>HNLobby\pattern\factory\findPw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameLand\GameLandFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameLand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameRegister\GameRegisterFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameRegister</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameData.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameSet\GameSetFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameSet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\component\logic\GameSetLogic.cpp">
+      <Filter>HNLobby\component\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameBank\GameBankFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameBank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\component\logic\GameBankLogic.cpp">
+      <Filter>HNLobby\component\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameShop\GameShopFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameShop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameRank\GameRankFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameRank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameUser\GameUserFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameUser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameUserHead\GameUserHeadFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameUserHead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameHTTPRequestManager.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameLogOn\GameLogOnFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameLogOn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\pattern\factory\gameGift\GameGiftFactory.cpp">
+      <Filter>HNLobby\pattern\factory\gameGift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLobby\GameADSpaceManager.cpp">
+      <Filter>HNLobby</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LibHNLobby.rc" />
+  </ItemGroup>
+</Project>

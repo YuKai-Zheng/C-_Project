@@ -1,0 +1,272 @@
+
+btn_paihangbang.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_caifubang
+  rotate: false
+  xy: 1690, 1656
+  size: 232, 96
+  orig: 232, 96
+  offset: 0, 0
+  index: -1
+light_caifubang01
+  rotate: false
+  xy: 2, 434
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang02
+  rotate: false
+  xy: 424, 636
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang03
+  rotate: false
+  xy: 846, 838
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang04
+  rotate: false
+  xy: 1268, 1040
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang05
+  rotate: false
+  xy: 1690, 1548
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang06
+  rotate: false
+  xy: 2, 326
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang07
+  rotate: false
+  xy: 204, 434
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang08
+  rotate: false
+  xy: 626, 636
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang09
+  rotate: false
+  xy: 1048, 838
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang10
+  rotate: false
+  xy: 1470, 1040
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang11
+  rotate: false
+  xy: 1690, 1440
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang13
+  rotate: false
+  xy: 2, 218
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang14
+  rotate: false
+  xy: 204, 326
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang15
+  rotate: false
+  xy: 1690, 1332
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang16
+  rotate: false
+  xy: 2, 110
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang17
+  rotate: false
+  xy: 204, 218
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang18
+  rotate: false
+  xy: 1690, 1224
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang19
+  rotate: false
+  xy: 2, 2
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+light_caifubang20
+  rotate: false
+  xy: 204, 110
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+xg1_00000
+  rotate: false
+  xy: 2, 1552
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00001
+  rotate: false
+  xy: 2, 1350
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00002
+  rotate: false
+  xy: 424, 1552
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00003
+  rotate: false
+  xy: 2, 1148
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00004
+  rotate: false
+  xy: 424, 1350
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00005
+  rotate: false
+  xy: 846, 1552
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00006
+  rotate: false
+  xy: 2, 946
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00007
+  rotate: false
+  xy: 424, 1148
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00008
+  rotate: false
+  xy: 846, 1350
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00009
+  rotate: false
+  xy: 1268, 1552
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00010
+  rotate: false
+  xy: 2, 744
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00011
+  rotate: false
+  xy: 424, 946
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00012
+  rotate: false
+  xy: 846, 1148
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00013
+  rotate: false
+  xy: 1268, 1350
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00014
+  rotate: false
+  xy: 2, 542
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00015
+  rotate: false
+  xy: 424, 744
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00016
+  rotate: false
+  xy: 846, 946
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+xg1_00017
+  rotate: false
+  xy: 1268, 1148
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1

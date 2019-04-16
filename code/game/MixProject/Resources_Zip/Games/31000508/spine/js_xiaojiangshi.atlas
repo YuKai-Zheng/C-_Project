@@ -1,0 +1,48 @@
+
+js_xiaojiangshi.png
+size: 412,177
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 5
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 234, 3
+  size: 60, 67
+  orig: 60, 67
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 307, 66
+  size: 109, 103
+  orig: 109, 103
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 174, 2
+  size: 61, 58
+  orig: 61, 58
+  offset: 0, 0
+  index: -1
+s2
+  rotate: true
+  xy: 303, 17
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 174, 65
+  size: 131, 110
+  orig: 131, 110
+  offset: 0, 0
+  index: -1

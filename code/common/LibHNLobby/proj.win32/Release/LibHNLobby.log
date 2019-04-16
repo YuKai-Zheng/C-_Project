@@ -1,0 +1,208 @@
+﻿  BankGivePrompt.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\bankgiveprompt.h(4): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GameBankLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamebanklayer.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/PlatformDefine.h”: No such file or directory
+  GameExitChangeLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gameexitchangelayer.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/ChildLayer/GameExitChangeLayer.h”: No such file or directory
+  GameGiftShop.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamegiftshop.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/PlatformDefine.h”: No such file or directory
+  GameHelpAndShenMing.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamehelpandshenming.h(5): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameOnlineReward.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gameonlinereward.h(4): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GamePayLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamepaylayer.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/ChildLayer/GamePayLayer.h”: No such file or directory
+  GameRankingList.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamerankinglist.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/ChildLayer/GameRankingList.h”: No such file or directory
+  GameRechargeRebate.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamerechargerebate.h(4): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GameSetLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamesetlayer.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/ChildLayer/GameSetLayer.h”: No such file or directory
+  GameSignLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamesignlayer.h(4): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GameStoreLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\gamestorelayer.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/ChildLayer/GameStoreLayer.h”: No such file or directory
+  NoticeList.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\noticelist.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/ChildLayer/NoticeList.h”: No such file or directory
+  ServiceLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\childlayer\servicelayer.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/ChildLayer/ServiceLayer.h”: No such file or directory
+  AddLoaderCom.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  CheckGiftCommand.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\command\checkgiftcommand.h(2): fatal error C1083: 无法打开包括文件: “HNSocket/HNSocketMessage.h”: No such file or directory
+  GotoMenuState.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\basestate.h(4): fatal error C1083: 无法打开包括文件: “UI/Base/HNScene.h”: No such file or directory
+  RemoveLoaderCom.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\command\removeloadercom.cpp(2): fatal error C1083: 无法打开包括文件: “UI/LoadingLayer.h”: No such file or directory
+  ShowGamePrompt.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gameprompt.h(4): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  VertifyCodeCom.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  正在编译...
+  GameBankLogic.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\component\logic\gamebanklogic.h(6): fatal error C1083: 无法打开包括文件: “HNSocket/HNSocketMessage.h”: No such file or directory
+  GameSetLogic.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\component\logic\gamesetlogic.h(6): fatal error C1083: 无法打开包括文件: “HNSocket/HNSocketMessage.h”: No such file or directory
+  InitialLogic.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\component\logic\initiallogic.cpp(2): fatal error C1083: 无法打开包括文件: “VersionInfo/VersionInfo.h”: No such file or directory
+  FontConfig.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameAutograph.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gameautograph.h(5): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameData.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\platformconfig.h(4): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GameDesk.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gamedesk.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/GameDesk.h”: No such file or directory
+  GameDeskUserInfoLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gamedeskuserinfolayer.cpp(2): fatal error C1083: 无法打开包括文件: “HNLobby/GameDeskUserInfoLayer.h”: No such file or directory
+  GameExitLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gameexitlayer.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/GameExitLayer.h”: No such file or directory
+  GameHTTPRequestManager.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameLists.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gamelists.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/GameLists.h”: No such file or directory
+  GameMatch.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gamematch.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/GameMatch.h”: No such file or directory
+  GameMusiceEffect.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gamemusiceeffect.h(6): fatal error C1083: 无法打开包括文件: “UI/Base/HNLayer.h”: No such file or directory
+  GameNotice.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gamenotice.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/GameNotice.h”: No such file or directory
+  GamePlatform.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gameplatform.h(4): fatal error C1083: 无法打开包括文件: “HNLogicExport.h”: No such file or directory
+  GamePrompt.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gameprompt.h(4): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameRoom.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gameroom.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/GameRoom.h”: No such file or directory
+  GameType.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameTypeV3.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  HNUpdate.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\hnupdate.h(4): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  正在编译...
+  LayerManger.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameInitialOne.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\model\one\gameinitialone.h(4): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameMenuOne.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GamePlatformOne.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\model\one\gameplatformone.h(4): fatal error C1083: 无法打开包括文件: “HNLogicExport.h”: No such file or directory
+  CommandManager.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\commandmanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  Composite.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  Background.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  BackgroundFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  DeskListFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  FindPwFactory.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\findpw\findpwfactory.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\findpw\ifindpw.h(12): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameBankFactory.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gamebank\igamebank.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/PlatformDefine.h”: No such file or directory
+  GameLandFactory.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gameland\gamelandfactory.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gameland\igameland.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gameland\igameland.h(12): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameListFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameLogOnFactory.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gamelogon\gamelogonfactory.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gamelogon\gamelogonfactory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gamelogon\igamelogon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gamelogon\igamelogon.h(12): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameMenuFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameRankFactory.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gamerank\igamerank.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/PlatformDefine.h”: No such file or directory
+  GameRegisterFactory.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\gameregister\igameregister.h(12): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  GameSetFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameShopFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameTypeFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  正在编译...
+  GameUserHeadFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameUserFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  InitialCompositeFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  BottomMenuFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  TopMenuFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  ProgressBarFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  ProgressBarLeaf.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\factory\progressbar\progressbarleaf.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  RoomListFactory.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  StateManager.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\pattern\basestate.h(4): fatal error C1083: 无法打开包括文件: “UI/Base/HNScene.h”: No such file or directory
+  BindPhone.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\persionalcenter\bindphone.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/PersionalCenter/BindPhone.h”: No such file or directory
+  GameUserDataLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\persionalcenter\gameuserdatalayer.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/PersionalCenter/GameUserDataLayer.h”: No such file or directory
+  ModifyPassword.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\persionalcenter\modifypassword.h(4): fatal error C1083: 无法打开包括文件: “HNUIExport.h”: No such file or directory
+  PlatformConfig.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\platformconfig.h(4): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  SpreadEditLayer.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\popularise\spreadeditlayer.h(8): fatal error C1083: 无法打开包括文件: “HNLogicExport.h”: No such file or directory
+  ProductInfo.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\shop\productinfo.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/Shop/ProductInfo.h”: No such file or directory
+  ShopManager.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\shop\shopmanager.cpp(1): fatal error C1083: 无法打开包括文件: “HNLobby/Shop/ShopManager.h”: No such file or directory
+  GameState.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\state\gamestate.h(4): fatal error C1083: 无法打开包括文件: “HNGame/HNGameUIBase.h”: No such file or directory
+  InitialState.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  MenuState.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  PlatformState.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  正在编译...
+  BottomMenuComposite.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  DeskListComposite.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v1\desklistcomposite.h(4): fatal error C1083: 无法打开包括文件: “HNNetProtocol/HNComStruct.h”: No such file or directory
+  GameListComposite.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v1\gamelistcomposite.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/GameLists.h”: No such file or directory
+  GameMenuV1.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GamePlatformV1.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\gameplatform.h(4): fatal error C1083: 无法打开包括文件: “HNLogicExport.h”: No such file or directory
+  InitialCompositeV1.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  RoomListComposite.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v1\roomlistcomposite.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/GameRoom.h”: No such file or directory
+  TopMenuComposite.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  FindPwCompositeV2.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v2\findpwcompositev2.h(12): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GameLandCompositeV2.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v2\gamelandcompositev2.h(13): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GameListCompositeV2.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v2\gamelistcompositev2.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/GameLists.h”: No such file or directory
+  GameMenuCompositeV1.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GameMenuV2.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  GamePlatformV2.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v2\gameplatformv2.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/GamePlatform.h”: No such file or directory
+  GameRegisterCompositeV2.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v2\gameregistercompositev2.h(12): fatal error C1083: 无法打开包括文件: “HNNetExport.h”: No such file or directory
+  GameTypeCompositeV2.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"
+  RoomListCompositeV2.cpp
+e:\client\new8legame\code\common\libhnlobby\hnlobby\v2\roomlistcompositev2.h(4): fatal error C1083: 无法打开包括文件: “HNLobby/GameRoom.h”: No such file or directory
+  TopMenuCompositeV2.cpp
+e:\client\new8legame\cocos2d\cocos\platform\ccplatformconfig.h(143): fatal error C1189: #error:   "Cannot recognize the target platform; are you targeting an unsupported platform?"

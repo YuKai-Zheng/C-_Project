@@ -1,0 +1,90 @@
+
+js_dajiangshi.png
+size: 459,228
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bz
+  rotate: false
+  xy: 317, 5
+  size: 71, 62
+  orig: 71, 62
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 57
+  size: 170, 169
+  orig: 170, 169
+  offset: 0, 0
+  index: -1
+f
+  rotate: false
+  xy: 363, 69
+  size: 65, 75
+  orig: 65, 75
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 174, 129
+  size: 109, 97
+  orig: 109, 97
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 174, 81
+  size: 109, 46
+  orig: 109, 46
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 253, 2
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 174, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 285, 71
+  size: 76, 73
+  orig: 76, 73
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 285, 146
+  size: 80, 120
+  orig: 80, 120
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 2, 7
+  size: 156, 48
+  orig: 156, 48
+  offset: 0, 0
+  index: -1
+zz
+  rotate: false
+  xy: 407, 157
+  size: 50, 69
+  orig: 50, 69
+  offset: 0, 0
+  index: -1
+zz2
+  rotate: false
+  xy: 407, 157
+  size: 50, 69
+  orig: 50, 69
+  offset: 0, 0
+  index: -1

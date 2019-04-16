@@ -1,0 +1,265 @@
+
+loading_caishenlaile.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+960000
+  rotate: false
+  xy: 2035, 1548
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960001
+  rotate: false
+  xy: 1404, 838
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960002
+  rotate: false
+  xy: 2294, 1548
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960003
+  rotate: false
+  xy: 2589, 1794
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960004
+  rotate: false
+  xy: 2848, 1794
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960005
+  rotate: false
+  xy: 3107, 1794
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960006
+  rotate: false
+  xy: 3366, 1794
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960007
+  rotate: false
+  xy: 3625, 1794
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960008
+  rotate: false
+  xy: 903, 581
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960009
+  rotate: false
+  xy: 1162, 581
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960010
+  rotate: true
+  xy: 1421, 579
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960011
+  rotate: false
+  xy: 1663, 838
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960012
+  rotate: true
+  xy: 1674, 579
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960013
+  rotate: false
+  xy: 2035, 1295
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960014
+  rotate: false
+  xy: 2294, 1295
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960015
+  rotate: false
+  xy: 2553, 1541
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960016
+  rotate: false
+  xy: 2812, 1541
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960017
+  rotate: false
+  xy: 3071, 1541
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960018
+  rotate: false
+  xy: 3330, 1541
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960019
+  rotate: false
+  xy: 3589, 1541
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960020
+  rotate: false
+  xy: 2553, 1288
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960021
+  rotate: false
+  xy: 2812, 1288
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960022
+  rotate: false
+  xy: 3071, 1288
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960023
+  rotate: false
+  xy: 3330, 1288
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+960024
+  rotate: false
+  xy: 3589, 1288
+  size: 257, 251
+  orig: 257, 251
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 1325
+  size: 1600, 720
+  orig: 1600, 720
+  offset: 0, 0
+  index: -1
+caishen
+  rotate: false
+  xy: 903, 834
+  size: 499, 489
+  orig: 499, 489
+  offset: 0, 0
+  index: -1
+denglong
+  rotate: false
+  xy: 2, 43
+  size: 43, 130
+  orig: 43, 130
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 2, 2
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 724, 538
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+lianzi01
+  rotate: true
+  xy: 2, 175
+  size: 426, 720
+  orig: 426, 720
+  offset: 0, 0
+  index: -1
+lianzi02
+  rotate: false
+  xy: 1604, 1325
+  size: 429, 720
+  orig: 429, 720
+  offset: 0, 0
+  index: -1
+paizi
+  rotate: false
+  xy: 1900, 1243
+  size: 29, 80
+  orig: 29, 80
+  offset: 0, 0
+  index: -1
+shugan
+  rotate: false
+  xy: 2, 603
+  size: 899, 720
+  orig: 899, 720
+  offset: 0, 0
+  index: -1
+yu
+  rotate: false
+  xy: 3884, 1956
+  size: 73, 89
+  orig: 73, 89
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 1404, 1091
+  size: 494, 232
+  orig: 494, 232
+  offset: 0, 0
+  index: -1
+zhaocaijinbao
+  rotate: false
+  xy: 2035, 1801
+  size: 552, 244
+  orig: 552, 244
+  offset: 0, 0
+  index: -1

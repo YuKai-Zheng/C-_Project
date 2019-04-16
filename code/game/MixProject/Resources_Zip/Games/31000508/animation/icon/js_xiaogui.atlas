@@ -1,0 +1,76 @@
+
+js_xiaogui.png
+size: 350,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+d
+  rotate: false
+  xy: 319, 49
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+d2
+  rotate: false
+  xy: 319, 49
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 16
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+f
+  rotate: false
+  xy: 259, 27
+  size: 58, 36
+  orig: 58, 36
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 174, 6
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 280, 119
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+s2
+  rotate: true
+  xy: 280, 65
+  size: 52, 61
+  orig: 52, 61
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 174, 85
+  size: 104, 101
+  orig: 104, 101
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 259, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+y2
+  rotate: false
+  xy: 259, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1

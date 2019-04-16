@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BJL">
+      <UniqueIdentifier>{90497052-211d-4f01-9b81-3d1f197c7a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BJL\GameMessage">
+      <UniqueIdentifier>{a38d7675-54ac-41e2-a0ab-0013db51dea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BJL\GameTable">
+      <UniqueIdentifier>{952f3598-d2a9-40b1-8708-fca5e4ae89c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HappyGoldenFlower">
+      <UniqueIdentifier>{a2679d7a-0b7b-437d-a434-1f3524739c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HappyGoldenFlower\GameMessage">
+      <UniqueIdentifier>{bdca0113-9b26-4072-bbf8-0625566ba307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HappyGoldenFlower\GameTable">
+      <UniqueIdentifier>{26d7215d-39fd-4f65-93f9-6cdfab993421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FQZS">
+      <UniqueIdentifier>{2fda06e9-de6b-4e10-bd97-d95d4a5421c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FQZS\GameMessage">
+      <UniqueIdentifier>{7d87b31b-3400-4ca5-a461-d1d27b19957d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FQZS\GameTable">
+      <UniqueIdentifier>{1e2b1bd2-38d9-4d59-82a5-c72111cd3510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit">
+      <UniqueIdentifier>{50764f6b-bb17-4325-9f28-c453d4e79063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit\GameMessage">
+      <UniqueIdentifier>{18f31d5d-290e-4747-9d37-a482976c7760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit\GameTable">
+      <UniqueIdentifier>{b07aa118-5e8b-4600-992b-611d3c1e3671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHZ">
+      <UniqueIdentifier>{df0c9dc7-1ae3-447a-9588-6a9375886f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHZ\GameMessage">
+      <UniqueIdentifier>{4db8b91c-93bb-4651-abf0-2845b23dd24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHZ\GameTable">
+      <UniqueIdentifier>{0b766694-cd94-4878-89cd-6f5f304df7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRNN">
+      <UniqueIdentifier>{dc4c28fe-370a-4b5c-8e8d-7b1c0bb0bfc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BJL\v88">
+      <UniqueIdentifier>{f0f880a0-e364-4f31-9d65-de28b5351e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRNN\v88">
+      <UniqueIdentifier>{5135785b-6d9e-45bc-a56a-e85a21fa020a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit\v88">
+      <UniqueIdentifier>{45f2c078-bb87-498e-8fea-bbe6b42335e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HappyGoldenFlower\v88">
+      <UniqueIdentifier>{4c4e7b06-9889-4ceb-9e1b-2db3f4768a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHZ\v88">
+      <UniqueIdentifier>{4000df2d-0d68-42d0-aa08-d6cd8bd155c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSLL">
+      <UniqueIdentifier>{7e698399-7f40-41b0-8f80-9420a0d52459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSLL\GameMessage">
+      <UniqueIdentifier>{40489991-bbc7-4f0b-95d6-fe20cbb44d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSLL\GameTable">
+      <UniqueIdentifier>{a4bf75cb-40bf-4c68-a790-438ce6200fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSLL\v88">
+      <UniqueIdentifier>{484ec2f9-f01f-4be8-b673-cf67b981fb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSXS">
+      <UniqueIdentifier>{461782fe-8d30-43c3-b45e-e33a2ad7bf9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSXS\GameMessage">
+      <UniqueIdentifier>{bb54cbc7-3333-46b7-abae-609da21cdde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSXS\GameTable">
+      <UniqueIdentifier>{3aed6d2c-5e91-4715-ae10-01f7df75c17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSXS\v88">
+      <UniqueIdentifier>{64dd5a18-474d-4649-832b-a4dd92f0e45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Medusa">
+      <UniqueIdentifier>{acc5d16e-d8de-4ab6-9298-c5a49b581a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tiger">
+      <UniqueIdentifier>{2e6959c6-dcfe-43df-b9d2-28c77d3aed70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NL">
+      <UniqueIdentifier>{cadbe9ba-275b-4b8d-b9d8-e2d9e5321c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Medusa\GameMessage">
+      <UniqueIdentifier>{a32261e0-f130-4ef7-8e4b-cbdcaed30960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NL\GameMessage">
+      <UniqueIdentifier>{27bc8733-b66b-404d-97fb-2b088546be37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tiger\GameMessage">
+      <UniqueIdentifier>{7306180c-6d32-49e5-8b52-28f80abe4ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Medusa\GameTable">
+      <UniqueIdentifier>{2430edf1-0a1d-4baa-8615-3342b63d92d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NL\GameTable">
+      <UniqueIdentifier>{a5c0c72f-13ff-4433-b185-4b5eb5bd345a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tiger\GameTable">
+      <UniqueIdentifier>{28200372-7327-4de2-9ee8-b6173dc7ca5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Medusa\v88">
+      <UniqueIdentifier>{5ce525e6-8b30-4c76-aff9-7ebe68acd5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NL\v88">
+      <UniqueIdentifier>{814f27b4-3bdf-4538-bd6a-29f1a93684bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tiger\v88">
+      <UniqueIdentifier>{23a5a609-ca0c-4889-ad51-202cd603df40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRNN\GameMessage">
+      <UniqueIdentifier>{582ae8ff-0a40-4814-8140-195616678df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRNN\GameTable">
+      <UniqueIdentifier>{44a2be53-c1ce-406b-96c9-275d51cc06a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB">
+      <UniqueIdentifier>{94ad1d7a-c2be-43fa-8173-a5ee333b23c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB\GameMessage">
+      <UniqueIdentifier>{dd95f981-efd2-4e93-ab56-638e8f6c4298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB\GameTable">
+      <UniqueIdentifier>{ac10d7a7-5696-4d52-ab2d-8fb9fe80ffab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRXJ">
+      <UniqueIdentifier>{775986a3-6097-45bf-8068-45e3df5740b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRXJ\GameMessage">
+      <UniqueIdentifier>{43cc0645-9a53-4f91-ae1d-aa8c87d1fe09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRXJ\GameTable">
+      <UniqueIdentifier>{bf1822a7-c429-4d4f-8e07-dbbdc9836977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STUD">
+      <UniqueIdentifier>{2d872e60-2165-4390-aa9b-2cf8736c8435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STUD\GameMessage">
+      <UniqueIdentifier>{c830f2a2-20a7-4532-8956-4cab628601f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STUD\GameTable">
+      <UniqueIdentifier>{34edf00a-a860-4d92-8044-934d51dd39fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STUD\v88">
+      <UniqueIdentifier>{7db0f8a5-9900-4e2a-946e-601d787d63ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EightSlot">
+      <UniqueIdentifier>{63a5e610-fae3-42d4-9bb0-cb1290f86354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pubg">
+      <UniqueIdentifier>{bf3fd8ff-aecd-402e-83b4-e13878e19c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EightSlot\GameMessage">
+      <UniqueIdentifier>{acf87885-707b-497c-a60a-9c78944db2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pubg\GameMessage">
+      <UniqueIdentifier>{ae41b732-490d-4040-87dc-93dc79c244f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EightSlot\GameTable">
+      <UniqueIdentifier>{b80b0f39-2eac-438e-b3dd-0b7e6a0835f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pubg\GameTable">
+      <UniqueIdentifier>{abe12147-e702-4f9e-b2d3-5d4930aab0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pubg\v88">
+      <UniqueIdentifier>{d1f89cae-c3ad-452a-a035-de24fab42837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Honor">
+      <UniqueIdentifier>{9ba9ca3e-249d-467d-a1c8-a17e9a00216e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Honor\GameMessage">
+      <UniqueIdentifier>{fd72f540-06e8-433a-b6d8-c0e388e1d538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Honor\GameTable">
+      <UniqueIdentifier>{0ece0298-d30e-43d9-99ce-1376b4f0e763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Honor\v88">
+      <UniqueIdentifier>{cd0b6925-6ac1-4ce7-bd26-3405109bd2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JPM">
+      <UniqueIdentifier>{6f40d25d-fa86-4ab4-bb56-1d6f7d0c8571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JPM\GameMessage">
+      <UniqueIdentifier>{cf1ee292-4986-4872-b01e-7b7d188397bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JPM\GameTable">
+      <UniqueIdentifier>{59b3c606-3929-4a79-8f0d-fc3afc5032d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JPM\v88">
+      <UniqueIdentifier>{a61eec3d-6186-4ca1-9eaa-adc8824ad78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RedPacket">
+      <UniqueIdentifier>{ae428523-9f1e-4cea-9b43-8e1a029e0be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RedPacket\GameMessage">
+      <UniqueIdentifier>{aadbb7dd-ca07-4cfe-ba80-b9a35d6ae4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RedPacket\GameTable">
+      <UniqueIdentifier>{8ebfb67c-9fa3-4d6e-8a81-7ee203dbe0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RedPacket\v88">
+      <UniqueIdentifier>{7fdc5583-ede3-47b4-a9b6-5a085d23bffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRXJ\v99">
+      <UniqueIdentifier>{58570846-c167-4830-9b19-405c3a1394c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21D">
+      <UniqueIdentifier>{652f1270-da10-4d28-af69-de5de2b9ac6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21D\GameMessage">
+      <UniqueIdentifier>{64dd520f-4b8f-4120-b098-204a9560f9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21D\GameTable">
+      <UniqueIdentifier>{9385f884-812a-4aa7-bb74-45080b13ce97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21D\v99">
+      <UniqueIdentifier>{18b7e352-a260-4558-92b7-6700ddf3898b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB\v99">
+      <UniqueIdentifier>{8b5b08d8-dc1b-494c-8d48-1fe1d586db21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FQZS\V99">
+      <UniqueIdentifier>{6bbf2deb-c6d9-49c1-846b-27865db56a18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\FQZS\Classes\GameMessage\FQZSCommonDef.h">
+      <Filter>FQZS\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\GameMessage\FruitCommonDef.h">
+      <Filter>Fruit\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\GameTable\FruitGameTableLogic.h">
+      <Filter>Fruit\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\GameTable\FruitGameTableUICallback.h">
+      <Filter>Fruit\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameMessage\GoldenFlowerMessageHead.h">
+      <Filter>HappyGoldenFlower\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameMessage\GoldenFlowerResourceMgr.h">
+      <Filter>HappyGoldenFlower\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\GameMessage\SHZCommonDef.h">
+      <Filter>SHZ\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\GameTable\SHZGameTableLogic.h">
+      <Filter>SHZ\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\GameTable\SHZGameTableUICallback.h">
+      <Filter>SHZ\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\GameMessage\BJLMessageHead.h">
+      <Filter>BJL\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLGameTableUIV88.h">
+      <Filter>BJL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLNoticeV88.h">
+      <Filter>BJL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLPokerCardV88.h">
+      <Filter>BJL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLResultCardV88.h">
+      <Filter>BJL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\v88\BJLResultDialogV88.h">
+      <Filter>BJL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitBetMoneyCellV88.h">
+      <Filter>Fruit\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitGameStateV88.h">
+      <Filter>Fruit\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitGameTableUIV88.h">
+      <Filter>Fruit\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Fruit\Classes\v88\FruitLoopSpriteCellV88.h">
+      <Filter>Fruit\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerDrawEllipseV88.h">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameCardTypeV88.h">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDashboardV88.h">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDealerUIV88.h">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGamePlayerV88.h">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameTableUIV88.h">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerPokerCardV88.h">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\v88\ScorePanelCellV88.h">
+      <Filter>SHZ\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZGameTableUIV88.h">
+      <Filter>SHZ\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZGuessSizeV88.h">
+      <Filter>SHZ\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZResultCellV88.h">
+      <Filter>SHZ\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZSettlementV88.h">
+      <Filter>SHZ\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNActionsV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNMakeBlackV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNOtherPlayerV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNSettlementLayerV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FQZS\Classes\GameTable\FQZSGameTableLogic.h">
+      <Filter>FQZS\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FQZS\Classes\GameTable\FQZSGameTableUICallback.h">
+      <Filter>FQZS\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNResV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameLogic.h">
+      <Filter>BJL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameTableLogic.h">
+      <Filter>BJL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameTableUICallback.h">
+      <Filter>BJL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BJL\Classes\GameTable\BJLGameTableUIData.h">
+      <Filter>BJL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameLogic.h">
+      <Filter>HappyGoldenFlower\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameTableLogic.h">
+      <Filter>HappyGoldenFlower\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameTableUICallback.h">
+      <Filter>HappyGoldenFlower\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CSLL\Classes\GameMessage\CSLLCommonDef.h">
+      <Filter>CSLL\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CSLL\Classes\GameTable\CSLLGameTableLogic.h">
+      <Filter>CSLL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CSLL\Classes\GameTable\CSLLGameTableUICallback.h">
+      <Filter>CSLL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLGameTableUIV88.h">
+      <Filter>CSLL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLScorePanelCellV88.h">
+      <Filter>CSLL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLSettlementV88.h">
+      <Filter>CSLL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JSXS\Classes\GameMessage\JSXSCommonDef.h">
+      <Filter>JSXS\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JSXS\Classes\GameTable\JSXSGameTableLogic.h">
+      <Filter>JSXS\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JSXS\Classes\GameTable\JSXSGameTableUICallback.h">
+      <Filter>JSXS\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSGameTableUIV88.h">
+      <Filter>JSXS\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSScorePanelCellV88.h">
+      <Filter>JSXS\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSSettlementV88.h">
+      <Filter>JSXS\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Medusa\Classes\GameMessage\MedusaCommonDef.h">
+      <Filter>Medusa\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Medusa\Classes\GameTable\MedusaGameTableLogic.h">
+      <Filter>Medusa\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Medusa\Classes\GameTable\MedusaGameTableUICallback.h">
+      <Filter>Medusa\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Medusa\Classes\v88\MedusaGameTableUIV88.h">
+      <Filter>Medusa\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Medusa\Classes\v88\MedusaScorePanelCellV88.h">
+      <Filter>Medusa\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Medusa\Classes\v88\MedusaSettlementV88.h">
+      <Filter>Medusa\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NL\Classes\GameMessage\NLCommonDef.h">
+      <Filter>NL\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NL\Classes\GameTable\NLGameTableLogic.h">
+      <Filter>NL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NL\Classes\GameTable\NLGameTableUICallback.h">
+      <Filter>NL\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NL\Classes\v88\NLGameTableUIV88.h">
+      <Filter>NL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NL\Classes\v88\NLScorePanelCellV88.h">
+      <Filter>NL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NL\Classes\v88\NLSettlementV88.h">
+      <Filter>NL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Tiger\Classes\GameMessage\TigerCommonDef.h">
+      <Filter>Tiger\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Tiger\Classes\GameTable\TigerGameTableLogic.h">
+      <Filter>Tiger\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Tiger\Classes\GameTable\TigerGameTableUICallback.h">
+      <Filter>Tiger\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Tiger\Classes\v88\TigerGameTableUIV88.h">
+      <Filter>Tiger\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Tiger\Classes\v88\TigerScorePanelCellV88.h">
+      <Filter>Tiger\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Tiger\Classes\v88\TigerSettlementV88.h">
+      <Filter>Tiger\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\GameMessage\BaseMessage.h">
+      <Filter>BRNN\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\GameMessage\BRNNMessageHead.h">
+      <Filter>BRNN\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\GameTable\BRNNGameLogic.h">
+      <Filter>BRNN\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\GameTable\BRNNGameTableLogic.h">
+      <Filter>BRNN\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\GameTable\BRNNGameTableUICallback.h">
+      <Filter>BRNN\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\GameMessage\BBCommonDef.h">
+      <Filter>BB\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\GameTable\BBGameTableLogic.h">
+      <Filter>BB\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\GameTable\BBGameTableUICallback.h">
+      <Filter>BB\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BRXJ\classes\GameMessage\BRXJMessageHead.h">
+      <Filter>BRXJ\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BRXJ\classes\GameTable\BRXJGameLogic.h">
+      <Filter>BRXJ\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BRXJ\classes\GameTable\BRXJGameTableUICallback.h">
+      <Filter>BRXJ\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Stud\Classes\GameMessage\StudMessageHead.h">
+      <Filter>STUD\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Stud\Classes\GameTable\StudGameTableLogic.h">
+      <Filter>STUD\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Stud\Classes\GameTable\StudGameTableUICallback.h">
+      <Filter>STUD\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudGamePlayerV88.h">
+      <Filter>STUD\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudGameTableUIV88.h">
+      <Filter>STUD\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudGameUserMessageBoxV88.h">
+      <Filter>STUD\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Stud\Classes\v88\GameTable\StudPokerCardV88.h">
+      <Filter>STUD\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNBankerLayerV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNBetObjV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNBetV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNGameLogicV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNGameTableUIV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNGiveGiftV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNMsgV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNPlayerSeatV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNPokerCardV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNSendFaceV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNTableViewV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TTNN\Classes\v88\BRNNUionBankerLayerV88.h">
+      <Filter>BRNN\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SHZ\Classes\v88\SHZMaryTableUIV88.h">
+      <Filter>SHZ\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EightSlot\Classes\GameMessage\EightSlotMessageHead.h">
+      <Filter>EightSlot\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightRule.hpp">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSet.hpp">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableLogic.h">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableUI.h">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableUICallback.h">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pubg\Classes\GameMessage\PubgCommonDef.h">
+      <Filter>Pubg\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pubg\Classes\GameTable\PubgGameTableLogic.h">
+      <Filter>Pubg\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pubg\Classes\GameTable\PubgGameTableUICallback.h">
+      <Filter>Pubg\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgFinalModeReward.hpp">
+      <Filter>Pubg\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgGameTableUIV88.h">
+      <Filter>Pubg\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgScorePanelCellV88.h">
+      <Filter>Pubg\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pubg\Classes\v88\PubgSettlementV88.h">
+      <Filter>Pubg\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CSLL\Classes\v88\CSLLMary.hpp">
+      <Filter>CSLL\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JSXS\Classes\v88\JSXSMary.hpp">
+      <Filter>JSXS\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Honor\Classes\GameMessage\HonorCommonDef.h">
+      <Filter>Honor\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Honor\Classes\GameTable\HonorGameTableLogic.h">
+      <Filter>Honor\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Honor\Classes\GameTable\HonorGameTableUICallback.h">
+      <Filter>Honor\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorFinalModeReward.hpp">
+      <Filter>Honor\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorGameTableUIV88.h">
+      <Filter>Honor\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorScorePanelCellV88.h">
+      <Filter>Honor\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Honor\Classes\v88\HonorSettlementV88.h">
+      <Filter>Honor\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JPM\Classes\GameMessage\JPMCommonDef.h">
+      <Filter>JPM\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JPM\Classes\GameTable\JPMGameTableLogic.h">
+      <Filter>JPM\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JPM\Classes\GameTable\JPMGameTableUICallback.h">
+      <Filter>JPM\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JPM\Classes\v88\JPMGameTableUIV88.h">
+      <Filter>JPM\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JPM\Classes\v88\JPMScorePanelCellV88.h">
+      <Filter>JPM\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JPM\Classes\v88\JPMSettlementV88.h">
+      <Filter>JPM\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameMessage\RedPacketCommonDef.h">
+      <Filter>RedPacket\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayerCellLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayersListLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGamePlayerCellLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableLogic.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableUI.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableUICallback.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordCellLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketMyUserInfo.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailCellLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailsLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenPacketLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketSendPacketLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\GameTable\RedPacketSetPacketBombLayer.h">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayerCellLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayersListLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketGamePlayerCellLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketGameTableUIV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordCellLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketMyUserInfoV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailCellLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailsLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketOpenPacketLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketSendPacketLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RedPacket\Classes\v77\RedPacketSetPacketBombLayerV77.h">
+      <Filter>RedPacket\v88</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21BuyDialog.h">
+      <Filter>21D\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameNotice.h">
+      <Filter>21D\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GamePlayer.h">
+      <Filter>21D\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameTableLogic.h">
+      <Filter>21D\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameTableUICallback.h">
+      <Filter>21D\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21GameUserMessageBox.h">
+      <Filter>21D\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameTable\D21PokerCard.h">
+      <Filter>21D\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\GameMessage\D21MessageHead.h">
+      <Filter>21D\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21BuyDialogV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameNoticeV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GamePlayerV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameTableUIV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21PokerCardV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21ResultV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21BuyDialogV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameNoticeV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GamePlayerV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameTableUIV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21PokerCardV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21ResultV99.h" />
+    <ClInclude Include="..\..\21D\Classes\v99\D21BuyDialogV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameNoticeV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GamePlayerV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameTableUIV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21PokerCardV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\21D\Classes\v99\D21ResultV99.h">
+      <Filter>21D\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJBetV88.h">
+      <Filter>BRXJ\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJGameTableUIV88.h">
+      <Filter>BRXJ\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJLuZhiUiV88.h">
+      <Filter>BRXJ\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BRXJ\classes\v88\BRXJPockerV88.h">
+      <Filter>BRXJ\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\v99\BBGameStateV99.h">
+      <Filter>BB\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\v99\BBGameTableUIV99.h">
+      <Filter>BB\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\v99\BBHelpLayerV99.h">
+      <Filter>BB\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\v99\BBLoopSpriteCellV99.h">
+      <Filter>BB\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\v99\BBNoteLabelCellV99.h">
+      <Filter>BB\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\v99\BBPlayerHeadV99.h">
+      <Filter>BB\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BB\Classes\v99\BBSettlementV99.h">
+      <Filter>BB\v99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FQZS\Classes\v99\FQZSGameTableUIV99.h">
+      <Filter>FQZS\V99</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Fruit\Classes\GameTable\FruitGameTableLogic.cpp">
+      <Filter>Fruit\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SHZ\Classes\GameTable\SHZGameTableLogic.cpp">
+      <Filter>SHZ\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLGameTableUIV88.cpp">
+      <Filter>BJL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLNoticeV88.cpp">
+      <Filter>BJL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLPokerCardV88.cpp">
+      <Filter>BJL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLResultCardV88.cpp">
+      <Filter>BJL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BJL\Classes\v88\BJLResultDialogV88.cpp">
+      <Filter>BJL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitBetMoneyCellV88.cpp">
+      <Filter>Fruit\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitGameStateV88.cpp">
+      <Filter>Fruit\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitGameTableUIV88.cpp">
+      <Filter>Fruit\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Fruit\Classes\v88\FruitLoopSpriteCellV88.cpp">
+      <Filter>Fruit\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerDrawEllipseV88.cpp">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameCardTypeV88.cpp">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDashboardV88.cpp">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameDealerUIV88.cpp">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGamePlayerV88.cpp">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerGameTableUIV88.cpp">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\v88\GoldenFlowerPokerCardV88.cpp">
+      <Filter>HappyGoldenFlower\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SHZ\Classes\v88\ScorePanelCellV88.cpp">
+      <Filter>SHZ\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZGameTableUIV88.cpp">
+      <Filter>SHZ\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZGuessSizeV88.cpp">
+      <Filter>SHZ\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZResultCellV88.cpp">
+      <Filter>SHZ\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZSettlementV88.cpp">
+      <Filter>SHZ\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNActionsV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNMakeBlackV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNOtherPlayerV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNSettlementLayerV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FQZS\Classes\GameTable\FQZSGameTableLogic.cpp">
+      <Filter>FQZS\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BJL\Classes\GameTable\BJLGameLogic.cpp">
+      <Filter>BJL\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BJL\Classes\GameTable\BJLGameTableLogic.cpp">
+      <Filter>BJL\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameLogic.cpp">
+      <Filter>HappyGoldenFlower\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HappyGoldenFlower\Classes\GameTable\GoldenFlowerGameTableLogic.cpp">
+      <Filter>HappyGoldenFlower\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CSLL\Classes\GameTable\CSLLGameTableLogic.cpp">
+      <Filter>CSLL\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLGameTableUIV88.cpp">
+      <Filter>CSLL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLScorePanelCellV88.cpp">
+      <Filter>CSLL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLSettlementV88.cpp">
+      <Filter>CSLL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JSXS\Classes\GameTable\JSXSGameTableLogic.cpp">
+      <Filter>JSXS\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSGameTableUIV88.cpp">
+      <Filter>JSXS\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSScorePanelCellV88.cpp">
+      <Filter>JSXS\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSSettlementV88.cpp">
+      <Filter>JSXS\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Medusa\Classes\GameTable\MedusaGameTableLogic.cpp">
+      <Filter>Medusa\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Medusa\Classes\v88\MedusaGameTableUIV88.cpp">
+      <Filter>Medusa\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Medusa\Classes\v88\MedusaScorePanelCellV88.cpp">
+      <Filter>Medusa\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Medusa\Classes\v88\MedusaSettlementV88.cpp">
+      <Filter>Medusa\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NL\Classes\GameTable\NLGameTableLogic.cpp">
+      <Filter>NL\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NL\Classes\v88\NLGameTableUIV88.cpp">
+      <Filter>NL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NL\Classes\v88\NLScorePanelCellV88.cpp">
+      <Filter>NL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NL\Classes\v88\NLSettlementV88.cpp">
+      <Filter>NL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tiger\Classes\GameTable\TigerGameTableLogic.cpp">
+      <Filter>Tiger\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tiger\Classes\v88\TigerGameTableUIV88.cpp">
+      <Filter>Tiger\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tiger\Classes\v88\TigerScorePanelCellV88.cpp">
+      <Filter>Tiger\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tiger\Classes\v88\TigerSettlementV88.cpp">
+      <Filter>Tiger\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\GameTable\BRNNGameLogic.cpp">
+      <Filter>BRNN\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\GameTable\BRNNGameTableLogic.cpp">
+      <Filter>BRNN\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\GameTable\BBGameTableLogic.cpp">
+      <Filter>BB\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BRXJ\classes\GameTable\BRXJGameLogic.cpp">
+      <Filter>BRXJ\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Stud\Classes\GameTable\StudGameTableLogic.cpp">
+      <Filter>STUD\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudGamePlayerV88.cpp">
+      <Filter>STUD\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudGameTableUIV88.cpp">
+      <Filter>STUD\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudGameUserMessageBoxV88.cpp">
+      <Filter>STUD\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Stud\Classes\v88\GameTable\StudPokerCardV88.cpp">
+      <Filter>STUD\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNBankerLayerV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNBetObjV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNBetV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNGameLogicV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNGameTableUIV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNGiveGiftV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNMsgV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNPlayerSeatV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNPokerCardV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNSendFaceV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNTableViewV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TTNN\Classes\v88\BRNNUionBankerLayerV88.cpp">
+      <Filter>BRNN\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SHZ\Classes\v88\SHZMaryTableUIV88.cpp">
+      <Filter>SHZ\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightRule.cpp">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightSet.cpp">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableLogic.cpp">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EightSlot\Classes\GameTable\EightSlotGameTableUI.cpp">
+      <Filter>EightSlot\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pubg\Classes\GameTable\PubgGameTableLogic.cpp">
+      <Filter>Pubg\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgFinalModeReward.cpp">
+      <Filter>Pubg\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgGameTableUIV88.cpp">
+      <Filter>Pubg\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgScorePanelCellV88.cpp">
+      <Filter>Pubg\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pubg\Classes\v88\PubgSettlementV88.cpp">
+      <Filter>Pubg\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CSLL\Classes\v88\CSLLMary.cpp">
+      <Filter>CSLL\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JSXS\Classes\v88\JSXSMary.cpp">
+      <Filter>JSXS\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Honor\Classes\GameTable\HonorGameTableLogic.cpp">
+      <Filter>Honor\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorFinalModeReward.cpp">
+      <Filter>Honor\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorGameTableUIV88.cpp">
+      <Filter>Honor\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorScorePanelCellV88.cpp">
+      <Filter>Honor\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Honor\Classes\v88\HonorSettlementV88.cpp">
+      <Filter>Honor\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JPM\Classes\GameTable\JPMGameTableLogic.cpp">
+      <Filter>JPM\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JPM\Classes\v88\JPMGameTableUIV88.cpp">
+      <Filter>JPM\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JPM\Classes\v88\JPMScorePanelCellV88.cpp">
+      <Filter>JPM\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JPM\Classes\v88\JPMSettlementV88.cpp">
+      <Filter>JPM\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayerCellLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketAllPlayersListLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketGamePlayerCellLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableLogic.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketGameTableUI.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordCellLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketMyRecordLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketMyUserInfo.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailCellLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenDetailsLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketOpenPacketLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketSendPacketLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\GameTable\RedPacketSetPacketBombLayer.cpp">
+      <Filter>RedPacket\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayerCellLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketAllPlayersListLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketGamePlayerCellLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketGameTableUIV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordCellLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketMyRecordLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketMyUserInfoV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailCellLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketOpenDetailsLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketOpenPacketLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketSendPacketLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RedPacket\Classes\v77\RedPacketSetPacketBombLayerV77.cpp">
+      <Filter>RedPacket\v88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21BuyDialog.cpp">
+      <Filter>21D\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GameNotice.cpp">
+      <Filter>21D\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GamePlayer.cpp">
+      <Filter>21D\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GameTableLogic.cpp">
+      <Filter>21D\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21GameUserMessageBox.cpp">
+      <Filter>21D\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\GameTable\D21PokerCard.cpp">
+      <Filter>21D\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21BuyDialogV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameNoticeV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GamePlayerV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameTableUIV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21PokerCardV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21ResultV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21BuyDialogV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameNoticeV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GamePlayerV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameTableUIV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21PokerCardV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21ResultV99.cpp" />
+    <ClCompile Include="..\..\21D\Classes\v99\D21BuyDialogV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameNoticeV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GamePlayerV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameTableUIV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21GameUserMessageBoxV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21PokerCardV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\21D\Classes\v99\D21ResultV99.cpp">
+      <Filter>21D\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJBetV88.cpp">
+      <Filter>BRXJ\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJGameTableUIV88.cpp">
+      <Filter>BRXJ\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJLuZhiUiV88.cpp">
+      <Filter>BRXJ\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BRXJ\classes\v88\BRXJPockerV88.cpp">
+      <Filter>BRXJ\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\v99\BBGameStateV99.cpp">
+      <Filter>BB\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\v99\BBGameTableUIV99.cpp">
+      <Filter>BB\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\v99\BBHelpLayerV99.cpp">
+      <Filter>BB\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\v99\BBLoopSpriteCellV99.cpp">
+      <Filter>BB\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\v99\BBNoteLabelCellV99.cpp">
+      <Filter>BB\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\v99\BBPlayerHeadV99.cpp">
+      <Filter>BB\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BB\Classes\v99\BBSettlementV99.cpp">
+      <Filter>BB\v99</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FQZS\Classes\v99\FQZSGameTableUIV99.cpp">
+      <Filter>FQZS\V99</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

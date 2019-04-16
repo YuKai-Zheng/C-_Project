@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1FD96982-B16E-4721-B3CF-0C29025FEB9B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectName>LibHNUI</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.;..;$(EngineRoot);$(EngineRoot)\cocos\;$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)\extensions;$(EngineRoot)\external;$(EngineRoot)\external\glfw3\include\win32;$(EngineRoot)\external\win32-specific\gles\include\OGLES;..\..\LibHNMarket;..\..\LibHNNet;..\..\LibHNLobby;..\..\..\game\TTNN\Classes\GameTable;..\..\..\game\TTNN\Classes\GameMessage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <DisableSpecificWarnings>4819;4251</DisableSpecificWarnings>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..;$(EngineRoot);$(EngineRoot)\cocos\;$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)\extensions;$(EngineRoot)\external;$(EngineRoot)\external\glfw3\include\win32;$(EngineRoot)\external\win32-specific\gles\include\OGLES;..\..\LibHNMarket;..\..\LibHNNet;..\..\LibHNLobby;..\..\..\game\TTNN\Classes\GameTable;..\..\..\game\TTNN\Classes\GameMessage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\HNUIExport.h" />
+    <ClInclude Include="..\Sound\HNAudioEngine.h" />
+    <ClInclude Include="..\Tool\DirUtils.h" />
+    <ClInclude Include="..\Tool\GameVersionBanOpen.h" />
+    <ClInclude Include="..\Tool\GraphicsUtils.h" />
+    <ClInclude Include="..\Tool\Tools.h" />
+    <ClInclude Include="..\Tool\WireframeOnOff.h" />
+    <ClInclude Include="..\Tool\XCaseStringUtil.hpp" />
+    <ClInclude Include="..\Tool\XMLParser.h" />
+    <ClInclude Include="..\UI\Base\ACheckBox.h" />
+    <ClInclude Include="..\UI\Base\AControlButton.h" />
+    <ClInclude Include="..\UI\Base\ASlider.h" />
+    <ClInclude Include="..\UI\Base\ATableView.h" />
+    <ClInclude Include="..\UI\Base\ATableViewDelegate.h" />
+    <ClInclude Include="..\UI\Base\AUIButton.h" />
+    <ClInclude Include="..\UI\Base\BTableView.h" />
+    <ClInclude Include="..\UI\Base\HNLayer.h" />
+    <ClInclude Include="..\UI\Base\HNLayerColor.h" />
+    <ClInclude Include="..\UI\Base\HNNode.h" />
+    <ClInclude Include="..\UI\Base\HNScene.h" />
+    <ClInclude Include="..\UI\Base\HNSprite.h" />
+    <ClInclude Include="..\UI\BigWinner.hpp" />
+    <ClInclude Include="..\UI\CheckCSBLayer.h" />
+    <ClInclude Include="..\UI\CheckTextureLayer.h" />
+    <ClInclude Include="..\UI\ClipSprite.h" />
+    <ClInclude Include="..\UI\CycScrollView.h" />
+    <ClInclude Include="..\UI\DropdownList.h" />
+    <ClInclude Include="..\UI\Effect.h" />
+    <ClInclude Include="..\UI\FloatCoin.h" />
+    <ClInclude Include="..\UI\HelpLayer.h" />
+    <ClInclude Include="..\UI\HNDialogBase.h" />
+    <ClInclude Include="..\UI\HNEditBox.h" />
+    <ClInclude Include="..\UI\HNShake.h" />
+    <ClInclude Include="..\UI\JackpotModel.hpp" />
+    <ClInclude Include="..\UI\LoadingLayer.h" />
+    <ClInclude Include="..\UI\MoneyGetFourLevel.hpp" />
+    <ClInclude Include="..\UI\MyProgressTimer.h" />
+    <ClInclude Include="..\UI\RobotInfo.hpp" />
+    <ClInclude Include="..\UI\RotateMenu.h" />
+    <ClInclude Include="..\UI\Scanner.h" />
+    <ClInclude Include="..\UI\TestCase.h" />
+    <ClInclude Include="..\UI\TextSprite.h" />
+    <ClInclude Include="..\UI\TextureLayer.h" />
+    <ClInclude Include="..\UI\TimerObject.h" />
+    <ClInclude Include="..\UI\ToolBarLayer.h" />
+    <ClInclude Include="..\UI\UIGoldRain.h" />
+    <ClInclude Include="..\UI\UserHead.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sound\HNAudioEngine.cpp" />
+    <ClCompile Include="..\Tool\DirUtils.cpp" />
+    <ClCompile Include="..\Tool\GameVersionBanOpen.cpp" />
+    <ClCompile Include="..\Tool\GraphicsUtils.cpp" />
+    <ClCompile Include="..\Tool\Tools.cpp" />
+    <ClCompile Include="..\Tool\WireframeOnOff.cpp" />
+    <ClCompile Include="..\Tool\XCaseStringUtil.cpp" />
+    <ClCompile Include="..\Tool\XMLParser.cpp" />
+    <ClCompile Include="..\UI\Base\ACheckBox.cpp" />
+    <ClCompile Include="..\UI\Base\AControlButton.cpp" />
+    <ClCompile Include="..\UI\Base\ASlider.cpp" />
+    <ClCompile Include="..\UI\Base\ATableView.cpp" />
+    <ClCompile Include="..\UI\Base\ATableViewDelegate.cpp" />
+    <ClCompile Include="..\UI\Base\AUIButton.cpp" />
+    <ClCompile Include="..\UI\Base\BTableView.cpp" />
+    <ClCompile Include="..\UI\Base\HNLayer.cpp" />
+    <ClCompile Include="..\UI\Base\HNLayerColor.cpp" />
+    <ClCompile Include="..\UI\Base\HNNode.cpp" />
+    <ClCompile Include="..\UI\Base\HNScene.cpp" />
+    <ClCompile Include="..\UI\Base\HNSprite.cpp" />
+    <ClCompile Include="..\UI\BigWinner.cpp" />
+    <ClCompile Include="..\UI\CheckCSBLayer.cpp" />
+    <ClCompile Include="..\UI\CheckTextureLayer.cpp" />
+    <ClCompile Include="..\UI\ClipSprite.cpp" />
+    <ClCompile Include="..\UI\CycScrollView.cpp" />
+    <ClCompile Include="..\UI\DropdownList.cpp" />
+    <ClCompile Include="..\UI\Effect.cpp" />
+    <ClCompile Include="..\UI\FloatCoin.cpp" />
+    <ClCompile Include="..\UI\HelpLayer.cpp" />
+    <ClCompile Include="..\UI\HNDialogBase.cpp" />
+    <ClCompile Include="..\UI\HNEditBox.cpp" />
+    <ClCompile Include="..\UI\HNShake.cpp" />
+    <ClCompile Include="..\UI\JackpotModel.cpp" />
+    <ClCompile Include="..\UI\LoadingLayer.cpp" />
+    <ClCompile Include="..\UI\MoneyGetFourLevel.cpp" />
+    <ClCompile Include="..\UI\MyProgressTimer.cpp" />
+    <ClCompile Include="..\UI\RobotInfo.cpp" />
+    <ClCompile Include="..\UI\RotateMenu.cpp" />
+    <ClCompile Include="..\UI\Scanner.cpp" />
+    <ClCompile Include="..\UI\TestCase.cpp" />
+    <ClCompile Include="..\UI\TextSprite.cpp" />
+    <ClCompile Include="..\UI\TextureLayer.cpp" />
+    <ClCompile Include="..\UI\TimerObject.cpp" />
+    <ClCompile Include="..\UI\ToolBarLayer.cpp" />
+    <ClCompile Include="..\UI\UIGoldRain.cpp" />
+    <ClCompile Include="..\UI\UserHead.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

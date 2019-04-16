@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="generate PVR" default="check_dir" basedir=".">
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties" />
+	
+	<condition property="isMac">
+		<os family="mac" />
+	</condition>
+
+	<condition property="isWindows">
+		<os family="windows" />
+	</condition>
+
+	<property name="directory_path" value="" />
+
+	<target name="checkWindows" if="isWindows">
+		<var name="directory_path" value="E:/MobileClient_1099_DEMO/code/game/MixProject/Resources" />
+		<antcall target="delete_png" />
+	</target>
+
+	<target name="checkMac" if="isMac">
+		<echo>mac</echo>
+		<var name="directory_path" value="/Users/edward/Documents/hgGame/MobileClient_1099_DEMO/code/game/MixProject/Resources" />
+		<antcall target="delete_png" />
+	</target>
+
+	<target name="check_dir">
+		<antcall target="checkWindows" />
+		<antcall target="checkMac" />
+	</target>
+
+	<target name="delete_png">
+		<echo>xxx:${directory_path}</echo>
+		<delete dir="${directory_path}">
+			<!-- 不删除的文件类型 -->
+			<exclude name="**/*.pvr" />
+			<exclude name="**/*.pvr.ccz" />
+			<exclude name="**/*.plist" />
+			<exclude name="**/*.fsh" />
+			<exclude name="**/*.vsh" />
+			<exclude name="**/*.json" />
+			<exclude name="**/*.mp3" />
+			<exclude name="**/*.mp4" />
+			<exclude name="**/*.wav" />
+			<exclude name="**/*.ExportJson" />
+			<exclude name="**/*.ttf" />
+			<exclude name="**/*.csb" />
+			<exclude name="**/*.xml" />
+			<exclude name="**/*.jpg" />
+			<exclude name="**/*.atlas" />	
+			<exclude name="**/*.fnt" />
+            <exclude name="**/betArea0.png" />
+            <exclude name="**/betArea1.png" />
+            <exclude name="**/betArea2.png" />
+            <exclude name="**/betArea3.png" />
+            <exclude name="**/betArea4.png" />
+            <exclude name="**/betArea5.png" />
+            <exclude name="**/betArea6.png" />
+            <exclude name="**/betArea7.png" />
+			<exclude name="**/area0.png" />
+            <exclude name="**/area1.png" />
+            <exclude name="**/area2.png" />
+		</delete>
+	</target>
+
+</project>

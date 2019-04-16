@@ -1,0 +1,301 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+
+	<!--大厅-->
+	<string name="LACK_OF_MONEY1">账户钱包中金币不足,</string>
+	<string name="LACK_OF_MONEY2">进入该场次至少需携带</string>
+	<string name="LACK_OF_MONEY3">金币</string>
+	<string name="MONEY_MORE_THAN1">您的金币大于</string>
+	<string name="MONEY_MORE_THAN2">不能进入房间,超过最大买入。</string>
+	<string name="xinshouchang">新手场</string>
+	<string name="chujichang">初级场</string>
+	<string name="zhongjichang">中级场</string>
+	<string name="gaojichang">高级场</string>	
+	<string name="chaojichang">超级场</string>
+	<string name="zhizunchang">至尊场</string>
+    <string name="NoticeContent">超人气棋牌捕鱼中心933游戏上线啦！经典牛牛率先登场，后续更有数十款经典等你来体验！</string>
+    <string name="NoticeContent186">王者棋牌1099游戏火热上线！完美还原经典街机，捕鱼牛牛，给您带来全新体验！</string>
+	
+	
+	<!-- 百人牛牛 -->
+	<string name="keyname">完美中国</string>	
+	<string name="free_time">空闲时间</string>
+	<string name="xaizhu_time">下注时间</string>
+	<string name="kaipai_time">开牌时间</string>
+	<string name="wait_no_dealer">无庄等待</string>
+	<string name="ID">ID:</string>
+	<string name="gold">金币:</string>
+	<string name="win_num">胜场:</string>
+	<string name="fail_num">败场:</string>
+	<string name="tuoguan_tips">离开自动托管到本局结束，确定离开？</string>
+	<string name="nickname">昵称:</string>
+	<string name="limit_leave_in_game">您已下注啦，开奖后再离开哦</string>
+	<string name="limit_money_applied_banker">您的金币低于%lld,不能上庄</string>
+    <string name="hand_bet">您的筹码不足，请手动投注</string>
+    <string name="start_union">合作上庄开始，不用操作界面，坐等收钱吧，祝您好远</string>
+    <string name="to_bet_limit">您已经达到下注上限</string>
+    <string name="apply_banker_success">申请上庄成功，已加入庄家列表</string>
+    <string name="apply_banker_fail">上庄失败, 金币大于%lld才能上庄</string>
+    <string name="been_in_banker_list">您已在庄家列表中，请耐心等待</string>
+    <string name="union_banker">联合上庄组合%d</string>
+    <string name="next_auto_bet">您当前正在上庄，下局开始自动下庄</string>
+    <string name="give_fail">赠送失败，您的钱不够</string>
+    <string name="give_sucess">送礼成功，扣除你%d金币</string>
+    <string name="receive_friend_gift">收到朋友的礼物，系统给你兑换了%d金币</string>
+    <string name="apply_union_sucess">申请联合上庄成功</string>
+    <string name="apply_union_fail">申请联合上庄失败，待会儿再试试</string>
+    <string name="exit_union_sucess">退出联合上庄成功</string>
+    <string name="low_money_exit_game">金币数额低于%lld，%ds后离开游戏！</string>
+    <string name="last_no_bet">您上局没有投注</string>
+    <string name="continuation_game">第   局</string>
+    <string name="down_banker">下庄成功!</string>
+
+
+
+	<string name="Stud_Base">底注:%lld</string>
+	<string name="Stud_Limit">上限:%lld</string>
+	
+
+	
+    <!-- 入场最低金币 -->
+    <string name="MIN_ROOM_SINGLE_MONEY">%lld 金币以上</string>
+    <string name="MIN_ROOM_WAN_MONEY">%lld 万金币以上</string>
+    
+	<!--注册-->
+	<string name="Register_Failure">注册失败！</string>
+	<string name="Register_Success">注册成功！</string>
+	<string name="Register_Nick_Exist">昵称已经存在！</string>
+	<string name="Register_Account_Exist">账号已经存在！</string>
+	<string name="Register_Invite_Code_Error">邀请码无效！</string>
+	<string name="Register_Invite_Code_Use">邀请码已使用！</string>
+	<string name="Account_NOT_EMPTY">账号不能为空！</string>
+	<string name="PASSWORLD_NOT_EMPTY">密码不能为空！</string>
+    <string name="BEEN_LOGIN">账号重复登陆！</string>
+    <string name="Login_Error">账号或密码错误！</string>
+	<string name="SHOW_NAME_PSD">请牢记你的账号和密码。用户名称:%s</string>
+	<!--  \n 用户密码:%s -->
+    
+	
+	<!--注册-->
+	<string name="SYSTEM">系统</string>
+	<string name="LODING_REQUEST_ROOMLIST">游戏加载中，请稍后...</string>
+	<string name="LOGING">正在登陆...</string>
+    <string name="LOCALLOGIN">游客登陆中...</string>
+	<string name="REGISTRATION">正在注册...</string>
+    <string name="LOG_IN_TIMEOUT">网络状态差，请稍后再试！</string>
+	<string name="SEVER_IN_MAINTENANCE">网络状态差，请稍后再试！</string>
+    <string name="NET_DISCONNECT">网络连接已经断开，请重新登陆！</string>
+	<string name="GAME_PLAYING_NOT_EXIT">游戏中途不能离开,请健康游戏.</string>
+
+	<!--银行和设置相关-->
+	<string name="BINDPHONE_INPUT_NUMBER">请输入手机号码.</string>
+	<string name="BINDPHONE_INPUT_VERIFICATION">请输入验证码.</string>
+	<string name="BINDPHONE_NUMBER_LENGTH_ISNOT">手机号码位数不对.</string>
+	<string name="BINDPHONE_SEND_OK">发送成功.</string>
+	<string name="BINDPHONE_SEND_LOSER">发送失败.</string>
+	<string name="BINDPHONE_BING_OK">绑定成功.</string>
+	<string name="BINDPHONE_BINGJIE_OK">解绑成功.</string>
+	<string name="BINDPHONE_BINGJIE_LOSER">解绑失败.</string>
+	<string name="BINDPHONE_BING_LOSER">绑定失败.</string>
+	<string name="BINDPHONE_BING_REPORT">手机号已绑定，请不要重复绑定.</string>
+	<string name="BINDPHONE_VERIFICATION_LOSER">验证码验证失败.</string>
+	<string name="BINDPHONE_VERIFICATION_BOUNF_OK">验证码验证失败.</string>
+	<string name="USERINFO_COPYID">复制成功.</string>
+	<string name="FIND_PASSWORLD_YANZHEMGMA_NOEMPTY">验证码不能为空.</string>
+	<string name="FIND_PASSWORLD_OK">系统已将新的登录密码发送至您的手机，请注意查收!</string>
+	<string name="FIND_PASSWORLD_NO_EMPTY">用户名不能为空.</string>
+	<string name="FIND_PHONENUMBER_NO_EMPTY">手机号码不能为空.</string>
+	<string name="FIND_PLEASEWRITE_PHONENUMBER">请输入您收到的手机验证码.</string>
+	<string name="FIND_SURE_YANZHENGMA_IS_OK">请核对你的验证码是否填写正确.</string>
+	<string name="FIND_ASS_IS_NO">该账号不存在.</string>
+	<string name="FIND_PHONENUMBER_NOBIND_PHONENUMBER">该账号未绑定该手机号.</string>
+	<string name="ONE_MIN_NOT_GIVE_PEOPLE">60s之内不允许对同个玩家赠送相同金币。</string>
+	<string name="FIND_ERROR">出现未知错误.</string>
+	
+	<!--银行和设置相关-->
+	<string name="GIVE_MONEY_SURE">确定为%s赠送%s金币吗?</string>
+	<string name="ROOM_PEPOLE_MAX">房间人数已满.</string>
+	<string name="HC_GP_BANK_TRANSFER_SUC">转账成功!</string>
+	<string name="HC_GP_BANK_TRANSFER_ERROR">转帐错误.</string>
+	<string name="HC_GP_BANK_TRANSFER_NO_DEST">转帐目标不存在.</string>
+	<string name="HC_GP_BANK_TRANSFER_PASSWORD_ERROR">转帐密码错误.</string>
+	<string name="HC_GP_BANK_TRANSFER_TOTAL_LESS">您的银行金币不足.</string>
+	<string name="HC_GP_BANK_TRANSFER_TOO_LESS">会员十万起赠，非会员五十万起赠.</string>
+	<string name="HC_GP_BANK_TRANSFER_MULTIPLE">单笔转帐数目必须是某数的倍数.</string>
+	<string name="HC_GP_BANK_TRANSFER_NOT_ENOUGH">银行金额不够本次转帐.</string>
+	<string name="HC_GP_BANK_TRANSFER_TOO_MANY_TIME">当天转账的次数太多.</string>
+	<string name="HC_GP_BANK_NOT_TARGET">非对应上家。</string>
+    <string name="HC_GP_BANK_NOT_PHONE">您好！为了您的账号安全，请绑定手机！换设备登录需要输入验证码</string>
+	<string name="BANK_PLEASE_INPUT_OTHER_ID">请输入对方ID</string>
+	
+	<string name="TIPS1">旧密码为空。</string>
+	<string name="TIPS2">新密码为空。</string>
+	<string name="TIPS3">确认密码为空。</string>
+	<string name="TIPS4">两次密码不匹配。</string>
+	<string name="TIPS5">无法转账给自己,请输入有效ID</string>
+	<string name="TIPS6">请输入对方ID。</string>
+	<string name="TIPS7">请输入对方昵称。</string>
+	<string name="TIPS8">转账金币数为空。</string>
+	<string name="TIPS9">请输入银行密码。</string>
+	<string name="TIPS10">60s之内不允许对同个玩家赠送相同金币。</string>
+	<string name="TIPS11">请输入合法金额。</string>
+	<string name="TIPS12">请输入取款金额。</string>
+	<string name="TIPS13">请选择操作类型。</string>
+	<string name="TIPS14">请输入存款金额。</string>
+	<string name="TIPS15">密码修改成功</string>
+	<string name="TIPS16">修改失败，密码错误。</string>
+	<string name="TIPS17">取款成功</string>
+	<string name="TIPS18">存款成功</string>
+	<string name="TIPS19">可存入的金币不足。</string>
+	<string name="TIPS20">错误密码。</string>
+	<string name="TIPS21">余额不足。</string>
+	<string name="TIPS25">你确定为</string>
+	<string name="TIPS26">请稍后</string>
+	<string name="TIPS27">密码长度不得少于6位。</string>
+	
+	<string name="TIPS22">万</string>
+	<string name="TIPS23">亿</string>
+	<string name="TIPS24">元</string>
+	
+	<string name="DEV_WAITING_MODE">排队模式游戏正在研发中。</string>
+	
+	<!--个人信息-->
+	<string name="USERHEAD_CHANGED_OK">头像更换成功！</string>
+	<string name="USERHEAD_CHANGED_LOSE">头像更换失败！</string>
+	<string name="INVITE_CODE_SUCCESS">邀请码使用成功</string>
+	<string name="INVITE_CODE_FAILURE">邀请码无效</string>
+	<string name="INVITE_CODE_TIP_USED">您已使用过</string>
+	<string name="INVITE_CODE_TIP_OTHER_USED">您相关账号已使用过</string>
+	<string name="INVITE_CODE_TIP_INPUT">请输入邀请码</string>
+	
+	<!--体验码-->
+	<string name="EXPERIENCE_CODE_TIP_INPUT">请输入内容</string>
+	<string name="EXPERIENCE_CODE_INVITE_CONTENT">快来玩最火爆棋牌平台1099！下载注册绑定我ID（%d）送10万！</string>
+	<string name="EXPERIENCE_CODE_INVITE_TITLE1">输入我ID（%d）立送10万</string>
+	<string name="EXPERIENCE_CODE_INVITE_TITLE2">1099游戏中心</string>
+	
+	<string name="Register_Nick_Default">昵称有敏感词汇，请重新输入！</string>
+	<!--设置-->
+	<string name="Sign_Default">签名有敏感词汇，请重新输入！</string>
+	<!--牛牛-->
+	<string name="NN_Game_One">二人牛牛</string>
+	<string name="NN_Game_Two">四人牛牛</string>
+	<string name="NN_Game_Three">通比牛牛</string>
+	<string name="NN_Catch_Bull_Notify">%s%s%d号桌的%s抓到牛牛，获得 %s 金币！</string>
+	<string name="NN_Catch_Bull_Plus_Notify">喜大普奔！%s%s的%s喜获五花牛奖励多达 %s 金币！</string>
+	<string name="NN_Reward_Notify">%s 五花牛奖励：</string>
+	<!--百家乐-->
+	<string name="BJL_Without_Banker">无庄等待</string>
+	<string name="BJL_Request_Banker_Failure">上庄失败, 金币大于%lld才能上庄！</string>
+	<!--捕鱼-->
+	<string name="GT_Catch_Fish_Notify">厉害了！%s%d号桌的%s捕获%s，获得%lld金币！</string>
+    <string name="NO_LOCK_FINISH">难以置信！%s%d号桌的%s轻松捕获%s，获得%lld金币！</string>
+	
+	
+    <!-- 十三张 -->
+    <string name="TZ_Has_Special_Style_Card">你当前为特殊牌型【%s】，确定可不参与比牌直接获胜。</string>
+    <string name="TZ_SC_FLOWER_THREE">三同花</string>
+    <string name="TZ_SC_FLUSH_THREE">三顺子</string>
+    <string name="TZ_SC_DOUBLE_SIX_HALF">六对半</string>
+    <string name="TZ_SC_DOUBLE_FIVE_STRIP">五对三条</string>
+    <string name="TZ_SC_STRIP_FOUR">四套三条</string>
+    <string name="TZ_SC_SAME_COLOR">凑一色</string>
+    <string name="TZ_SC_ALL_SMALL">全小</string>
+    <string name="TZ_SC_ALL_BIG">全大</string>
+    <string name="TZ_SC_STRIP_WORLD">三分天下</string>
+    <string name="TZ_SC_STRAIGHT_FLUSH_THREE">三同花顺</string>
+    <string name="TZ_SC_KINSMEN_TWENTEEN">十二皇族</string>
+    <string name="TZ_SC_DRAGON_ONE">一条龙</string>
+    <string name="TZ_SC_DRAGON_ONLY">至尊清龙</string>
+	
+	<!-- 扫雷红包 -->
+	<string name="LE_WAIT_SET_LE">等待庄家设置红包...</string>
+	<string name="LE_WAIT_SET_BOMB">等待庄家设置雷...</string>
+	<string name="LE_WAIT_OPEN_LE">请拆红包！</string>
+    <string name="LE_MONEY_VALUE">金币:</string>
+    <string name="LE_BOMB_VALUE">雷:</string>
+	
+	<!-- 飞禽走兽 -->
+	<string name="FQZS_FREE_VALUE">空闲阶段</string>
+	<string name="FQZS_BET_VALUE">下注阶段</string>
+	<string name="FQZS_OPEN_VALUE">开奖阶段</string>
+	<string name="FQZS_SETTLE_VALUE">结算阶段</string>
+	
+	<!-- 签到 -->
+    <string name="SIGN_FAIL">签到失败，请重新签到！</string>
+	<string name="SIGN_DONE">今天已签到！</string>
+	<string name="SIGN_ERROR">其他设备或账号已签到！</string>
+	
+	<!-- 奔驰宝马 -->
+    <string name="BB_ZHUANG_LIST_COUNT">申请人数：%d</string>
+    <string name="BB_ZHUANG_WAITING_LIST_COUNT">您前面%d人在等待</string>
+    <string name="BB_ZHUANG_NEED">上庄需金币：</string>
+    <!-- 下注信息提示 -->
+    <string name="BB_XIAZHU_SUCCEED">下注成功！</string>
+    <string name="GSTATE_XIAZHU_FAILE_LACK_MONEY">金币不足，下注失败！</string>
+    <string name="BB_XIAZHU_FAIL_BANKER">庄家不够赔，下注失败！</string>
+    <string name="BB_XIAZHU_FAILE_OVER">超过个人下注限额，下注失败！</string>
+    <!-- 申请上庄信息 -->
+    <string name="BB_SHANGZHUANG_FAIL_MONEY">金币不足，申请上庄失败！</string>
+    <string name="BB_SHANGZHUANG_SUCCEED">申请上庄成功，请等待！</string>
+    <string name="BB_BE_BANKER_SUCCEED">已做庄，请等待游戏开始！</string>
+	
+	<!-- 转盘活动 -->
+	<string name="TURNTABLE_NOCHANCE">今天转轮机会已使用！</string>
+
+    <!-- 微信红包 -->
+    <string name="SEND_PACKET_MONEY">%s 金币</string>
+    <!-- 红包场次 -->
+    <string name="PACKET_TITLE">扫雷红包(%lld-%lld万)%d包%d倍场</string>
+    <!-- 发送红包 -->
+    <string name="SEND_PACKET_PART">个数：%d</string>
+    <string name="SEND_PACKET_RATE">倍数：%d</string>
+    <string name="SEND_PACKET_MONEY_TIP">%lld-%lld</string>
+    <!-- 发红包错误信息提示 -->
+    <string name="SEND_PACKET_ERROR_1">金币不足</string>
+    <string name="SEND_PACKET_ERROR_2">红包的份数不满足规则</string>
+    <string name="SEND_PACKET_ERROR_3">雷的数字设定不满足规则</string>
+    <string name="SEND_PACKET_ERROR_4">桌面红包数量过多</string>
+    <string name="SEND_PACKET_ERROR_5">红包金额不在范围内</string>
+    <!-- 抢红包错误信息提示 -->
+    <string name="OPEN_PACKET_ERROR_1">手慢了，红包派完了</string>
+    <string name="OPEN_PACKET_ERROR_2">您的金币不足，拆不开这大红包</string>
+    <string name="OPEN_PACKET_ERROR_3">您已经抢过这个红包</string>
+    <string name="OPEN_PACKET_ERROR_4">不能抢自己的红包</string>
+    <!-- 红包被抢的详情 -->
+    <string name="OPEN_PACKET_DETAIL_ING">已领取%d/%d个红包</string>
+    <string name="OPEN_PACKET_DETAIL_OVER">已领取%d/%d个红包，共%s金币</string>
+    <!-- 红包雷数字 -->
+    <string name="OPEN_PACKET_BOMB">：%d</string>
+    <!-- 自己抢红包历史信息 -->
+    <string name="OPEN_PACKET_HISTORY_MY">发出%s金额红包，%d人踩雷。金币%s</string>
+    <string name="OPEN_PACKET_HISTORY_OTHER">拆开%s的红包。金币%s</string>
+    <!-- 红包提示 -->
+    <string name="OPEN_PACKET_TIP">未领取的红包，将于10分钟后退回</string>
+    <!-- 时间 -->
+    <string name="OPEN_TIME">%02d:%02d</string>
+    <string name="OPEN_TIME_SECOND">%02d时%02d分%02d秒</string>
+    
+    <!-- 九线拉王 -->
+    <string name="NL_PT_MONEY">x%d=%d倍</string>
+    <string name="NL_PT_FREE">x%d=免费%d次</string>
+    <string name="NL_PT_JACKPOT">x%d=奖池%d%%</string>
+    
+    <!-- 推广系统 -->
+    <string name="PEOPLE_COUNT">%s人</string>
+    
+    <!-- 水浒传 -->
+    <string name="SHZ_BIBEI_WIN">%d点%s 你赢了，敢再来一次吗？</string>
+    <string name="SHZ_BIBEI_LOSE">%d点%s 你输了，下次再来试试手气吧！</string>
+    <string name="QIAN">%d千</string>
+    <string name="WANG">%d万</string>
+	
+	<!-- 金币显示类型 -->
+	<!-- 0：数字转换成带单位的字符串，保留4位有效数字 -->
+	<!-- 1：用逗号将每个四位的数分开 -->
+	<!-- 2：数字转换带单位的字符串，除以10000，保留小数点后四位有效 -->
+	<string name="GOLD_DISPLAY_STYLE">1</string>
+	<!-- 金币显示比率 -->
+	<!-- 1:15000 1（客服端显示） 15000（后台计算）-->
+	<string name="GOLD_DISPLAY_RATE">1:15000</string>
+</resources>

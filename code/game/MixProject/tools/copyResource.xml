@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="" default="init" basedir=".">
+	
+	<property name="parent_path" value=".."/>
+	
+    <target name="init">  
+
+        <!-- 拷贝Resources目录，但排除csb目录 -->
+        <copy overwrite="true" todir="${parent_path}/proj.win32\Debug.win32">   
+            <fileset dir="${parent_path}/Resources" >   
+            </fileset>
+			<fileset dir="${parent_path}/Resources_Zip" >
+            </fileset>
+        </copy>  
+
+	</target>
+
+</project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibHNUI", "LibHNUI.vcxproj", "{1FD96982-B16E-4721-B3CF-0C29025FEB9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FD96982-B16E-4721-B3CF-0C29025FEB9B}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FD96982-B16E-4721-B3CF-0C29025FEB9B}.Debug|x86.Build.0 = Debug|Win32
+		{1FD96982-B16E-4721-B3CF-0C29025FEB9B}.Release|x86.ActiveCfg = Release|Win32
+		{1FD96982-B16E-4721-B3CF-0C29025FEB9B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA3690D7-C3F2-4258-A7D7-189FCFECEAE5}
+	EndGlobalSection
+EndGlobal

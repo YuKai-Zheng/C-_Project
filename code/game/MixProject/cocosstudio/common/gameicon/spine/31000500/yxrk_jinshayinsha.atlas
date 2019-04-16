@@ -1,0 +1,90 @@
+
+yxrk_jinshayinsha.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GOLDEN SHARK SILVER SHARK
+  rotate: false
+  xy: 2, 112
+  size: 275, 62
+  orig: 275, 62
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 326
+  size: 461, 182
+  orig: 461, 182
+  offset: 0, 0
+  index: -1
+cai2
+  rotate: true
+  xy: 2, 2
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: -1
+cao
+  rotate: true
+  xy: 465, 451
+  size: 57, 40
+  orig: 57, 40
+  offset: 0, 0
+  index: -1
+jinyu
+  rotate: true
+  xy: 279, 46
+  size: 128, 162
+  orig: 128, 162
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 176
+  size: 432, 148
+  orig: 432, 148
+  offset: 0, 0
+  index: -1
+meimao
+  rotate: false
+  xy: 436, 310
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+meimao2
+  rotate: false
+  xy: 465, 435
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 2, 13
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: false
+  xy: 62, 67
+  size: 31, 43
+  orig: 31, 43
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 2, 56
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 37, 41
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1

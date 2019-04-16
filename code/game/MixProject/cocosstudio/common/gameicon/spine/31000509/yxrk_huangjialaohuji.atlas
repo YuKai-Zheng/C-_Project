@@ -1,0 +1,90 @@
+
+yxrk_huangjialaohuji.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ROYAL SLOT MACHINE
+  rotate: false
+  xy: 2, 83
+  size: 201, 62
+  orig: 201, 62
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 147
+  size: 462, 278
+  orig: 462, 278
+  offset: 0, 0
+  index: -1
+denglong
+  rotate: false
+  xy: 2, 2
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+denglong2
+  rotate: false
+  xy: 957, 398
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+denglong3
+  rotate: false
+  xy: 205, 115
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: false
+  xy: 900, 381
+  size: 55, 44
+  orig: 55, 44
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 466, 180
+  size: 432, 245
+  orig: 432, 245
+  offset: 0, 0
+  index: -1
+niao
+  rotate: false
+  xy: 466, 147
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+qiqiu
+  rotate: false
+  xy: 2, 33
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+tongqian
+  rotate: false
+  xy: 900, 349
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+tongqian2
+  rotate: false
+  xy: 499, 157
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+xiushi
+  rotate: false
+  xy: 43, 67
+  size: 29, 14
+  orig: 29, 14
+  offset: 0, 0
+  index: -1

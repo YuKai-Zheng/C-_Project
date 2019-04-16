@@ -1,0 +1,153 @@
+
+yxrk_lingdangyouxi.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BELL GAME
+  rotate: true
+  xy: 900, 341
+  size: 142, 63
+  orig: 142, 63
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 205
+  size: 462, 278
+  orig: 462, 278
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 466, 238
+  size: 432, 245
+  orig: 432, 245
+  offset: 0, 0
+  index: -1
+kuitui2
+  rotate: true
+  xy: 2, 2
+  size: 65, 113
+  orig: 65, 113
+  offset: 0, 0
+  index: -1
+kutui
+  rotate: false
+  xy: 965, 404
+  size: 56, 79
+  orig: 56, 79
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 965, 350
+  size: 39, 52
+  orig: 39, 52
+  offset: 0, 0
+  index: -1
+lingdang
+  rotate: false
+  xy: 135, 119
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: false
+  xy: 2, 69
+  size: 131, 134
+  orig: 131, 134
+  offset: 0, 0
+  index: -1
+maozi2
+  rotate: true
+  xy: 621, 115
+  size: 43, 80
+  orig: 43, 80
+  offset: 0, 0
+  index: -1
+xingxing-(1)
+  rotate: false
+  xy: 221, 122
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(10)
+  rotate: false
+  xy: 299, 122
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(11)
+  rotate: false
+  xy: 377, 122
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(12)
+  rotate: false
+  xy: 900, 258
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(2)
+  rotate: true
+  xy: 135, 41
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(3)
+  rotate: true
+  xy: 466, 160
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(4)
+  rotate: true
+  xy: 549, 160
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(5)
+  rotate: true
+  xy: 632, 160
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(6)
+  rotate: true
+  xy: 715, 160
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(7)
+  rotate: true
+  xy: 798, 160
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(8)
+  rotate: true
+  xy: 455, 82
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+xingxing-(9)
+  rotate: true
+  xy: 538, 82
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1

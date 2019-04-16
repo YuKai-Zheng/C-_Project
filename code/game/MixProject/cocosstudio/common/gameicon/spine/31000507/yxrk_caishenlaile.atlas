@@ -1,0 +1,146 @@
+
+yxrk_caishenlaile.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MAMMON
+  rotate: false
+  xy: 2, 36
+  size: 184, 84
+  orig: 184, 84
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 556
+  size: 245, 462
+  orig: 245, 462
+  offset: 0, 0
+  index: -1
+denglong
+  rotate: false
+  xy: 855, 739
+  size: 71, 59
+  orig: 71, 59
+  offset: 0, 0
+  index: -1
+denglong2
+  rotate: false
+  xy: 855, 902
+  size: 87, 116
+  orig: 87, 116
+  offset: 0, 0
+  index: -1
+huzi
+  rotate: false
+  xy: 188, 101
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+huzi2
+  rotate: false
+  xy: 944, 926
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: true
+  xy: 315, 567
+  size: 47, 60
+  orig: 47, 60
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 122
+  size: 211, 432
+  orig: 211, 432
+  offset: 0, 0
+  index: -1
+maisui
+  rotate: true
+  xy: 249, 562
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 855, 685
+  size: 63, 52
+  orig: 63, 52
+  offset: 0, 0
+  index: -1
+sk_09_13_1
+  rotate: false
+  xy: 249, 818
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+sk_09_13_2
+  rotate: false
+  xy: 249, 616
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+sk_09_13_3
+  rotate: false
+  xy: 451, 818
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+sk_09_13_4
+  rotate: false
+  xy: 451, 616
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+sk_09_13_5
+  rotate: false
+  xy: 653, 818
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+sk_09_13_6
+  rotate: false
+  xy: 653, 616
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+xiuzi
+  rotate: true
+  xy: 855, 800
+  size: 100, 83
+  orig: 100, 83
+  offset: 0, 0
+  index: -1
+xiuzi2
+  rotate: false
+  xy: 944, 943
+  size: 63, 75
+  orig: 63, 75
+  offset: 0, 0
+  index: -1
+yuanbao
+  rotate: false
+  xy: 215, 509
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+zhuzi
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

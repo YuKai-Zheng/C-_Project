@@ -1,0 +1,69 @@
+
+jsxx.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 155, 2
+  size: 122, 136
+  orig: 122, 136
+  offset: 0, 0
+  index: -1
+cao
+  rotate: false
+  xy: 651, 81
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 2
+  size: 122, 151
+  orig: 122, 151
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 293, 4
+  size: 130, 120
+  orig: 130, 120
+  offset: 0, 0
+  index: -1
+txt_jsxx
+  rotate: false
+  xy: 425, 76
+  size: 146, 48
+  orig: 146, 48
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 518, 20
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+yuanbao
+  rotate: false
+  xy: 425, 27
+  size: 91, 47
+  orig: 91, 47
+  offset: 0, 0
+  index: -1
+yuanbao2
+  rotate: false
+  xy: 573, 86
+  size: 76, 38
+  orig: 76, 38
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 710, 88
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1

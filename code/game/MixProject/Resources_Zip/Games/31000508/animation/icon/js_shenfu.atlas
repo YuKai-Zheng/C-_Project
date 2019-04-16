@@ -1,0 +1,111 @@
+
+js_shenfu.png
+size: 1023,191
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 183, 8
+  size: 181, 176
+  orig: 181, 176
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 8
+  size: 179, 181
+  orig: 179, 181
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 361, 2
+  size: 155, 187
+  orig: 155, 187
+  offset: 0, 0
+  index: -1
+g2
+  rotate: true
+  xy: 920, 9
+  size: 49, 62
+  orig: 49, 62
+  offset: 0, 0
+  index: -1
+jk
+  rotate: false
+  xy: 819, 73
+  size: 66, 37
+  orig: 66, 37
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 518, 54
+  size: 135, 120
+  orig: 135, 120
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 819, 132
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+s2
+  rotate: true
+  xy: 707, 5
+  size: 55, 69
+  orig: 55, 69
+  offset: 0, 0
+  index: -1
+shu
+  rotate: false
+  xy: 920, 60
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+szj
+  rotate: false
+  xy: 733, 72
+  size: 84, 117
+  orig: 84, 117
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 640, 62
+  size: 91, 127
+  orig: 91, 127
+  offset: 0, 0
+  index: -1
+x1
+  rotate: true
+  xy: 778, 2
+  size: 68, 140
+  orig: 68, 140
+  offset: 0, 0
+  index: -1
+x2
+  rotate: true
+  xy: 920, 112
+  size: 77, 101
+  orig: 77, 101
+  offset: 0, 0
+  index: -1
+yj
+  rotate: true
+  xy: 887, 143
+  size: 46, 25
+  orig: 46, 25
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 518, 2
+  size: 187, 50
+  orig: 187, 50
+  offset: 0, 0
+  index: -1

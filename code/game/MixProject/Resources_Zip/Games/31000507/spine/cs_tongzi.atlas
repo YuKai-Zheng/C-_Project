@@ -1,0 +1,111 @@
+
+cs_tongzi.png
+size: 587,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+d2
+  rotate: false
+  xy: 191, 119
+  size: 173, 83
+  orig: 173, 83
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 9
+  size: 187, 193
+  orig: 187, 193
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 315, 25
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+f2
+  rotate: true
+  xy: 559, 49
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+j
+  rotate: false
+  xy: 461, 39
+  size: 96, 42
+  orig: 96, 42
+  offset: 0, 0
+  index: -1
+m1
+  rotate: false
+  xy: 539, 2
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+m2
+  rotate: true
+  xy: 539, 17
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 191, 5
+  size: 122, 52
+  orig: 122, 52
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 366, 102
+  size: 122, 100
+  orig: 122, 100
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 359, 2
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+tq1
+  rotate: true
+  xy: 315, 2
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+tq2
+  rotate: true
+  xy: 337, 2
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+yb
+  rotate: true
+  xy: 490, 83
+  size: 119, 85
+  orig: 119, 85
+  offset: 0, 0
+  index: -1
+yj
+  rotate: false
+  xy: 461, 7
+  size: 76, 30
+  orig: 76, 30
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 191, 59
+  size: 166, 58
+  orig: 166, 58
+  offset: 0, 0
+  index: -1

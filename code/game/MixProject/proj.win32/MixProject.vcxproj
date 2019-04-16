@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>MixProject</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>update</TargetName>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..;..\Classes;..\Classes\GameMessage;..\Classes\GameTable;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END);..\..\..\common\LibHNUI;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNLogic;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLobby\Classes;..\..\Landlord\Classes\GameMessage;..\..\Landlord\Classes\GameTable;..\..\GuessCar\Classes\GameMessage;..\..\GuessCar\Classes\GameTable;..\..\SlotMachine\Classes\GameMessage;..\..\SlotMachine\Classes\GameTable</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..;..\Classes;..\Classes\GameMessage;..\Classes\GameTable;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END);..\..\..\common\LibHNUI;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNLogic;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLobby\Classes;..\..\Landlord\Classes\GameMessage;..\..\Landlord\Classes\GameTable;..\..\GuessCar\Classes\GameMessage;..\..\GuessCar\Classes\GameTable;..\..\SlotMachine\Classes\GameMessage;..\..\SlotMachine\Classes\GameTable;..\..\FarmFrenzy\Classes\GameMessage;..\..\FarmFrenzy\Classes\GameTable</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNUI;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLogic;..\..\..\common\LibHNOpen;..\..\BJL\Classes\GameTable;..\..\BJL\Classes\GameMessage;..\..\NN\Classes\GameTable;..\..\NN\Classes\GameMessage;..\..\TTNN\Classes\GameTable;..\..\TTNN\Classes\GameMessage;..\..\BRXJ\Classes\GameTable;..\..\BRXJ\Classes\GameMessage;..\..\GoldenToad\Classes\GameTable;..\..\GoldenToad\Classes\GameMessage;..\..\NewYearActivity\Classes\GameMessage;..\..\NewYearActivity\Classes\GameTable;..\..\ThirteenZhang\Classes\GameTable;..\..\ThirteenZhang\Classes\GameMessage;..\..\Stud\Classes\GameMessage;..\..\Stud\Classes\GameTable;..\..\LuckyEnvelope\Classes\GameMessage;..\..\LuckyEnvelope\Classes\GameTable;..\..\HappyGoldenFlower\Classes\GameMessage;..\..\HappyGoldenFlower\Classes\GameTable;..\..\BB\Classes\GameMessage;..\..\BB\Classes\GameTable;..\..\FQZS\Classes\GameMessage;..\..\FQZS\Classes\GameTable;..\..\Fruit\Classes\GameMessage;..\..\Fruit\Classes\GameTable;..\..\RedPacket\Classes\GameMessage;..\..\RedPacket\Classes\GameTable;..\..\SHZ\Classes\GameMessage;..\..\SHZ\Classes\GameTable;..\..\FruitSlot\Classes\GameMessage;..\..\FruitSlot\Classes\GameTable;..\..\OnePieceSlot\Classes\GameMessage;..\..\OnePieceSlot\Classes\GameTable;..\..\MixProject\Classes;..\..\CSLL\Classes\GameMessage;..\..\CSLL\Classes\GameTable;..\..\Tiger\Classes\GameMessage;..\..\JSXS\Classes\GameMessage;..\..\NL\Classes\GameMessage;..\..\Medusa\Classes\GameMessage;..\..\Medusa\Classes\GameTable;..\..\JSXS\Classes\GameTable;..\..\NL\Classes\GameTable;..\..\Tiger\Classes\GameTable;..\..\BRNN\Classes\GameTable;..\..\BRNN\Classes\GameMessage;..\..\EightSlot\Classes\GameMessage;..\..\EightSlot\Classes\GameTable;..\..\Honor\Classes\GameTable;..\..\Honor\Classes\GameMessage;..\..\JPM\Classes\GameMessage;..\..\JPM\Classes\GameTable;..\..\RedPacke\Classes\GameTable;..\..\RedPacke\Classes\GameMessage;..\..\21D\Classes\GameTable;..\..\21D\Classes\GameMessage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;4819;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <SDLCheck>
+      </SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END);libHNUI.lib;libHNMarket.lib;libHNNet.lib;libHNLobby.lib;libHNLobbyV.lib;libHNLogic.lib;LibHNGame.lib;LibHNGame3.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)update.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <PreBuildEvent>
+      <Command>C:\wVSLINK\freepdb $(ProjectName)</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.;..;..\..;$(EngineRoot);$(EngineRoot)\cocos\audio\include;$(EngineRoot)\cocos\platform\win32;$(EngineRoot)\cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external;..\..\..\common\LibHNMarket;..\..\..\common\LibHNNet;..\..\..\common\LibHNUI;..\..\..\common\LibHNLobby;..\..\..\common\LibHNLogic;..\..\..\common\LibHNOpen;..\..\BJL\Classes\GameTable;..\..\BJL\Classes\GameMessage;..\..\NN\Classes\GameTable;..\..\NN\Classes\GameMessage;..\..\TTNN\Classes\GameTable;..\..\TTNN\Classes\GameMessage;..\..\BRXJ\Classes\GameTable;..\..\BRXJ\Classes\GameMessage;..\..\GoldenToad\Classes\GameTable;..\..\GoldenToad\Classes\GameMessage;..\..\NewYearActivity\Classes\GameMessage;..\..\NewYearActivity\Classes\GameTable;..\..\ThirteenZhang\Classes\GameTable;..\..\ThirteenZhang\Classes\GameMessage;..\..\Stud\Classes\GameMessage;..\..\Stud\Classes\GameTable;..\..\LuckyEnvelope\Classes\GameMessage;..\..\LuckyEnvelope\Classes\GameTable;..\..\HappyGoldenFlower\Classes\GameMessage;..\..\HappyGoldenFlower\Classes\GameTable;..\..\BB\Classes\GameMessage;..\..\BB\Classes\GameTable;..\..\FQZS\Classes\GameMessage;..\..\FQZS\Classes\GameTable;..\..\Fruit\Classes\GameMessage;..\..\Fruit\Classes\GameTable;..\..\RedPacket\Classes\GameMessage;..\..\RedPacket\Classes\GameTable;..\..\SHZ\Classes\GameMessage;..\..\SHZ\Classes\GameTable;..\..\FruitSlot\Classes\GameMessage;..\..\FruitSlot\Classes\GameTable;..\..\OnePieceSlot\Classes\GameMessage;..\..\OnePieceSlot\Classes\GameTable;..\..\MixProject\Classes;..\..\CSLL\Classes\GameMessage;..\..\CSLL\Classes\GameTable;..\..\Tiger\Classes\GameMessage;..\..\JSXS\Classes\GameMessage;..\..\NL\Classes\GameMessage;..\..\Medusa\Classes\GameMessage;..\..\Medusa\Classes\GameTable;..\..\JSXS\Classes\GameTable;..\..\NL\Classes\GameTable;..\..\Tiger\Classes\GameTable;..\..\BRNN\Classes\GameTable;..\..\BRNN\Classes\GameMessage;..\..\EightSlot\Classes\GameMessage;..\..\EightSlot\Classes\GameTable;..\..\Honor\Classes\GameTable;..\..\Honor\Classes\GameMessage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END);libHNUI.lib;libHNMarket.lib;libHNNet.lib;libHNLobby.lib;libHNLobbyV.lib;libHNLogic.lib;LibHNGame.lib;LibHNGame3.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\base\ClipboardHelper.cpp" />
+    <ClCompile Include="..\Classes\base\SystemInfo.cpp" />
+    <ClCompile Include="..\Classes\base\VertifyCodeHelper.cpp" />
+    <ClCompile Include="..\Classes\base\WeChatAndroid.cpp" />
+    <ClCompile Include="..\Classes\GameFactory.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\base\ChangeRootViewController.h" />
+    <ClInclude Include="..\Classes\base\ClipboardHelper.h" />
+    <ClInclude Include="..\Classes\base\SystemInfo.h" />
+    <ClInclude Include="..\Classes\base\VertifyCodeHelper.h" />
+    <ClInclude Include="..\Classes\base\WeChatAndroid.h" />
+    <ClInclude Include="..\Classes\CommonRes.h" />
+    <ClInclude Include="..\Classes\GameFactory.h" />
+    <ClInclude Include="..\Classes\Products.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\cocos2d\cocos\2d\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj">
+      <Project>{b7c2a162-dec9-4418-972e-240ab3cbfcae}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\cocos2d\external\bullet\proj.win32\libbullet.vcxproj">
+      <Project>{012dff48-a13f-4f52-b07b-f8b9d21ce95b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\cocos2d\external\recast\proj.win32\librecast.vcxproj">
+      <Project>{41e34993-647e-4282-8384-4ab1ae31a452}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\common\LibHNLobbyV\proj.win32\LibHNLobbyV.vcxproj">
+      <Project>{e72b8363-c6e1-4b29-b704-122db0798383}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\common\LibHNLobby\proj.win32\LibHNLobby.vcxproj">
+      <Project>{22052a71-bc11-4b63-909d-3d8766d62358}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\common\LibHNLogic\proj.win32\LibHNLogic.vcxproj">
+      <Project>{7826eb45-75fa-40a3-a017-63fbcb6f87a2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\common\LibHNMarket\proj.win32\LibHNMarket.vcxproj">
+      <Project>{ec1aa21d-892b-4efd-acc2-7ff2a8f16f71}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\common\LibHNNet\proj.win32\LibHNNet.vcxproj">
+      <Project>{fd1ff17c-34e3-4013-93bf-16562934a956}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\common\LibHNUI\proj.win32\LibHNUI.vcxproj">
+      <Project>{1fd96982-b16e-4721-b3cf-0c29025feb9b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LibHNGame3\proj.win32\LibHNGame3.vcxproj">
+      <Project>{99791085-a48b-4e60-96d0-5fc1ccf1ca97}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LibHNGame\proj.win32\LibHNGame.vcxproj">
+      <Project>{ba60c625-c807-4793-8918-308e68b638d2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

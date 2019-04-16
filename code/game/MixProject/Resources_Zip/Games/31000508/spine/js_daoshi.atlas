@@ -1,0 +1,90 @@
+
+js_daoshi.png
+size: 736,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 410, 109
+  size: 181, 178
+  orig: 181, 178
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 229, 109
+  size: 179, 181
+  orig: 179, 181
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 522, 34
+  size: 73, 113
+  orig: 73, 113
+  offset: 0, 0
+  index: -1
+f2
+  rotate: true
+  xy: 419, 4
+  size: 49, 53
+  orig: 49, 53
+  offset: 0, 0
+  index: -1
+fg
+  rotate: false
+  xy: 2, 40
+  size: 225, 250
+  orig: 225, 250
+  offset: 0, 0
+  index: -1
+fg2
+  rotate: true
+  xy: 2, 2
+  size: 36, 50
+  orig: 36, 50
+  offset: 0, 0
+  index: -1
+j
+  rotate: false
+  xy: 590, 155
+  size: 137, 135
+  orig: 137, 135
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 637, 13
+  size: 86, 72
+  orig: 86, 72
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 229, 11
+  size: 96, 115
+  orig: 96, 115
+  offset: 0, 0
+  index: -1
+x1
+  rotate: true
+  xy: 346, 2
+  size: 51, 71
+  orig: 51, 71
+  offset: 0, 0
+  index: -1
+x2
+  rotate: true
+  xy: 637, 87
+  size: 66, 97
+  orig: 66, 97
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 346, 55
+  size: 174, 52
+  orig: 174, 52
+  offset: 0, 0
+  index: -1

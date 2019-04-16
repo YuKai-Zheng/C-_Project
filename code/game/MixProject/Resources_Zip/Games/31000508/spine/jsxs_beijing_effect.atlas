@@ -1,0 +1,209 @@
+
+jsxs_beijing_effect.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 832
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 578, 832
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 640
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 194, 832
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 448
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 194, 640
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 386, 832
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 2, 256
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 194, 448
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 386, 640
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+dajiangshi_0000_fu
+  rotate: false
+  xy: 578, 650
+  size: 65, 75
+  orig: 65, 75
+  offset: 0, 0
+  index: -1
+dajiangshi_0001_xianglian
+  rotate: false
+  xy: 143, 185
+  size: 50, 69
+  orig: 50, 69
+  offset: 0, 0
+  index: -1
+dajiangshi_0002_maozi
+  rotate: false
+  xy: 770, 925
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+dajiangshi_0003_dingdai-
+  rotate: true
+  xy: 519, 533
+  size: 105, 56
+  orig: 105, 56
+  offset: 0, 0
+  index: -1
+dajiangshi_0004_tou
+  rotate: true
+  xy: 194, 272
+  size: 80, 121
+  orig: 80, 121
+  offset: 0, 0
+  index: -1
+dajiangshi_0005_shou
+  rotate: false
+  xy: 194, 354
+  size: 152, 92
+  orig: 152, 92
+  offset: 0, 0
+  index: -1
+dajiangshi_0006_shenti
+  rotate: false
+  xy: 689, 768
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+dajiangshi_0007_bianzi-
+  rotate: false
+  xy: 90, 39
+  size: 51, 82
+  orig: 51, 82
+  offset: 0, 0
+  index: -1
+nvgui_0000_shou
+  rotate: false
+  xy: 884, 963
+  size: 64, 59
+  orig: 64, 59
+  offset: 0, 0
+  index: -1
+nvgui_0001_shou2
+  rotate: true
+  xy: 386, 465
+  size: 61, 111
+  orig: 61, 111
+  offset: 0, 0
+  index: -1
+nvgui_0002_tousghi
+  rotate: false
+  xy: 2, 123
+  size: 139, 131
+  orig: 139, 131
+  offset: 0, 0
+  index: -1
+nvgui_0003_fu
+  rotate: false
+  xy: 645, 661
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: -1
+nvgui_0004_tou
+  rotate: false
+  xy: 2, 2
+  size: 86, 119
+  orig: 86, 119
+  offset: 0, 0
+  index: -1
+nvgui_0005_qugan
+  rotate: false
+  xy: 832, 864
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+xiaojiangshi_0000_shou2
+  rotate: false
+  xy: 143, 143
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1
+xiaojiangshi_0001_shou
+  rotate: true
+  xy: 950, 964
+  size: 58, 63
+  orig: 58, 63
+  offset: 0, 0
+  index: -1
+xiaojiangshi_0002_fu
+  rotate: false
+  xy: 770, 856
+  size: 60, 67
+  orig: 60, 67
+  offset: 0, 0
+  index: -1
+xiaojiangshi_0003_tou
+  rotate: false
+  xy: 386, 528
+  size: 131, 110
+  orig: 131, 110
+  offset: 0, 0
+  index: -1
+xiaojiangshi_0004_shenti
+  rotate: false
+  xy: 578, 727
+  size: 109, 103
+  orig: 109, 103
+  offset: 0, 0
+  index: -1

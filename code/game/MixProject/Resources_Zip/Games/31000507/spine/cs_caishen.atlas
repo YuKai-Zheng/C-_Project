@@ -1,0 +1,90 @@
+
+cs_caishen.png
+size: 526,282
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 192, 102
+  size: 176, 178
+  orig: 176, 178
+  offset: 0, 0
+  index: -1
+d
+  rotate: false
+  xy: 2, 87
+  size: 188, 193
+  orig: 188, 193
+  offset: 0, 0
+  index: -1
+h
+  rotate: false
+  xy: 474, 81
+  size: 48, 45
+  orig: 48, 45
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 135, 37
+  size: 55, 48
+  orig: 55, 48
+  offset: 0, 0
+  index: -1
+m2
+  rotate: true
+  xy: 474, 187
+  size: 55, 48
+  orig: 55, 48
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 2, 2
+  size: 131, 83
+  orig: 131, 83
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 370, 108
+  size: 102, 172
+  orig: 102, 172
+  offset: 0, 0
+  index: -1
+y1
+  rotate: false
+  xy: 474, 244
+  size: 50, 36
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+y2
+  rotate: true
+  xy: 473, 24
+  size: 55, 45
+  orig: 55, 45
+  offset: 0, 0
+  index: -1
+y3
+  rotate: true
+  xy: 474, 128
+  size: 57, 44
+  orig: 57, 44
+  offset: 0, 0
+  index: -1
+yu
+  rotate: true
+  xy: 370, 16
+  size: 90, 101
+  orig: 90, 101
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 192, 43
+  size: 167, 57
+  orig: 167, 57
+  offset: 0, 0
+  index: -1

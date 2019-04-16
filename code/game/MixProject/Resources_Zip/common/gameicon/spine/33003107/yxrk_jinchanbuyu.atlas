@@ -1,0 +1,258 @@
+
+yxrk_jinchanbuyu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GOLDEN CICADA FISHING
+  rotate: false
+  xy: 726, 960
+  size: 230, 62
+  orig: 230, 62
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 744
+  size: 462, 278
+  orig: 462, 278
+  offset: 0, 0
+  index: -1
+chuan
+  rotate: true
+  xy: 2, 3
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+chuan2
+  rotate: false
+  xy: 2, 40
+  size: 118, 51
+  orig: 118, 51
+  offset: 0, 0
+  index: -1
+chuan3
+  rotate: true
+  xy: 696, 662
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+gold01
+  rotate: true
+  xy: 995, 990
+  size: 32, 20
+  orig: 32, 20
+  offset: 0, 0
+  index: -1
+gold02
+  rotate: true
+  xy: 487, 534
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+gold03
+  rotate: false
+  xy: 44, 14
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+gold04
+  rotate: false
+  xy: 510, 590
+  size: 31, 22
+  orig: 31, 22
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 497
+  size: 432, 245
+  orig: 432, 245
+  offset: 0, 0
+  index: -1
+piaodai
+  rotate: false
+  xy: 958, 961
+  size: 35, 61
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+piaodai2
+  rotate: true
+  xy: 122, 43
+  size: 48, 102
+  orig: 48, 102
+  offset: 0, 0
+  index: -1
+qizi
+  rotate: false
+  xy: 226, 62
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+quganjinchan
+  rotate: false
+  xy: 466, 747
+  size: 258, 275
+  orig: 258, 275
+  offset: 0, 0
+  index: -1
+quganyu
+  rotate: false
+  xy: 2, 353
+  size: 218, 142
+  orig: 218, 142
+  offset: 0, 0
+  index: -1
+shetou
+  rotate: true
+  xy: 696, 694
+  size: 51, 28
+  orig: 51, 28
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 436, 559
+  size: 72, 53
+  orig: 72, 53
+  offset: 0, 0
+  index: -1
+shuiwen (1)
+  rotate: false
+  xy: 222, 367
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (10)
+  rotate: false
+  xy: 726, 830
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (11)
+  rotate: false
+  xy: 2, 93
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (12)
+  rotate: false
+  xy: 856, 830
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (13)
+  rotate: false
+  xy: 132, 223
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (14)
+  rotate: false
+  xy: 132, 93
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (15)
+  rotate: false
+  xy: 352, 367
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (16)
+  rotate: false
+  xy: 262, 237
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (2)
+  rotate: false
+  xy: 262, 107
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (3)
+  rotate: false
+  xy: 392, 237
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (4)
+  rotate: false
+  xy: 392, 107
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (5)
+  rotate: false
+  xy: 726, 700
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (6)
+  rotate: false
+  xy: 856, 700
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (7)
+  rotate: false
+  xy: 436, 614
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (8)
+  rotate: false
+  xy: 566, 617
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shuiwen (9)
+  rotate: false
+  xy: 2, 223
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xiaoyu
+  rotate: false
+  xy: 436, 513
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: true
+  xy: 44, 2
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+yanjingyu
+  rotate: false
+  xy: 222, 354
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1

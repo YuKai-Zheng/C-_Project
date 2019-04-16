@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="" default="init" basedir=".">
+	<!-- 临时目录的名字 -->
+	<property name="tmpDir" value="tmp"/>
+	<property name="directory" value=""/>
+	<property name="file" value=""/>
+	<property name="resources" value=""/>
+
+	
+    <target name="init">	
+		<delete dir="${tmpDir}"/>
+        <!-- 新建临时目录 -->
+        <mkdir dir="${tmpDir}"/>
+	</target>
+	
+	<target name="copyDir">	
+        <copy todir="${tmpDir}/${directory}">
+			<fileset dir="${resources}/${directory}"/>
+		</copy>
+	</target>
+
+	<target name="copyFile">	
+        <copy file="${resources}/${file}" tofile="${tmpDir}/${file}"/>		
+	</target>
+	
+	<target name="clean">	
+	    <!-- 清空目录 -->                   
+        <delete verbose="false" includeemptydirs="true">
+            <fileset dir="${resources}" includes="**/*" />
+        </delete>
+
+		<copy todir="${resources}">
+			<fileset dir="${tmpDir}"/>
+		</copy>
+		
+		<!-- 清空目录 -->                   
+        <delete dir="${tmpDir}"/>
+		
+	</target>
+</project>

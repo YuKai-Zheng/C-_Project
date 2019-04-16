@@ -1,0 +1,27 @@
+
+cs_mile.png
+size: 385,177
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: true
+  xy: 2, 2
+  size: 173, 170
+  orig: 173, 170
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 174, 2
+  size: 173, 102
+  orig: 173, 102
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 278, 47
+  size: 128, 105
+  orig: 128, 105
+  offset: 0, 0
+  index: -1

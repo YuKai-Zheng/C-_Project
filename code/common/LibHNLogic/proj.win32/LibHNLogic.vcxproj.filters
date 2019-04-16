@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HNPlatformLogic">
+      <UniqueIdentifier>{080a2119-4a10-49f5-9af2-bacb8f43d6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNLogic">
+      <UniqueIdentifier>{566d735a-8287-431b-bdf8-b1f383ac6825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HNRoomLogic">
+      <UniqueIdentifier>{27e95c69-48ea-40c3-a285-4f330301d1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VersionInfo">
+      <UniqueIdentifier>{649e7dba-7961-46c8-84fa-5591d870f5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{737db6ca-95c1-49db-8391-4ea0a7367d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Android">
+      <UniqueIdentifier>{6975f02a-2b99-44d0-9ca6-04a28b7f3906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\iOS">
+      <UniqueIdentifier>{3970b1dc-5743-4e56-bd62-8a96e477347e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\win">
+      <UniqueIdentifier>{709c473f-8146-413d-953c-d04ecb914eca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\HNPlatformLogic\HNPlatformLogin.cpp">
+      <Filter>HNPlatformLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNPlatformLogic\HNPlatformLogicBase.cpp">
+      <Filter>HNPlatformLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNLogic\HNLogicBase.cpp">
+      <Filter>HNLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNPlatformLogic\HNPlatformRegist.cpp">
+      <Filter>HNPlatformLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNPlatformLogic\HNPlatformGameList.cpp">
+      <Filter>HNPlatformLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNPlatformLogic\HNPlatformRoomList.cpp">
+      <Filter>HNPlatformLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNRoomLogic\HNRoomLogicBase.cpp">
+      <Filter>HNRoomLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNRoomLogic\HNGameLogicBase.cpp">
+      <Filter>HNRoomLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNRoomLogic\HNRoomDeskLogic.cpp">
+      <Filter>HNRoomLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNPlatformLogic\HNPlatformSpreadLogic.cpp">
+      <Filter>HNPlatformLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HNPlatformLogic\HNPlatformSpreadManager.cpp">
+      <Filter>HNPlatformLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\UUIDHelper.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\HNPlatformLogic\HNPlatformLogin.h">
+      <Filter>HNPlatformLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNPlatformLogic\HNPlatformLogicBase.h">
+      <Filter>HNPlatformLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNLogicExport.h" />
+    <ClInclude Include="..\HNLogic\HNLogicBase.h">
+      <Filter>HNLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNPlatformLogic\HNPlatformRegist.h">
+      <Filter>HNPlatformLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNPlatformLogic\HNPlatformGameList.h">
+      <Filter>HNPlatformLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNPlatformLogic\HNPlatformRoomList.h">
+      <Filter>HNPlatformLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNRoomLogic\HNRoomLogicBase.h">
+      <Filter>HNRoomLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNRoomLogic\HNGameLogicBase.h">
+      <Filter>HNRoomLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNRoomLogic\HNRoomDeskLogic.h">
+      <Filter>HNRoomLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNPlatformLogic\HNPlatformSpreadLogic.h">
+      <Filter>HNPlatformLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HNPlatformLogic\HNPlatformSpreadManager.h">
+      <Filter>HNPlatformLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VersionInfo\VersionInfo.h">
+      <Filter>VersionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\UUIDHelper.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\iOS\MyUUIDManager.h">
+      <Filter>Platform\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ApplicationMacro.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Platform\iOS\MyUUIDManager.mm">
+      <Filter>Platform\iOS</Filter>
+    </None>
+  </ItemGroup>
+</Project>

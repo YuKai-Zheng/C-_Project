@@ -1,0 +1,153 @@
+
+yxrk_jinwanchiji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JEDI SURVIVAL
+  rotate: false
+  xy: 2, 48
+  size: 141, 64
+  orig: 141, 64
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 840
+  size: 461, 182
+  orig: 461, 182
+  offset: 0, 0
+  index: -1
+hongren
+  rotate: false
+  xy: 657, 736
+  size: 136, 134
+  orig: 136, 134
+  offset: 0, 0
+  index: -1
+huangren
+  rotate: false
+  xy: 145, 55
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+huangrenqiang
+  rotate: false
+  xy: 145, 2
+  size: 56, 51
+  orig: 56, 51
+  offset: 0, 0
+  index: -1
+huoyan01 (1)
+  rotate: true
+  xy: 465, 872
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (10)
+  rotate: false
+  xy: 2, 498
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (11)
+  rotate: true
+  xy: 657, 872
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (12)
+  rotate: false
+  xy: 2, 306
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (13)
+  rotate: false
+  xy: 154, 498
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (2)
+  rotate: false
+  xy: 2, 114
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (3)
+  rotate: false
+  xy: 154, 306
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (4)
+  rotate: false
+  xy: 154, 114
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (5)
+  rotate: false
+  xy: 306, 498
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (6)
+  rotate: false
+  xy: 306, 306
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (7)
+  rotate: false
+  xy: 306, 114
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (8)
+  rotate: false
+  xy: 849, 832
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+huoyan01 (9)
+  rotate: true
+  xy: 465, 720
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 690
+  size: 432, 148
+  orig: 432, 148
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 795, 802
+  size: 32, 68
+  orig: 32, 68
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: true
+  xy: 436, 786
+  size: 52, 22
+  orig: 52, 22
+  offset: 0, 0
+  index: -1

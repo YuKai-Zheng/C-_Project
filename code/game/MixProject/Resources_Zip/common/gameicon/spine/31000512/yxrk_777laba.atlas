@@ -1,0 +1,125 @@
+
+yxrk_777laba.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AdvanceD_1
+  rotate: false
+  xy: 389, 784
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_2
+  rotate: false
+  xy: 389, 582
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_3
+  rotate: false
+  xy: 991, 784
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_4
+  rotate: false
+  xy: 991, 582
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_5
+  rotate: false
+  xy: 389, 380
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_6
+  rotate: false
+  xy: 991, 380
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_7
+  rotate: true
+  xy: 1593, 384
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_8
+  rotate: true
+  xy: 1795, 384
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+AdvanceD_9
+  rotate: false
+  xy: 353, 178
+  size: 600, 200
+  orig: 600, 200
+  offset: 0, 0
+  index: -1
+WAR BULL
+  rotate: false
+  xy: 2, 2
+  size: 153, 85
+  orig: 153, 85
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 523
+  size: 385, 461
+  orig: 385, 461
+  offset: 0, 0
+  index: -1
+jizi01
+  rotate: false
+  xy: 1283, 253
+  size: 89, 125
+  orig: 89, 125
+  offset: 0, 0
+  index: -1
+jizi02
+  rotate: false
+  xy: 1283, 253
+  size: 89, 125
+  orig: 89, 125
+  offset: 0, 0
+  index: -1
+jizi03
+  rotate: false
+  xy: 1283, 253
+  size: 89, 125
+  orig: 89, 125
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 89
+  size: 349, 432
+  orig: 349, 432
+  offset: 0, 0
+  index: -1
+yaogan
+  rotate: true
+  xy: 353, 109
+  size: 67, 134
+  orig: 67, 134
+  offset: 0, 0
+  index: -1
+zhuti
+  rotate: false
+  xy: 955, 53
+  size: 326, 325
+  orig: 326, 325
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,181 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bklight002_1
+  rotate: false
+  xy: 2, 618
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_10
+  rotate: false
+  xy: 638, 772
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_11
+  rotate: false
+  xy: 2, 156
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_12
+  rotate: false
+  xy: 214, 310
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_13
+  rotate: false
+  xy: 426, 464
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_14
+  rotate: false
+  xy: 638, 618
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_15
+  rotate: true
+  xy: 850, 714
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_16
+  rotate: false
+  xy: 2, 2
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_17
+  rotate: false
+  xy: 214, 156
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_18
+  rotate: false
+  xy: 426, 310
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_19
+  rotate: false
+  xy: 638, 464
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_2
+  rotate: false
+  xy: 214, 772
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_20
+  rotate: true
+  xy: 850, 502
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_21
+  rotate: false
+  xy: 214, 2
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_22
+  rotate: false
+  xy: 426, 156
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_23
+  rotate: false
+  xy: 638, 310
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_24
+  rotate: false
+  xy: 426, 2
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_25
+  rotate: false
+  xy: 638, 156
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_3
+  rotate: false
+  xy: 2, 464
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_4
+  rotate: false
+  xy: 214, 618
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_5
+  rotate: false
+  xy: 426, 772
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_6
+  rotate: false
+  xy: 2, 310
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_7
+  rotate: false
+  xy: 214, 464
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_8
+  rotate: false
+  xy: 426, 618
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1
+bklight002_9
+  rotate: false
+  xy: 2, 772
+  size: 210, 152
+  orig: 210, 152
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="" default="generate" basedir=".">
+	<record name="${basedir}/GenerateCCS.log" loglevel="info" append="yes" action="start"/>
+ 
+	<property name="parent_path" value=".."/>
+	<!--  -->
+	<property name="cocosstudio" value="${parent_path}/cocosstudio"/>
+	<!-- csb文件在cocosstudio目录中的输出目录名 -->
+	<property name="outputCsbDir" value="csb"/>
+	<!-- 临时目录的名字 -->
+	<property name="tmpDir" value="${parent_path}/tmp"/>
+
+	<!-- cocosstudio所在的目录 -->
+	<property name="sourceDir" value="${parent_path}/cocosstudio"/>
+	<!-- css所在的输出目录 -->
+	<property name="outputDir" value="${parent_path}"/>
+
+	<target name="generate" depends="init">		
+		<java jar="GenerateCCS.jar" fork="true">
+		<arg value="${sourceDir}"/>
+		<arg value="${outputDir}"/>
+		</java>
+	</target>
+	
+    <target name="init">
+		<delete file="${parent_path}/RainbowCardPro.ccs"/>
+	
+        <!-- 新建临时目录 -->
+        <mkdir dir="${tmpDir}"/>
+
+        <!-- 拷贝csb目录到临时目录下 -->
+        <copy  todir="${tmpDir}/${outputCsbDir}">
+            <fileset dir="${cocosstudio}/${outputCsbDir}"/>
+        </copy>           
+
+        <!-- 清空cocosstudio目录 -->                   
+        <delete verbose="false" includeemptydirs="true">
+            <fileset dir="${cocosstudio}" includes="**/*" />
+        </delete>   
+
+        <!-- 拷贝Resources目录，但排除csb目录 -->
+        <copy todir="${cocosstudio}">   
+            <fileset dir="${parent_path}/Resources" >   
+            </fileset>           
+        </copy>       
+        <delete dir="${cocosstudio}/${outputCsbDir}"/>
+
+        <!-- 把临时目录的csb目录拷贝到清空cocosstudio目录下 -->
+        <copy todir="${cocosstudio}/${outputCsbDir}">
+            <fileset dir="${tmpDir}/${outputCsbDir}"/>
+        </copy>
+
+        <!-- 删除临时目录 -->
+        <delete dir="${tmpDir}"/>
+
+	</target>
+
+</project>

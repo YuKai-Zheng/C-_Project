@@ -1,0 +1,160 @@
+
+yxrk_benchibaoma.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 981, 950
+  size: 57, 31
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 260, 115
+  size: 122, 42
+  orig: 122, 42
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 2, 2
+  size: 46, 25
+  orig: 46, 25
+  offset: 0, 0
+  index: -1
+MERCEDES BENZ BMW
+  rotate: false
+  xy: 652, 553
+  size: 198, 64
+  orig: 198, 64
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 825
+  size: 461, 182
+  orig: 461, 182
+  offset: 0, 0
+  index: -1
+dianfu (1)
+  rotate: true
+  xy: 465, 879
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (10)
+  rotate: false
+  xy: 2, 417
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (11)
+  rotate: true
+  xy: 723, 879
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (12)
+  rotate: false
+  xy: 2, 159
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (13)
+  rotate: false
+  xy: 132, 417
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (14)
+  rotate: false
+  xy: 132, 159
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (15)
+  rotate: true
+  xy: 2, 29
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (16)
+  rotate: false
+  xy: 262, 417
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (2)
+  rotate: false
+  xy: 262, 159
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (3)
+  rotate: true
+  xy: 465, 749
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (4)
+  rotate: true
+  xy: 723, 749
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (5)
+  rotate: true
+  xy: 436, 619
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (6)
+  rotate: true
+  xy: 694, 619
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (7)
+  rotate: false
+  xy: 392, 361
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (8)
+  rotate: false
+  xy: 522, 361
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+dianfu (9)
+  rotate: true
+  xy: 392, 231
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 675
+  size: 432, 148
+  orig: 432, 148
+  offset: 0, 0
+  index: -1
